@@ -1,0 +1,701 @@
+trace_id,filename,capacity,archetype,hot_size,scan_pct,policy,hit_rate_pct,hits,misses,avg_latency_ns
+107,scan_0107.trace,32,periodic_large_burst_scan,16,25.01,LRU,74.5440,18636,6364,103.4
+107,scan_0107.trace,32,periodic_large_burst_scan,16,25.0,FIFO,74.5440,18636,6364,60.3
+107,scan_0107.trace,32,periodic_large_burst_scan,16,25.0,LFU,74.9280,18732,6268,163.2
+107,scan_0107.trace,32,periodic_large_burst_scan,16,25.0,IBM-ARC,74.9280,18732,6268,132.5
+107,scan_0107.trace,32,periodic_large_burst_scan,16,25.0,2Q (VLDB '94),74.5440,18636,6364,98.3
+107,scan_0107.trace,32,periodic_large_burst_scan,16,25.0,Static-Fuzzy (Bengar '20),74.6880,18672,6328,82.3
+107,scan_0107.trace,32,periodic_large_burst_scan,16,25.0,Fast-LUT-ANFIS,74.5440,18636,6364,206.1
+132,scan_0132.trace,32,periodic_large_burst_scan,16,25.0,LRU,74.6000,18650,6350,101.3
+132,scan_0132.trace,32,periodic_large_burst_scan,16,25.0,FIFO,74.6000,18650,6350,58.8
+132,scan_0132.trace,32,periodic_large_burst_scan,16,25.0,LFU,74.9200,18730,6270,158.4
+132,scan_0132.trace,32,periodic_large_burst_scan,16,25.0,IBM-ARC,74.9200,18730,6270,128.3
+132,scan_0132.trace,32,periodic_large_burst_scan,16,25.0,2Q (VLDB '94),74.6000,18650,6350,95.9
+132,scan_0132.trace,32,periodic_large_burst_scan,16,25.0,Static-Fuzzy (Bengar '20),74.7200,18680,6320,79.7
+132,scan_0132.trace,32,periodic_large_burst_scan,16,25.0,Fast-LUT-ANFIS,74.6000,18650,6350,203.8
+77,scan_0077.trace,32,periodic_large_burst_scan,23,25.0,LRU,74.5400,18635,6365,101.3
+77,scan_0077.trace,32,periodic_large_burst_scan,23,25.0,FIFO,74.5400,18635,6365,59.4
+77,scan_0077.trace,32,periodic_large_burst_scan,23,25.0,LFU,74.9080,18727,6273,157.3
+77,scan_0077.trace,32,periodic_large_burst_scan,23,25.0,IBM-ARC,74.9080,18727,6273,129.7
+77,scan_0077.trace,32,periodic_large_burst_scan,23,25.0,2Q (VLDB '94),74.5400,18635,6365,96.0
+77,scan_0077.trace,32,periodic_large_burst_scan,23,25.0,Static-Fuzzy (Bengar '20),74.7480,18687,6313,81.5
+77,scan_0077.trace,32,periodic_large_burst_scan,23,25.0,Fast-LUT-ANFIS,74.5400,18635,6365,207.2
+48,scan_0048.trace,32,multi_stride_scan,20,22.8,LRU,69.7000,17425,7575,115.8
+48,scan_0048.trace,32,multi_stride_scan,20,22.8,FIFO,57.8400,14460,10540,74.0
+48,scan_0048.trace,32,multi_stride_scan,20,22.8,LFU,77.1640,19291,5709,169.0
+48,scan_0048.trace,32,multi_stride_scan,20,22.8,IBM-ARC,77.1640,19291,5709,128.8
+48,scan_0048.trace,32,multi_stride_scan,20,22.8,2Q (VLDB '94),77.0640,19266,5734,124.5
+48,scan_0048.trace,32,multi_stride_scan,20,22.8,Static-Fuzzy (Bengar '20),71.4920,17873,7127,89.6
+48,scan_0048.trace,32,multi_stride_scan,20,22.8,Fast-LUT-ANFIS,76.6200,19155,5845,209.8
+159,scan_0159.trace,32,segmented_scans,17,10.7,LRU,87.7720,21943,3057,94.3
+159,scan_0159.trace,32,segmented_scans,17,10.7,FIFO,87.7720,21943,3057,53.6
+159,scan_0159.trace,32,segmented_scans,17,10.7,LFU,89.2680,22317,2683,157.9
+159,scan_0159.trace,32,segmented_scans,17,10.7,IBM-ARC,89.2680,22317,2683,105.9
+159,scan_0159.trace,32,segmented_scans,17,10.7,2Q (VLDB '94),87.8040,21951,3049,73.6
+159,scan_0159.trace,32,segmented_scans,17,10.7,Static-Fuzzy (Bengar '20),88.6440,22161,2839,61.3
+159,scan_0159.trace,32,segmented_scans,17,10.7,Fast-LUT-ANFIS,88.4480,22112,2888,130.3
+61,scan_0061.trace,32,interleaved_hot_scan,20,38.2,LRU,46.2000,11550,13450,134.9
+61,scan_0061.trace,32,interleaved_hot_scan,20,38.2,FIFO,38.1920,9548,15452,87.1
+61,scan_0061.trace,32,interleaved_hot_scan,20,38.2,LFU,61.6560,15414,9586,171.9
+61,scan_0061.trace,32,interleaved_hot_scan,20,38.2,IBM-ARC,61.6720,15418,9582,155.9
+61,scan_0061.trace,32,interleaved_hot_scan,20,38.2,2Q (VLDB '94),61.5880,15397,9603,153.1
+61,scan_0061.trace,32,interleaved_hot_scan,20,38.2,Static-Fuzzy (Bengar '20),54.5360,13634,11366,117.5
+61,scan_0061.trace,32,interleaved_hot_scan,20,38.2,Fast-LUT-ANFIS,60.0680,15017,9983,304.4
+194,scan_0194.trace,32,segmented_scans,22,9.8,LRU,88.2680,22067,2933,95.9
+194,scan_0194.trace,32,segmented_scans,22,9.8,FIFO,88.2680,22067,2933,51.5
+194,scan_0194.trace,32,segmented_scans,22,9.8,LFU,90.1160,22529,2471,158.8
+194,scan_0194.trace,32,segmented_scans,22,9.8,IBM-ARC,90.1160,22529,2471,106.4
+194,scan_0194.trace,32,segmented_scans,22,9.8,2Q (VLDB '94),88.2680,22067,2933,70.6
+194,scan_0194.trace,32,segmented_scans,22,9.8,Static-Fuzzy (Bengar '20),89.4480,22362,2638,60.8
+194,scan_0194.trace,32,segmented_scans,22,9.8,Fast-LUT-ANFIS,88.9800,22245,2755,129.1
+67,scan_0067.trace,32,periodic_large_burst_scan,28,25.0,LRU,74.4280,18607,6393,101.6
+67,scan_0067.trace,32,periodic_large_burst_scan,28,25.0,FIFO,74.4280,18607,6393,58.1
+67,scan_0067.trace,32,periodic_large_burst_scan,28,25.0,LFU,74.8760,18719,6281,157.7
+67,scan_0067.trace,32,periodic_large_burst_scan,28,25.0,IBM-ARC,74.8760,18719,6281,130.4
+67,scan_0067.trace,32,periodic_large_burst_scan,28,25.0,2Q (VLDB '94),74.4280,18607,6393,96.6
+67,scan_0067.trace,32,periodic_large_burst_scan,28,25.0,Static-Fuzzy (Bengar '20),74.7160,18679,6321,81.3
+67,scan_0067.trace,32,periodic_large_burst_scan,28,25.0,Fast-LUT-ANFIS,74.4280,18607,6393,206.5
+74,scan_0074.trace,32,segmented_scans,16,8.0,LRU,90.8840,22721,2279,95.8
+74,scan_0074.trace,32,segmented_scans,16,8.0,FIFO,90.8840,22721,2279,50.9
+74,scan_0074.trace,32,segmented_scans,16,8.0,LFU,91.9080,22977,2023,161.3
+74,scan_0074.trace,32,segmented_scans,16,8.0,IBM-ARC,91.9080,22977,2023,104.8
+74,scan_0074.trace,32,segmented_scans,16,8.0,2Q (VLDB '94),90.9240,22731,2269,69.2
+74,scan_0074.trace,32,segmented_scans,16,8.0,Static-Fuzzy (Bengar '20),91.4280,22857,2143,59.0
+74,scan_0074.trace,32,segmented_scans,16,8.0,Fast-LUT-ANFIS,91.1800,22795,2205,118.5
+137,scan_0137.trace,32,periodic_large_burst_scan,28,25.0,LRU,74.3200,18580,6420,103.5
+137,scan_0137.trace,32,periodic_large_burst_scan,28,25.0,FIFO,74.3200,18580,6420,59.7
+137,scan_0137.trace,32,periodic_large_burst_scan,28,25.0,LFU,74.8800,18720,6280,152.8
+137,scan_0137.trace,32,periodic_large_burst_scan,28,25.0,IBM-ARC,74.8800,18720,6280,134.5
+137,scan_0137.trace,32,periodic_large_burst_scan,28,25.0,2Q (VLDB '94),74.3200,18580,6420,99.8
+137,scan_0137.trace,32,periodic_large_burst_scan,28,25.0,Static-Fuzzy (Bengar '20),74.6800,18670,6330,84.1
+137,scan_0137.trace,32,periodic_large_burst_scan,28,25.0,Fast-LUT-ANFIS,74.3200,18580,6420,213.6
+4,scan_0004.trace,32,segmented_scans,19,8.1,LRU,90.1080,22527,2473,93.5
+4,scan_0004.trace,32,segmented_scans,19,8.1,FIFO,90.1080,22527,2473,50.2
+4,scan_0004.trace,32,segmented_scans,19,8.1,LFU,91.7800,22945,2055,160.0
+4,scan_0004.trace,32,segmented_scans,19,8.1,IBM-ARC,91.7800,22945,2055,102.9
+4,scan_0004.trace,32,segmented_scans,19,8.1,2Q (VLDB '94),90.1960,22549,2451,70.0
+4,scan_0004.trace,32,segmented_scans,19,8.1,Static-Fuzzy (Bengar '20),91.2680,22817,2183,57.8
+4,scan_0004.trace,32,segmented_scans,19,8.1,Fast-LUT-ANFIS,90.7760,22694,2306,117.8
+72,scan_0072.trace,32,periodic_large_burst_scan,27,25.0,LRU,74.4600,18615,6385,94.0
+72,scan_0072.trace,32,periodic_large_burst_scan,27,25.0,FIFO,74.4600,18615,6385,54.5
+72,scan_0072.trace,32,periodic_large_burst_scan,27,25.0,LFU,74.8920,18723,6277,146.3
+72,scan_0072.trace,32,periodic_large_burst_scan,27,25.0,IBM-ARC,74.8920,18723,6277,121.0
+72,scan_0072.trace,32,periodic_large_burst_scan,27,25.0,2Q (VLDB '94),74.4600,18615,6385,89.9
+72,scan_0072.trace,32,periodic_large_burst_scan,27,25.0,Static-Fuzzy (Bengar '20),74.7320,18683,6317,76.0
+72,scan_0072.trace,32,periodic_large_burst_scan,27,25.0,Fast-LUT-ANFIS,74.4600,18615,6385,190.7
+195,scan_0195.trace,32,heavy_scan_pressure,16,63.3,LRU,20.7200,5180,19820,146.9
+195,scan_0195.trace,32,heavy_scan_pressure,16,63.3,FIFO,17.4080,4352,20648,97.4
+195,scan_0195.trace,32,heavy_scan_pressure,16,63.3,LFU,36.5960,9149,15851,171.3
+195,scan_0195.trace,32,heavy_scan_pressure,16,63.3,IBM-ARC,36.6120,9153,15847,193.6
+195,scan_0195.trace,32,heavy_scan_pressure,16,63.3,2Q (VLDB '94),36.4240,9106,15894,189.1
+195,scan_0195.trace,32,heavy_scan_pressure,16,63.3,Static-Fuzzy (Bengar '20),20.5360,5134,19866,167.1
+195,scan_0195.trace,32,heavy_scan_pressure,16,63.3,Fast-LUT-ANFIS,33.7760,8444,16556,452.8
+125,scan_0125.trace,32,heavy_scan_pressure,26,59.2,LRU,17.4760,4369,20631,144.6
+125,scan_0125.trace,32,heavy_scan_pressure,26,59.2,FIFO,15.2760,3819,21181,95.3
+125,scan_0125.trace,32,heavy_scan_pressure,26,59.2,LFU,40.5640,10141,14859,164.5
+125,scan_0125.trace,32,heavy_scan_pressure,26,59.2,IBM-ARC,40.6160,10154,14846,180.6
+125,scan_0125.trace,32,heavy_scan_pressure,26,59.2,2Q (VLDB '94),36.4680,9117,15883,190.3
+125,scan_0125.trace,32,heavy_scan_pressure,26,59.2,Static-Fuzzy (Bengar '20),16.9200,4230,20770,167.4
+125,scan_0125.trace,32,heavy_scan_pressure,26,59.2,Fast-LUT-ANFIS,17.3360,4334,20666,520.1
+157,scan_0157.trace,32,periodic_large_burst_scan,17,25.0,LRU,74.6600,18665,6335,100.8
+157,scan_0157.trace,32,periodic_large_burst_scan,17,25.0,FIFO,74.6600,18665,6335,56.6
+157,scan_0157.trace,32,periodic_large_burst_scan,17,25.0,LFU,74.9320,18733,6267,153.9
+157,scan_0157.trace,32,periodic_large_burst_scan,17,25.0,IBM-ARC,74.9320,18733,6267,127.0
+157,scan_0157.trace,32,periodic_large_burst_scan,17,25.0,2Q (VLDB '94),74.6600,18665,6335,94.1
+157,scan_0157.trace,32,periodic_large_burst_scan,17,25.0,Static-Fuzzy (Bengar '20),74.7720,18693,6307,78.9
+157,scan_0157.trace,32,periodic_large_burst_scan,17,25.0,Fast-LUT-ANFIS,74.6600,18665,6335,196.3
+97,scan_0097.trace,32,periodic_large_burst_scan,16,25.0,LRU,74.6760,18669,6331,141.4
+97,scan_0097.trace,32,periodic_large_burst_scan,16,25.0,FIFO,74.6760,18669,6331,69.0
+97,scan_0097.trace,32,periodic_large_burst_scan,16,25.0,LFU,74.9320,18733,6267,214.7
+97,scan_0097.trace,32,periodic_large_burst_scan,16,25.0,IBM-ARC,74.9320,18733,6267,177.2
+97,scan_0097.trace,32,periodic_large_burst_scan,16,25.0,2Q (VLDB '94),74.6760,18669,6331,124.5
+97,scan_0097.trace,32,periodic_large_burst_scan,16,25.0,Static-Fuzzy (Bengar '20),74.7720,18693,6307,101.5
+97,scan_0097.trace,32,periodic_large_burst_scan,16,25.0,Fast-LUT-ANFIS,74.6760,18669,6331,261.6
+63,scan_0063.trace,32,multi_stride_scan,21,24.7,LRU,65.2160,16304,8696,106.0
+63,scan_0063.trace,32,multi_stride_scan,21,24.7,FIFO,54.0480,13512,11488,68.1
+63,scan_0063.trace,32,multi_stride_scan,21,24.7,LFU,75.2320,18808,6192,145.6
+63,scan_0063.trace,32,multi_stride_scan,21,24.7,IBM-ARC,75.2360,18809,6191,116.7
+63,scan_0063.trace,32,multi_stride_scan,21,24.7,2Q (VLDB '94),75.1480,18787,6213,114.9
+63,scan_0063.trace,32,multi_stride_scan,21,24.7,Static-Fuzzy (Bengar '20),70.2840,17571,7429,78.8
+63,scan_0063.trace,32,multi_stride_scan,21,24.7,Fast-LUT-ANFIS,73.3360,18334,6666,197.4
+53,scan_0053.trace,32,multi_stride_scan,28,28.5,LRU,48.7920,12198,12802,120.5
+53,scan_0053.trace,32,multi_stride_scan,28,28.5,FIFO,41.9560,10489,14511,76.6
+53,scan_0053.trace,32,multi_stride_scan,28,28.5,LFU,71.2800,17820,7180,154.0
+53,scan_0053.trace,32,multi_stride_scan,28,28.5,IBM-ARC,71.3880,17847,7153,125.5
+53,scan_0053.trace,32,multi_stride_scan,28,28.5,2Q (VLDB '94),62.4000,15600,9400,140.9
+53,scan_0053.trace,32,multi_stride_scan,28,28.5,Static-Fuzzy (Bengar '20),59.8360,14959,10041,101.0
+53,scan_0053.trace,32,multi_stride_scan,28,28.5,Fast-LUT-ANFIS,58.5480,14637,10363,285.1
+124,scan_0124.trace,32,segmented_scans,22,8.2,LRU,90.1600,22540,2460,91.0
+124,scan_0124.trace,32,segmented_scans,22,8.2,FIFO,90.1600,22540,2460,48.5
+124,scan_0124.trace,32,segmented_scans,22,8.2,LFU,91.7440,22936,2064,152.0
+124,scan_0124.trace,32,segmented_scans,22,8.2,IBM-ARC,91.7440,22936,2064,95.9
+124,scan_0124.trace,32,segmented_scans,22,8.2,2Q (VLDB '94),90.1600,22540,2460,63.2
+124,scan_0124.trace,32,segmented_scans,22,8.2,Static-Fuzzy (Bengar '20),54.1400,13535,11465,103.3
+124,scan_0124.trace,32,segmented_scans,22,8.2,Fast-LUT-ANFIS,90.8680,22717,2283,112.1
+108,scan_0108.trace,32,multi_stride_scan,26,23.1,LRU,60.0960,15024,9976,118.7
+108,scan_0108.trace,32,multi_stride_scan,26,23.1,FIFO,50.7840,12696,12304,74.9
+108,scan_0108.trace,32,multi_stride_scan,26,23.1,LFU,76.7240,19181,5819,163.6
+108,scan_0108.trace,32,multi_stride_scan,26,23.1,IBM-ARC,76.7200,19180,5820,124.4
+108,scan_0108.trace,32,multi_stride_scan,26,23.1,2Q (VLDB '94),71.3520,17838,7162,132.5
+108,scan_0108.trace,32,multi_stride_scan,26,23.1,Static-Fuzzy (Bengar '20),61.7960,15449,9551,102.5
+108,scan_0108.trace,32,multi_stride_scan,26,23.1,Fast-LUT-ANFIS,70.9120,17728,7272,230.0
+346,scan_0346.trace,64,interleaved_hot_scan,32,29.5,LRU,65.0960,16274,8726,121.7
+346,scan_0346.trace,64,interleaved_hot_scan,32,29.5,FIFO,52.9920,13248,11752,76.6
+346,scan_0346.trace,64,interleaved_hot_scan,32,29.5,LFU,70.3720,17593,7407,158.5
+346,scan_0346.trace,64,interleaved_hot_scan,32,29.5,IBM-ARC,70.3720,17593,7407,140.6
+346,scan_0346.trace,64,interleaved_hot_scan,32,29.5,2Q (VLDB '94),70.2080,17552,7448,137.8
+346,scan_0346.trace,64,interleaved_hot_scan,32,29.5,Static-Fuzzy (Bengar '20),56.8720,14218,10782,107.7
+346,scan_0346.trace,64,interleaved_hot_scan,32,29.5,Fast-LUT-ANFIS,70.2400,17560,7440,248.1
+307,scan_0307.trace,64,periodic_large_burst_scan,44,25.0,LRU,74.1080,18527,6473,106.7
+307,scan_0307.trace,64,periodic_large_burst_scan,44,25.0,FIFO,74.1080,18527,6473,58.2
+307,scan_0307.trace,64,periodic_large_burst_scan,44,25.0,LFU,74.8120,18703,6297,144.7
+307,scan_0307.trace,64,periodic_large_burst_scan,44,25.0,IBM-ARC,74.8120,18703,6297,133.6
+307,scan_0307.trace,64,periodic_large_burst_scan,44,25.0,2Q (VLDB '94),74.1080,18527,6473,101.7
+307,scan_0307.trace,64,periodic_large_burst_scan,44,25.0,Static-Fuzzy (Bengar '20),74.6520,18663,6337,82.0
+307,scan_0307.trace,64,periodic_large_burst_scan,44,25.0,Fast-LUT-ANFIS,74.1080,18527,6473,216.9
+387,scan_0387.trace,64,periodic_large_burst_scan,46,25.0,LRU,73.6920,18423,6577,104.6
+387,scan_0387.trace,64,periodic_large_burst_scan,46,25.0,FIFO,73.6920,18423,6577,58.7
+387,scan_0387.trace,64,periodic_large_burst_scan,46,25.0,LFU,74.7960,18699,6301,141.7
+387,scan_0387.trace,64,periodic_large_burst_scan,46,25.0,IBM-ARC,74.7960,18699,6301,132.6
+387,scan_0387.trace,64,periodic_large_burst_scan,46,25.0,2Q (VLDB '94),73.6920,18423,6577,99.8
+387,scan_0387.trace,64,periodic_large_burst_scan,46,25.0,Static-Fuzzy (Bengar '20),74.5560,18639,6361,81.0
+387,scan_0387.trace,64,periodic_large_burst_scan,46,25.0,Fast-LUT-ANFIS,73.6880,18422,6578,211.1
+212,scan_0212.trace,64,periodic_large_burst_scan,36,25.0,LRU,74.1240,18531,6469,104.3
+212,scan_0212.trace,64,periodic_large_burst_scan,36,25.0,FIFO,74.1240,18531,6469,59.6
+212,scan_0212.trace,64,periodic_large_burst_scan,36,25.0,LFU,74.8440,18711,6289,145.9
+212,scan_0212.trace,64,periodic_large_burst_scan,36,25.0,IBM-ARC,74.8440,18711,6289,131.5
+212,scan_0212.trace,64,periodic_large_burst_scan,36,25.0,2Q (VLDB '94),74.1240,18531,6469,98.8
+212,scan_0212.trace,64,periodic_large_burst_scan,36,25.0,Static-Fuzzy (Bengar '20),74.6440,18661,6339,80.9
+212,scan_0212.trace,64,periodic_large_burst_scan,36,25.0,Fast-LUT-ANFIS,74.1240,18531,6469,211.2
+204,scan_0204.trace,64,segmented_scans,55,12.9,LRU,81.8200,20455,4545,106.0
+204,scan_0204.trace,64,segmented_scans,55,12.9,FIFO,81.8080,20452,4548,56.1
+204,scan_0204.trace,64,segmented_scans,55,12.9,LFU,86.8480,21712,3288,138.6
+204,scan_0204.trace,64,segmented_scans,55,12.9,IBM-ARC,86.8480,21712,3288,112.8
+204,scan_0204.trace,64,segmented_scans,55,12.9,2Q (VLDB '94),84.5200,21130,3870,102.3
+204,scan_0204.trace,64,segmented_scans,55,12.9,Static-Fuzzy (Bengar '20),20.4560,5114,19886,155.2
+204,scan_0204.trace,64,segmented_scans,55,12.9,Fast-LUT-ANFIS,84.7880,21197,3803,165.1
+384,scan_0384.trace,64,segmented_scans,34,9.0,LRU,88.5680,22142,2858,120.6
+384,scan_0384.trace,64,segmented_scans,34,9.0,FIFO,88.4320,22108,2892,55.0
+384,scan_0384.trace,64,segmented_scans,34,9.0,LFU,90.8800,22720,2280,165.8
+384,scan_0384.trace,64,segmented_scans,34,9.0,IBM-ARC,90.8800,22720,2280,112.7
+384,scan_0384.trace,64,segmented_scans,34,9.0,2Q (VLDB '94),90.0640,22516,2484,111.7
+384,scan_0384.trace,64,segmented_scans,34,9.0,Static-Fuzzy (Bengar '20),35.1920,8798,16202,132.4
+384,scan_0384.trace,64,segmented_scans,34,9.0,Fast-LUT-ANFIS,90.0440,22511,2489,129.7
+329,scan_0329.trace,64,segmented_scans,51,14.6,LRU,80.1200,20030,4970,101.4
+329,scan_0329.trace,64,segmented_scans,51,14.6,FIFO,80.0760,20019,4981,55.5
+329,scan_0329.trace,64,segmented_scans,51,14.6,LFU,85.1680,21292,3708,132.9
+329,scan_0329.trace,64,segmented_scans,51,14.6,IBM-ARC,85.1680,21292,3708,113.9
+329,scan_0329.trace,64,segmented_scans,51,14.6,2Q (VLDB '94),82.3360,20584,4416,102.4
+329,scan_0329.trace,64,segmented_scans,51,14.6,Static-Fuzzy (Bengar '20),84.2160,21054,3946,65.7
+329,scan_0329.trace,64,segmented_scans,51,14.6,Fast-LUT-ANFIS,83.3000,20825,4175,165.7
+340,scan_0340.trace,64,heavy_scan_pressure,45,52.5,LRU,25.9720,6493,18507,147.1
+340,scan_0340.trace,64,heavy_scan_pressure,45,52.5,FIFO,22.0880,5522,19478,93.0
+340,scan_0340.trace,64,heavy_scan_pressure,45,52.5,LFU,47.1640,11791,13209,156.8
+340,scan_0340.trace,64,heavy_scan_pressure,45,52.5,IBM-ARC,47.2040,11801,13199,177.8
+340,scan_0340.trace,64,heavy_scan_pressure,45,52.5,2Q (VLDB '94),46.8400,11710,13290,175.3
+340,scan_0340.trace,64,heavy_scan_pressure,45,52.5,Static-Fuzzy (Bengar '20),21.9920,5498,19502,165.7
+340,scan_0340.trace,64,heavy_scan_pressure,45,52.5,Fast-LUT-ANFIS,24.4320,6108,18892,493.6
+244,scan_0244.trace,64,segmented_scans,43,12.3,LRU,83.2800,20820,4180,102.7
+244,scan_0244.trace,64,segmented_scans,43,12.3,FIFO,83.2480,20812,4188,54.6
+244,scan_0244.trace,64,segmented_scans,43,12.3,LFU,87.5480,21887,3113,138.6
+244,scan_0244.trace,64,segmented_scans,43,12.3,IBM-ARC,87.5480,21887,3113,112.4
+244,scan_0244.trace,64,segmented_scans,43,12.3,2Q (VLDB '94),86.2840,21571,3429,103.5
+244,scan_0244.trace,64,segmented_scans,43,12.3,Static-Fuzzy (Bengar '20),86.6840,21671,3329,64.1
+244,scan_0244.trace,64,segmented_scans,43,12.3,Fast-LUT-ANFIS,86.0080,21502,3498,152.7
+213,scan_0213.trace,64,multi_stride_scan,54,34.2,LRU,42.6040,10651,14349,143.4
+213,scan_0213.trace,64,multi_stride_scan,54,34.2,FIFO,36.2000,9050,15950,89.1
+213,scan_0213.trace,64,multi_stride_scan,54,34.2,LFU,65.4040,16351,8649,151.1
+213,scan_0213.trace,64,multi_stride_scan,54,34.2,IBM-ARC,65.4480,16362,8638,155.2
+213,scan_0213.trace,64,multi_stride_scan,54,34.2,2Q (VLDB '94),59.0320,14758,10242,170.0
+213,scan_0213.trace,64,multi_stride_scan,54,34.2,Static-Fuzzy (Bengar '20),39.7720,9943,15057,137.6
+213,scan_0213.trace,64,multi_stride_scan,54,34.2,Fast-LUT-ANFIS,45.3160,11329,13671,385.6
+269,scan_0269.trace,64,segmented_scans,32,11.8,LRU,85.0880,21272,3728,98.3
+269,scan_0269.trace,64,segmented_scans,32,11.8,FIFO,84.9920,21248,3752,52.7
+269,scan_0269.trace,64,segmented_scans,32,11.8,LFU,88.0640,22016,2984,146.2
+269,scan_0269.trace,64,segmented_scans,32,11.8,IBM-ARC,88.0640,22016,2984,108.7
+269,scan_0269.trace,64,segmented_scans,32,11.8,2Q (VLDB '94),87.9360,21984,3016,103.2
+269,scan_0269.trace,64,segmented_scans,32,11.8,Static-Fuzzy (Bengar '20),87.3000,21825,3175,61.5
+269,scan_0269.trace,64,segmented_scans,32,11.8,Fast-LUT-ANFIS,86.3880,21597,3403,145.3
+358,scan_0358.trace,64,multi_stride_scan,56,34.0,LRU,41.2640,10316,14684,156.5
+358,scan_0358.trace,64,multi_stride_scan,56,34.0,FIFO,35.6760,8919,16081,93.8
+358,scan_0358.trace,64,multi_stride_scan,56,34.0,LFU,65.5000,16375,8625,160.5
+358,scan_0358.trace,64,multi_stride_scan,56,34.0,IBM-ARC,65.6680,16417,8583,170.0
+358,scan_0358.trace,64,multi_stride_scan,56,34.0,2Q (VLDB '94),57.4720,14368,10632,187.9
+358,scan_0358.trace,64,multi_stride_scan,56,34.0,Static-Fuzzy (Bengar '20),34.3080,8577,16423,148.8
+358,scan_0358.trace,64,multi_stride_scan,56,34.0,Fast-LUT-ANFIS,42.5320,10633,14367,422.9
+202,scan_0202.trace,64,periodic_large_burst_scan,51,25.0,LRU,73.9800,18495,6505,112.6
+202,scan_0202.trace,64,periodic_large_burst_scan,51,25.0,FIFO,73.9800,18495,6505,61.2
+202,scan_0202.trace,64,periodic_large_burst_scan,51,25.0,LFU,74.7960,18699,6301,145.5
+202,scan_0202.trace,64,periodic_large_burst_scan,51,25.0,IBM-ARC,74.7960,18699,6301,142.3
+202,scan_0202.trace,64,periodic_large_burst_scan,51,25.0,2Q (VLDB '94),73.9800,18495,6505,105.9
+202,scan_0202.trace,64,periodic_large_burst_scan,51,25.0,Static-Fuzzy (Bengar '20),74.6320,18658,6342,83.1
+202,scan_0202.trace,64,periodic_large_burst_scan,51,25.0,Fast-LUT-ANFIS,73.9800,18495,6505,221.3
+235,scan_0235.trace,64,heavy_scan_pressure,43,53.7,LRU,25.3320,6333,18667,156.1
+235,scan_0235.trace,64,heavy_scan_pressure,43,53.7,FIFO,21.5080,5377,19623,101.1
+235,scan_0235.trace,64,heavy_scan_pressure,43,53.7,LFU,45.9240,11481,13519,170.7
+235,scan_0235.trace,64,heavy_scan_pressure,43,53.7,IBM-ARC,45.9920,11498,13502,196.1
+235,scan_0235.trace,64,heavy_scan_pressure,43,53.7,2Q (VLDB '94),45.6440,11411,13589,193.5
+235,scan_0235.trace,64,heavy_scan_pressure,43,53.7,Static-Fuzzy (Bengar '20),27.5880,6897,18103,162.2
+235,scan_0235.trace,64,heavy_scan_pressure,43,53.7,Fast-LUT-ANFIS,23.6600,5915,19085,525.6
+226,scan_0226.trace,64,interleaved_hot_scan,40,31.4,LRU,56.1040,14026,10974,136.3
+226,scan_0226.trace,64,interleaved_hot_scan,40,31.4,FIFO,46.1520,11538,13462,86.3
+226,scan_0226.trace,64,interleaved_hot_scan,40,31.4,LFU,68.4080,17102,7898,162.7
+226,scan_0226.trace,64,interleaved_hot_scan,40,31.4,IBM-ARC,68.4080,17102,7898,156.5
+226,scan_0226.trace,64,interleaved_hot_scan,40,31.4,2Q (VLDB '94),68.2160,17054,7946,150.9
+226,scan_0226.trace,64,interleaved_hot_scan,40,31.4,Static-Fuzzy (Bengar '20),52.9680,13242,11758,118.3
+226,scan_0226.trace,64,interleaved_hot_scan,40,31.4,Fast-LUT-ANFIS,67.6960,16924,8076,276.2
+221,scan_0221.trace,64,interleaved_hot_scan,32,31.9,LRU,61.4400,15360,9640,128.1
+221,scan_0221.trace,64,interleaved_hot_scan,32,31.9,FIFO,49.8800,12470,12530,80.0
+221,scan_0221.trace,64,interleaved_hot_scan,32,31.9,LFU,67.9520,16988,8012,159.5
+221,scan_0221.trace,64,interleaved_hot_scan,32,31.9,IBM-ARC,67.9640,16991,8009,149.1
+221,scan_0221.trace,64,interleaved_hot_scan,32,31.9,2Q (VLDB '94),67.8120,16953,8047,145.0
+221,scan_0221.trace,64,interleaved_hot_scan,32,31.9,Static-Fuzzy (Bengar '20),59.4480,14862,10138,106.0
+221,scan_0221.trace,64,interleaved_hot_scan,32,31.9,Fast-LUT-ANFIS,67.8120,16953,8047,270.0
+201,scan_0201.trace,64,interleaved_hot_scan,56,38.2,LRU,36.3000,9075,15925,144.1
+201,scan_0201.trace,64,interleaved_hot_scan,56,38.2,FIFO,31.1880,7797,17203,89.1
+201,scan_0201.trace,64,interleaved_hot_scan,56,38.2,LFU,61.2520,15313,9687,147.8
+201,scan_0201.trace,64,interleaved_hot_scan,56,38.2,IBM-ARC,61.4560,15364,9636,159.3
+201,scan_0201.trace,64,interleaved_hot_scan,56,38.2,2Q (VLDB '94),53.6720,13418,11582,177.2
+201,scan_0201.trace,64,interleaved_hot_scan,56,38.2,Static-Fuzzy (Bengar '20),40.2600,10065,14935,125.9
+201,scan_0201.trace,64,interleaved_hot_scan,56,38.2,Fast-LUT-ANFIS,34.9760,8744,16256,420.8
+394,scan_0394.trace,64,segmented_scans,45,7.5,LRU,88.9360,22234,2766,100.2
+394,scan_0394.trace,64,segmented_scans,45,7.5,FIFO,88.8760,22219,2781,51.1
+394,scan_0394.trace,64,segmented_scans,45,7.5,LFU,92.2960,23074,1926,137.6
+394,scan_0394.trace,64,segmented_scans,45,7.5,IBM-ARC,92.2960,23074,1926,105.7
+394,scan_0394.trace,64,segmented_scans,45,7.5,2Q (VLDB '94),91.9440,22986,2014,99.8
+394,scan_0394.trace,64,segmented_scans,45,7.5,Static-Fuzzy (Bengar '20),91.7000,22925,2075,56.2
+394,scan_0394.trace,64,segmented_scans,45,7.5,Fast-LUT-ANFIS,91.2080,22802,2198,127.0
+328,scan_0328.trace,64,multi_stride_scan,57,30.7,LRU,45.0720,11268,13732,157.1
+328,scan_0328.trace,64,multi_stride_scan,57,30.7,FIFO,38.8200,9705,15295,94.9
+328,scan_0328.trace,64,multi_stride_scan,57,30.7,LFU,68.9400,17235,7765,156.8
+328,scan_0328.trace,64,multi_stride_scan,57,30.7,IBM-ARC,68.9680,17242,7758,160.8
+328,scan_0328.trace,64,multi_stride_scan,57,30.7,2Q (VLDB '94),59.9360,14984,10016,183.4
+328,scan_0328.trace,64,multi_stride_scan,57,30.7,Static-Fuzzy (Bengar '20),48.2760,12069,12931,129.3
+328,scan_0328.trace,64,multi_stride_scan,57,30.7,Fast-LUT-ANFIS,46.9960,11749,13251,400.3
+391,scan_0391.trace,64,interleaved_hot_scan,49,22.3,LRU,63.3200,15830,9170,132.0
+391,scan_0391.trace,64,interleaved_hot_scan,49,22.3,FIFO,53.2200,13305,11695,81.1
+391,scan_0391.trace,64,interleaved_hot_scan,49,22.3,LFU,77.3920,19348,5652,151.1
+391,scan_0391.trace,64,interleaved_hot_scan,49,22.3,IBM-ARC,77.4200,19355,5645,139.6
+391,scan_0391.trace,64,interleaved_hot_scan,49,22.3,2Q (VLDB '94),75.3680,18842,6158,140.1
+391,scan_0391.trace,64,interleaved_hot_scan,49,22.3,Static-Fuzzy (Bengar '20),48.9000,12225,12775,121.0
+391,scan_0391.trace,64,interleaved_hot_scan,49,22.3,Fast-LUT-ANFIS,74.8880,18722,6278,228.2
+522,scan_0522.trace,128,periodic_large_burst_scan,120,25.0,LRU,71.1440,17786,7214,108.9
+522,scan_0522.trace,128,periodic_large_burst_scan,120,25.0,FIFO,71.1440,17786,7214,64.7
+522,scan_0522.trace,128,periodic_large_burst_scan,120,25.0,LFU,74.5040,18626,6374,120.9
+522,scan_0522.trace,128,periodic_large_burst_scan,120,25.0,IBM-ARC,74.5040,18626,6374,130.3
+522,scan_0522.trace,128,periodic_large_burst_scan,120,25.0,2Q (VLDB '94),71.1440,17786,7214,105.2
+522,scan_0522.trace,128,periodic_large_burst_scan,120,25.0,Static-Fuzzy (Bengar '20),74.1840,18546,6454,80.3
+522,scan_0522.trace,128,periodic_large_burst_scan,120,25.0,Fast-LUT-ANFIS,68.7280,17182,7818,261.5
+581,scan_0581.trace,128,interleaved_hot_scan,110,29.4,LRU,47.8800,11970,13030,136.4
+581,scan_0581.trace,128,interleaved_hot_scan,110,29.4,FIFO,40.7440,10186,14814,84.4
+581,scan_0581.trace,128,interleaved_hot_scan,110,29.4,LFU,69.7240,17431,7569,130.8
+581,scan_0581.trace,128,interleaved_hot_scan,110,29.4,IBM-ARC,69.8960,17474,7526,139.8
+581,scan_0581.trace,128,interleaved_hot_scan,110,29.4,2Q (VLDB '94),62.5280,15632,9368,155.2
+581,scan_0581.trace,128,interleaved_hot_scan,110,29.4,Static-Fuzzy (Bengar '20),43.7120,10928,14072,132.8
+581,scan_0581.trace,128,interleaved_hot_scan,110,29.4,Fast-LUT-ANFIS,47.2040,11801,13199,388.5
+576,scan_0576.trace,128,interleaved_hot_scan,76,33.7,LRU,53.8920,13473,11527,128.9
+576,scan_0576.trace,128,interleaved_hot_scan,76,33.7,FIFO,44.2760,11069,13931,83.1
+576,scan_0576.trace,128,interleaved_hot_scan,76,33.7,LFU,65.9080,16477,8523,141.0
+576,scan_0576.trace,128,interleaved_hot_scan,76,33.7,IBM-ARC,65.9160,16479,8521,145.8
+576,scan_0576.trace,128,interleaved_hot_scan,76,33.7,2Q (VLDB '94),65.5600,16390,8610,144.5
+576,scan_0576.trace,128,interleaved_hot_scan,76,33.7,Static-Fuzzy (Bengar '20),49.2640,12316,12684,122.5
+576,scan_0576.trace,128,interleaved_hot_scan,76,33.7,Fast-LUT-ANFIS,55.8560,13964,11036,336.4
+542,scan_0542.trace,128,periodic_large_burst_scan,96,25.0,LRU,72.3040,18076,6924,108.1
+542,scan_0542.trace,128,periodic_large_burst_scan,96,25.0,FIFO,72.3040,18076,6924,60.1
+542,scan_0542.trace,128,periodic_large_burst_scan,96,25.0,LFU,74.6080,18652,6348,128.9
+542,scan_0542.trace,128,periodic_large_burst_scan,96,25.0,IBM-ARC,74.6080,18652,6348,132.7
+542,scan_0542.trace,128,periodic_large_burst_scan,96,25.0,2Q (VLDB '94),72.3040,18076,6924,104.2
+542,scan_0542.trace,128,periodic_large_burst_scan,96,25.0,Static-Fuzzy (Bengar '20),74.3160,18579,6421,82.9
+542,scan_0542.trace,128,periodic_large_burst_scan,96,25.0,Fast-LUT-ANFIS,72.6720,18168,6832,244.3
+425,scan_0425.trace,128,heavy_scan_pressure,65,56.3,LRU,27.9840,6996,18004,146.5
+425,scan_0425.trace,128,heavy_scan_pressure,65,56.3,FIFO,23.1960,5799,19201,95.2
+425,scan_0425.trace,128,heavy_scan_pressure,65,56.3,LFU,43.2720,10818,14182,153.7
+425,scan_0425.trace,128,heavy_scan_pressure,65,56.3,IBM-ARC,43.3000,10825,14175,181.2
+425,scan_0425.trace,128,heavy_scan_pressure,65,56.3,2Q (VLDB '94),42.8360,10709,14291,180.7
+425,scan_0425.trace,128,heavy_scan_pressure,65,56.3,Static-Fuzzy (Bengar '20),28.0400,7010,17990,151.9
+425,scan_0425.trace,128,heavy_scan_pressure,65,56.3,Fast-LUT-ANFIS,25.9840,6496,18504,505.9
+429,scan_0429.trace,128,segmented_scans,95,8.8,LRU,84.6480,21162,3838,102.4
+429,scan_0429.trace,128,segmented_scans,95,8.8,FIFO,84.0760,21019,3981,54.6
+429,scan_0429.trace,128,segmented_scans,95,8.8,LFU,90.8640,22716,2284,117.5
+429,scan_0429.trace,128,segmented_scans,95,8.8,IBM-ARC,90.8640,22716,2284,107.6
+429,scan_0429.trace,128,segmented_scans,95,8.8,2Q (VLDB '94),90.0680,22517,2483,96.1
+429,scan_0429.trace,128,segmented_scans,95,8.8,Static-Fuzzy (Bengar '20),90.0720,22518,2482,59.2
+429,scan_0429.trace,128,segmented_scans,95,8.8,Fast-LUT-ANFIS,88.5800,22145,2855,150.2
+529,scan_0529.trace,128,segmented_scans,101,10.0,LRU,81.5240,20381,4619,104.7
+529,scan_0529.trace,128,segmented_scans,101,10.0,FIFO,80.2480,20062,4938,57.7
+529,scan_0529.trace,128,segmented_scans,101,10.0,LFU,89.6400,22410,2590,115.0
+529,scan_0529.trace,128,segmented_scans,101,10.0,IBM-ARC,89.6400,22410,2590,105.9
+529,scan_0529.trace,128,segmented_scans,101,10.0,2Q (VLDB '94),87.5800,21895,3105,104.3
+529,scan_0529.trace,128,segmented_scans,101,10.0,Static-Fuzzy (Bengar '20),84.0520,21013,3987,68.3
+529,scan_0529.trace,128,segmented_scans,101,10.0,Fast-LUT-ANFIS,85.9320,21483,3517,165.5
+489,scan_0489.trace,128,segmented_scans,64,4.4,LRU,93.7240,23431,1569,95.3
+489,scan_0489.trace,128,segmented_scans,64,4.4,FIFO,92.5200,23130,1870,52.3
+489,scan_0489.trace,128,segmented_scans,64,4.4,LFU,95.3200,23830,1170,122.3
+489,scan_0489.trace,128,segmented_scans,64,4.4,IBM-ARC,95.3200,23830,1170,96.1
+489,scan_0489.trace,128,segmented_scans,64,4.4,2Q (VLDB '94),95.0480,23762,1238,88.0
+489,scan_0489.trace,128,segmented_scans,64,4.4,Static-Fuzzy (Bengar '20),94.9120,23728,1272,52.7
+489,scan_0489.trace,128,segmented_scans,64,4.4,Fast-LUT-ANFIS,93.1240,23281,1719,114.7
+437,scan_0437.trace,128,periodic_large_burst_scan,95,25.0,LRU,73.0960,18274,6726,105.0
+437,scan_0437.trace,128,periodic_large_burst_scan,95,25.0,FIFO,73.0960,18274,6726,58.9
+437,scan_0437.trace,128,periodic_large_burst_scan,95,25.0,LFU,74.6160,18654,6346,121.5
+437,scan_0437.trace,128,periodic_large_burst_scan,95,25.0,IBM-ARC,74.6160,18654,6346,131.7
+437,scan_0437.trace,128,periodic_large_burst_scan,95,25.0,2Q (VLDB '94),73.0960,18274,6726,99.4
+437,scan_0437.trace,128,periodic_large_burst_scan,95,25.0,Static-Fuzzy (Bengar '20),74.4440,18611,6389,81.4
+437,scan_0437.trace,128,periodic_large_burst_scan,95,25.0,Fast-LUT-ANFIS,73.0640,18266,6734,230.6
+580,scan_0580.trace,128,heavy_scan_pressure,80,55.5,LRU,25.3000,6325,18675,147.5
+580,scan_0580.trace,128,heavy_scan_pressure,80,55.5,FIFO,21.3200,5330,19670,96.6
+580,scan_0580.trace,128,heavy_scan_pressure,80,55.5,LFU,43.8360,10959,14041,154.3
+580,scan_0580.trace,128,heavy_scan_pressure,80,55.5,IBM-ARC,43.9240,10981,14019,185.1
+580,scan_0580.trace,128,heavy_scan_pressure,80,55.5,2Q (VLDB '94),43.4560,10864,14136,184.8
+580,scan_0580.trace,128,heavy_scan_pressure,80,55.5,Static-Fuzzy (Bengar '20),26.4800,6620,18380,156.5
+580,scan_0580.trace,128,heavy_scan_pressure,80,55.5,Fast-LUT-ANFIS,23.7760,5944,19056,528.8
+434,scan_0434.trace,128,segmented_scans,93,8.5,LRU,85.2680,21317,3683,99.1
+434,scan_0434.trace,128,segmented_scans,93,8.5,FIFO,84.2160,21054,3946,53.0
+434,scan_0434.trace,128,segmented_scans,93,8.5,LFU,91.1040,22776,2224,115.7
+434,scan_0434.trace,128,segmented_scans,93,8.5,IBM-ARC,91.1040,22776,2224,106.9
+434,scan_0434.trace,128,segmented_scans,93,8.5,2Q (VLDB '94),90.6240,22656,2344,97.0
+434,scan_0434.trace,128,segmented_scans,93,8.5,Static-Fuzzy (Bengar '20),90.2680,22567,2433,57.4
+434,scan_0434.trace,128,segmented_scans,93,8.5,Fast-LUT-ANFIS,88.1640,22041,2959,149.5
+442,scan_0442.trace,128,periodic_large_burst_scan,69,25.0,LRU,73.3280,18332,6668,102.9
+442,scan_0442.trace,128,periodic_large_burst_scan,69,25.0,FIFO,73.3280,18332,6668,58.7
+442,scan_0442.trace,128,periodic_large_burst_scan,69,25.0,LFU,74.7080,18677,6323,129.2
+442,scan_0442.trace,128,periodic_large_burst_scan,69,25.0,IBM-ARC,74.7080,18677,6323,126.9
+442,scan_0442.trace,128,periodic_large_burst_scan,69,25.0,2Q (VLDB '94),73.3280,18332,6668,99.4
+442,scan_0442.trace,128,periodic_large_burst_scan,69,25.0,Static-Fuzzy (Bengar '20),74.5000,18625,6375,79.9
+442,scan_0442.trace,128,periodic_large_burst_scan,69,25.0,Fast-LUT-ANFIS,72.9240,18231,6769,222.7
+573,scan_0573.trace,128,multi_stride_scan,66,31.3,LRU,61.5280,15382,9618,127.1
+573,scan_0573.trace,128,multi_stride_scan,66,31.3,FIFO,49.8840,12471,12529,81.9
+573,scan_0573.trace,128,multi_stride_scan,66,31.3,LFU,68.3920,17098,7902,142.5
+573,scan_0573.trace,128,multi_stride_scan,66,31.3,IBM-ARC,68.3920,17098,7902,142.5
+573,scan_0573.trace,128,multi_stride_scan,66,31.3,2Q (VLDB '94),68.0760,17019,7981,141.4
+573,scan_0573.trace,128,multi_stride_scan,66,31.3,Static-Fuzzy (Bengar '20),55.3480,13837,11163,113.3
+573,scan_0573.trace,128,multi_stride_scan,66,31.3,Fast-LUT-ANFIS,65.8720,16468,8532,285.4
+411,scan_0411.trace,128,interleaved_hot_scan,90,26.7,LRU,59.4880,14872,10128,125.9
+411,scan_0411.trace,128,interleaved_hot_scan,90,26.7,FIFO,49.3800,12345,12655,79.3
+411,scan_0411.trace,128,interleaved_hot_scan,90,26.7,LFU,72.9000,18225,6775,128.4
+411,scan_0411.trace,128,interleaved_hot_scan,90,26.7,IBM-ARC,72.9280,18232,6768,135.0
+411,scan_0411.trace,128,interleaved_hot_scan,90,26.7,2Q (VLDB '94),72.5360,18134,6866,132.4
+411,scan_0411.trace,128,interleaved_hot_scan,90,26.7,Static-Fuzzy (Bengar '20),60.8920,15223,9777,104.4
+411,scan_0411.trace,128,interleaved_hot_scan,90,26.7,Fast-LUT-ANFIS,61.9320,15483,9517,300.1
+505,scan_0505.trace,128,heavy_scan_pressure,95,59.6,LRU,18.3720,4593,20407,149.7
+505,scan_0505.trace,128,heavy_scan_pressure,95,59.6,FIFO,15.8080,3952,21048,100.1
+505,scan_0505.trace,128,heavy_scan_pressure,95,59.6,LFU,39.1120,9778,15222,157.2
+505,scan_0505.trace,128,heavy_scan_pressure,95,59.6,IBM-ARC,39.5000,9875,15125,192.2
+505,scan_0505.trace,128,heavy_scan_pressure,95,59.6,2Q (VLDB '94),38.7880,9697,15303,191.9
+505,scan_0505.trace,128,heavy_scan_pressure,95,59.6,Static-Fuzzy (Bengar '20),16.7400,4185,20815,170.6
+505,scan_0505.trace,128,heavy_scan_pressure,95,59.6,Fast-LUT-ANFIS,17.3080,4327,20673,566.4
+441,scan_0441.trace,128,interleaved_hot_scan,84,17.2,LRU,77.5800,19395,5605,115.5
+441,scan_0441.trace,128,interleaved_hot_scan,84,17.2,FIFO,64.7840,16196,8804,71.5
+441,scan_0441.trace,128,interleaved_hot_scan,84,17.2,LFU,82.4600,20615,4385,126.8
+441,scan_0441.trace,128,interleaved_hot_scan,84,17.2,IBM-ARC,82.4640,20616,4384,121.0
+441,scan_0441.trace,128,interleaved_hot_scan,84,17.2,2Q (VLDB '94),82.1360,20534,4466,118.7
+441,scan_0441.trace,128,interleaved_hot_scan,84,17.2,Static-Fuzzy (Bengar '20),76.4560,19114,5886,83.0
+441,scan_0441.trace,128,interleaved_hot_scan,84,17.2,Fast-LUT-ANFIS,63.0400,15760,9240,304.3
+457,scan_0457.trace,128,periodic_large_burst_scan,115,25.0,LRU,72.7000,18175,6825,105.1
+457,scan_0457.trace,128,periodic_large_burst_scan,115,25.0,FIFO,72.7000,18175,6825,59.4
+457,scan_0457.trace,128,periodic_large_burst_scan,115,25.0,LFU,74.5360,18634,6366,120.6
+457,scan_0457.trace,128,periodic_large_burst_scan,115,25.0,IBM-ARC,74.5360,18634,6366,129.2
+457,scan_0457.trace,128,periodic_large_burst_scan,115,25.0,2Q (VLDB '94),72.7000,18175,6825,99.4
+457,scan_0457.trace,128,periodic_large_burst_scan,115,25.0,Static-Fuzzy (Bengar '20),74.3640,18591,6409,80.2
+457,scan_0457.trace,128,periodic_large_burst_scan,115,25.0,Fast-LUT-ANFIS,70.2360,17559,7441,243.3
+548,scan_0548.trace,128,multi_stride_scan,110,29.6,LRU,48.3640,12091,12909,133.0
+548,scan_0548.trace,128,multi_stride_scan,110,29.6,FIFO,41.2680,10317,14683,82.5
+548,scan_0548.trace,128,multi_stride_scan,110,29.6,LFU,69.5560,17389,7611,131.2
+548,scan_0548.trace,128,multi_stride_scan,110,29.6,IBM-ARC,69.7280,17432,7568,138.4
+548,scan_0548.trace,128,multi_stride_scan,110,29.6,2Q (VLDB '94),62.7920,15698,9302,152.7
+548,scan_0548.trace,128,multi_stride_scan,110,29.6,Static-Fuzzy (Bengar '20),48.1600,12040,12960,122.7
+548,scan_0548.trace,128,multi_stride_scan,110,29.6,Fast-LUT-ANFIS,47.0800,11770,13230,383.6
+464,scan_0464.trace,128,segmented_scans,106,6.8,LRU,86.3040,21576,3424,100.5
+464,scan_0464.trace,128,segmented_scans,106,6.8,FIFO,84.9880,21247,3753,54.3
+464,scan_0464.trace,128,segmented_scans,106,6.8,LFU,92.7240,23181,1819,111.1
+464,scan_0464.trace,128,segmented_scans,106,6.8,IBM-ARC,92.7240,23181,1819,103.7
+464,scan_0464.trace,128,segmented_scans,106,6.8,2Q (VLDB '94),91.1080,22777,2223,98.5
+464,scan_0464.trace,128,segmented_scans,106,6.8,Static-Fuzzy (Bengar '20),91.7520,22938,2062,56.6
+464,scan_0464.trace,128,segmented_scans,106,6.8,Fast-LUT-ANFIS,89.9840,22496,2504,142.0
+495,scan_0495.trace,128,heavy_scan_pressure,83,58.8,LRU,21.1240,5281,19719,150.1
+495,scan_0495.trace,128,heavy_scan_pressure,83,58.8,FIFO,18.0280,4507,20493,98.3
+495,scan_0495.trace,128,heavy_scan_pressure,83,58.8,LFU,40.4360,10109,14891,153.8
+495,scan_0495.trace,128,heavy_scan_pressure,83,58.8,IBM-ARC,40.5320,10133,14867,188.7
+495,scan_0495.trace,128,heavy_scan_pressure,83,58.8,2Q (VLDB '94),39.8960,9974,15026,191.4
+495,scan_0495.trace,128,heavy_scan_pressure,83,58.8,Static-Fuzzy (Bengar '20),20.7920,5198,19802,164.2
+495,scan_0495.trace,128,heavy_scan_pressure,83,58.8,Fast-LUT-ANFIS,19.8720,4968,20032,543.3
+696,scan_0696.trace,256,interleaved_hot_scan,189,15.4,LRU,76.8800,19220,5780,124.1
+696,scan_0696.trace,256,interleaved_hot_scan,189,15.4,FIFO,64.6240,16156,8844,73.1
+696,scan_0696.trace,256,interleaved_hot_scan,189,15.4,LFU,83.7680,20942,4058,121.4
+696,scan_0696.trace,256,interleaved_hot_scan,189,15.4,IBM-ARC,83.7840,20946,4054,119.8
+696,scan_0696.trace,256,interleaved_hot_scan,189,15.4,2Q (VLDB '94),83.0320,20758,4242,120.0
+696,scan_0696.trace,256,interleaved_hot_scan,189,15.4,Static-Fuzzy (Bengar '20),72.5560,18139,6861,93.9
+696,scan_0696.trace,256,interleaved_hot_scan,189,15.4,Fast-LUT-ANFIS,79.3600,19840,5160,219.7
+759,scan_0759.trace,256,segmented_scans,158,6.3,LRU,91.4000,22850,2150,121.4
+759,scan_0759.trace,256,segmented_scans,158,6.3,FIFO,87.5920,21898,3102,60.2
+759,scan_0759.trace,256,segmented_scans,158,6.3,LFU,93.0640,23266,1734,127.8
+759,scan_0759.trace,256,segmented_scans,158,6.3,IBM-ARC,93.0640,23266,1734,117.4
+759,scan_0759.trace,256,segmented_scans,158,6.3,2Q (VLDB '94),92.4320,23108,1892,106.8
+759,scan_0759.trace,256,segmented_scans,158,6.3,Static-Fuzzy (Bengar '20),92.2200,23055,1945,61.2
+759,scan_0759.trace,256,segmented_scans,158,6.3,Fast-LUT-ANFIS,91.8400,22960,2040,153.2
+724,scan_0724.trace,256,segmented_scans,135,7.5,LRU,89.4000,22350,2650,110.0
+724,scan_0724.trace,256,segmented_scans,135,7.5,FIFO,88.1360,22034,2966,57.0
+724,scan_0724.trace,256,segmented_scans,135,7.5,LFU,91.9880,22997,2003,122.2
+724,scan_0724.trace,256,segmented_scans,135,7.5,IBM-ARC,91.9880,22997,2003,110.0
+724,scan_0724.trace,256,segmented_scans,135,7.5,2Q (VLDB '94),90.9800,22745,2255,102.6
+724,scan_0724.trace,256,segmented_scans,135,7.5,Static-Fuzzy (Bengar '20),91.4000,22850,2150,62.4
+724,scan_0724.trace,256,segmented_scans,135,7.5,Fast-LUT-ANFIS,90.0840,22521,2479,160.9
+687,scan_0687.trace,256,periodic_large_burst_scan,143,25.0,LRU,71.5600,17890,7110,130.0
+687,scan_0687.trace,256,periodic_large_burst_scan,143,25.0,FIFO,71.5600,17890,7110,67.7
+687,scan_0687.trace,256,periodic_large_burst_scan,143,25.0,LFU,74.4200,18605,6395,155.5
+687,scan_0687.trace,256,periodic_large_burst_scan,143,25.0,IBM-ARC,74.4200,18605,6395,153.7
+687,scan_0687.trace,256,periodic_large_burst_scan,143,25.0,2Q (VLDB '94),71.5600,17890,7110,121.0
+687,scan_0687.trace,256,periodic_large_burst_scan,143,25.0,Static-Fuzzy (Bengar '20),74.1680,18542,6458,98.6
+687,scan_0687.trace,256,periodic_large_burst_scan,143,25.0,Fast-LUT-ANFIS,69.5320,17383,7617,310.6
+693,scan_0693.trace,256,multi_stride_scan,187,23.1,LRU,63.6240,15906,9094,145.7
+693,scan_0693.trace,256,multi_stride_scan,187,23.1,FIFO,53.2880,13322,11678,88.8
+693,scan_0693.trace,256,multi_stride_scan,187,23.1,LFU,76.0360,19009,5991,144.8
+693,scan_0693.trace,256,multi_stride_scan,187,23.1,IBM-ARC,76.0520,19013,5987,139.7
+693,scan_0693.trace,256,multi_stride_scan,187,23.1,2Q (VLDB '94),75.2040,18801,6199,142.0
+693,scan_0693.trace,256,multi_stride_scan,187,23.1,Static-Fuzzy (Bengar '20),64.9120,16228,8772,121.4
+693,scan_0693.trace,256,multi_stride_scan,187,23.1,Fast-LUT-ANFIS,65.7320,16433,8567,342.0
+655,scan_0655.trace,256,heavy_scan_pressure,183,66.3,LRU,13.3040,3326,21674,174.7
+655,scan_0655.trace,256,heavy_scan_pressure,183,66.3,FIFO,11.6760,2919,22081,118.9
+655,scan_0655.trace,256,heavy_scan_pressure,183,66.3,LFU,31.3200,7830,17170,180.0
+655,scan_0655.trace,256,heavy_scan_pressure,183,66.3,IBM-ARC,31.9640,7991,17009,228.6
+655,scan_0655.trace,256,heavy_scan_pressure,183,66.3,2Q (VLDB '94),30.3080,7577,17423,234.0
+655,scan_0655.trace,256,heavy_scan_pressure,183,66.3,Static-Fuzzy (Bengar '20),13.0920,3273,21727,198.1
+655,scan_0655.trace,256,heavy_scan_pressure,183,66.3,Fast-LUT-ANFIS,12.8080,3202,21798,672.9
+677,scan_0677.trace,256,periodic_large_burst_scan,178,25.0,LRU,71.4280,17857,7143,115.8
+677,scan_0677.trace,256,periodic_large_burst_scan,178,25.0,FIFO,71.4280,17857,7143,63.6
+677,scan_0677.trace,256,periodic_large_burst_scan,178,25.0,LFU,74.2760,18569,6431,129.9
+677,scan_0677.trace,256,periodic_large_burst_scan,178,25.0,IBM-ARC,74.2760,18569,6431,139.9
+677,scan_0677.trace,256,periodic_large_burst_scan,178,25.0,2Q (VLDB '94),71.4280,17857,7143,110.8
+677,scan_0677.trace,256,periodic_large_burst_scan,178,25.0,Static-Fuzzy (Bengar '20),74.0680,18517,6483,88.0
+677,scan_0677.trace,256,periodic_large_burst_scan,178,25.0,Fast-LUT-ANFIS,71.4240,17856,7144,265.2
+779,scan_0779.trace,256,segmented_scans,214,8.8,LRU,81.5280,20382,4618,119.9
+779,scan_0779.trace,256,segmented_scans,214,8.8,FIFO,78.0160,19504,5496,66.2
+779,scan_0779.trace,256,segmented_scans,214,8.8,LFU,90.2760,22569,2431,120.8
+779,scan_0779.trace,256,segmented_scans,214,8.8,IBM-ARC,90.2760,22569,2431,117.1
+779,scan_0779.trace,256,segmented_scans,214,8.8,2Q (VLDB '94),87.0840,21771,3229,116.6
+779,scan_0779.trace,256,segmented_scans,214,8.8,Static-Fuzzy (Bengar '20),88.6880,22172,2828,67.2
+779,scan_0779.trace,256,segmented_scans,214,8.8,Fast-LUT-ANFIS,84.2040,21051,3949,197.9
+791,scan_0791.trace,256,interleaved_hot_scan,149,16.2,LRU,81.5280,20382,4618,124.3
+791,scan_0791.trace,256,interleaved_hot_scan,149,16.2,FIFO,68.8520,17213,7787,74.7
+791,scan_0791.trace,256,interleaved_hot_scan,149,16.2,LFU,83.2400,20810,4190,128.0
+791,scan_0791.trace,256,interleaved_hot_scan,149,16.2,IBM-ARC,83.2400,20810,4190,123.9
+791,scan_0791.trace,256,interleaved_hot_scan,149,16.2,2Q (VLDB '94),82.6240,20656,4344,126.3
+791,scan_0791.trace,256,interleaved_hot_scan,149,16.2,Static-Fuzzy (Bengar '20),76.7680,19192,5808,89.9
+791,scan_0791.trace,256,interleaved_hot_scan,149,16.2,Fast-LUT-ANFIS,82.5520,20638,4362,206.5
+613,scan_0613.trace,256,multi_stride_scan,186,26.9,LRU,57.6720,14418,10582,145.9
+613,scan_0613.trace,256,multi_stride_scan,186,26.9,FIFO,48.0160,12004,12996,89.5
+613,scan_0613.trace,256,multi_stride_scan,186,26.9,LFU,72.1440,18036,6964,145.3
+613,scan_0613.trace,256,multi_stride_scan,186,26.9,IBM-ARC,72.2280,18057,6943,145.4
+613,scan_0613.trace,256,multi_stride_scan,186,26.9,2Q (VLDB '94),71.3920,17848,7152,147.1
+613,scan_0613.trace,256,multi_stride_scan,186,26.9,Static-Fuzzy (Bengar '20),58.2200,14555,10445,124.2
+613,scan_0613.trace,256,multi_stride_scan,186,26.9,Fast-LUT-ANFIS,58.1560,14539,10461,375.5
+726,scan_0726.trace,256,interleaved_hot_scan,170,31.2,LRU,54.2600,13565,11435,158.0
+726,scan_0726.trace,256,interleaved_hot_scan,170,31.2,FIFO,44.8120,11203,13797,97.9
+726,scan_0726.trace,256,interleaved_hot_scan,170,31.2,LFU,67.8520,16963,8037,156.5
+726,scan_0726.trace,256,interleaved_hot_scan,170,31.2,IBM-ARC,67.9080,16977,8023,163.2
+726,scan_0726.trace,256,interleaved_hot_scan,170,31.2,2Q (VLDB '94),67.1040,16776,8224,162.0
+726,scan_0726.trace,256,interleaved_hot_scan,170,31.2,Static-Fuzzy (Bengar '20),50.6560,12664,12336,150.0
+726,scan_0726.trace,256,interleaved_hot_scan,170,31.2,Fast-LUT-ANFIS,54.5480,13637,11363,426.5
+754,scan_0754.trace,256,segmented_scans,184,7.4,LRU,87.9440,21986,3014,101.7
+754,scan_0754.trace,256,segmented_scans,184,7.4,FIFO,84.4760,21119,3881,55.4
+754,scan_0754.trace,256,segmented_scans,184,7.4,LFU,91.8240,22956,2044,107.5
+754,scan_0754.trace,256,segmented_scans,184,7.4,IBM-ARC,91.8240,22956,2044,101.0
+754,scan_0754.trace,256,segmented_scans,184,7.4,2Q (VLDB '94),91.0760,22769,2231,95.3
+754,scan_0754.trace,256,segmented_scans,184,7.4,Static-Fuzzy (Bengar '20),90.9800,22745,2255,60.4
+754,scan_0754.trace,256,segmented_scans,184,7.4,Fast-LUT-ANFIS,89.3160,22329,2671,151.7
+778,scan_0778.trace,256,multi_stride_scan,139,27.2,LRU,66.2280,16557,8443,132.4
+778,scan_0778.trace,256,multi_stride_scan,139,27.2,FIFO,54.3040,13576,11424,83.6
+778,scan_0778.trace,256,multi_stride_scan,139,27.2,LFU,72.1680,18042,6958,138.1
+778,scan_0778.trace,256,multi_stride_scan,139,27.2,IBM-ARC,72.1800,18045,6955,137.2
+778,scan_0778.trace,256,multi_stride_scan,139,27.2,2Q (VLDB '94),71.5800,17895,7105,139.2
+778,scan_0778.trace,256,multi_stride_scan,139,27.2,Static-Fuzzy (Bengar '20),61.9600,15490,9510,112.1
+778,scan_0778.trace,256,multi_stride_scan,139,27.2,Fast-LUT-ANFIS,69.2480,17312,7688,288.7
+704,scan_0704.trace,256,segmented_scans,155,10.3,LRU,84.9360,21234,3766,109.7
+704,scan_0704.trace,256,segmented_scans,155,10.3,FIFO,81.8520,20463,4537,59.6
+704,scan_0704.trace,256,segmented_scans,155,10.3,LFU,88.9840,22246,2754,118.6
+704,scan_0704.trace,256,segmented_scans,155,10.3,IBM-ARC,88.9840,22246,2754,108.2
+704,scan_0704.trace,256,segmented_scans,155,10.3,2Q (VLDB '94),88.4520,22113,2887,105.8
+704,scan_0704.trace,256,segmented_scans,155,10.3,Static-Fuzzy (Bengar '20),78.2000,19550,5450,83.9
+704,scan_0704.trace,256,segmented_scans,155,10.3,Fast-LUT-ANFIS,86.8120,21703,3297,172.2
+625,scan_0625.trace,256,heavy_scan_pressure,206,69.6,LRU,9.9480,2487,22513,164.8
+625,scan_0625.trace,256,heavy_scan_pressure,206,69.6,FIFO,8.9720,2243,22757,111.5
+625,scan_0625.trace,256,heavy_scan_pressure,206,69.6,LFU,26.2360,6559,18441,173.8
+625,scan_0625.trace,256,heavy_scan_pressure,206,69.6,IBM-ARC,27.9360,6984,18016,221.5
+625,scan_0625.trace,256,heavy_scan_pressure,206,69.6,2Q (VLDB '94),24.9640,6241,18759,231.4
+625,scan_0625.trace,256,heavy_scan_pressure,206,69.6,Static-Fuzzy (Bengar '20),9.0480,2262,22738,198.0
+625,scan_0625.trace,256,heavy_scan_pressure,206,69.6,Fast-LUT-ANFIS,9.5680,2392,22608,649.4
+640,scan_0640.trace,256,heavy_scan_pressure,224,55.8,LRU,19.3480,4837,20163,163.2
+640,scan_0640.trace,256,heavy_scan_pressure,224,55.8,FIFO,17.0400,4260,20740,108.4
+640,scan_0640.trace,256,heavy_scan_pressure,224,55.8,LFU,41.2960,10324,14676,164.0
+640,scan_0640.trace,256,heavy_scan_pressure,224,55.8,IBM-ARC,42.3280,10582,14418,196.5
+640,scan_0640.trace,256,heavy_scan_pressure,224,55.8,2Q (VLDB '94),36.3560,9089,15911,217.2
+640,scan_0640.trace,256,heavy_scan_pressure,224,55.8,Static-Fuzzy (Bengar '20),17.0960,4274,20726,191.7
+640,scan_0640.trace,256,heavy_scan_pressure,224,55.8,Fast-LUT-ANFIS,18.5040,4626,20374,613.3
+799,scan_0799.trace,256,segmented_scans,133,11.1,LRU,84.9720,21243,3757,111.1
+799,scan_0799.trace,256,segmented_scans,133,11.1,FIFO,82.3840,20596,4404,59.8
+799,scan_0799.trace,256,segmented_scans,133,11.1,LFU,88.4000,22100,2900,119.3
+799,scan_0799.trace,256,segmented_scans,133,11.1,IBM-ARC,88.4000,22100,2900,112.4
+799,scan_0799.trace,256,segmented_scans,133,11.1,2Q (VLDB '94),87.1720,21793,3207,107.5
+799,scan_0799.trace,256,segmented_scans,133,11.1,Static-Fuzzy (Bengar '20),87.5000,21875,3125,67.3
+799,scan_0799.trace,256,segmented_scans,133,11.1,Fast-LUT-ANFIS,85.2320,21308,3692,181.3
+699,scan_0699.trace,256,segmented_scans,166,6.0,LRU,90.9920,22748,2252,104.2
+699,scan_0699.trace,256,segmented_scans,166,6.0,FIFO,87.9120,21978,3022,54.8
+699,scan_0699.trace,256,segmented_scans,166,6.0,LFU,93.3760,23344,1656,112.0
+699,scan_0699.trace,256,segmented_scans,166,6.0,IBM-ARC,93.3760,23344,1656,103.4
+699,scan_0699.trace,256,segmented_scans,166,6.0,2Q (VLDB '94),92.7160,23179,1821,97.4
+699,scan_0699.trace,256,segmented_scans,166,6.0,Static-Fuzzy (Bengar '20),92.6800,23170,1830,59.5
+699,scan_0699.trace,256,segmented_scans,166,6.0,Fast-LUT-ANFIS,91.6880,22922,2078,142.6
+603,scan_0603.trace,256,multi_stride_scan,179,21.4,LRU,68.1200,17030,7970,137.0
+603,scan_0603.trace,256,multi_stride_scan,179,21.4,FIFO,56.5080,14127,10873,83.6
+603,scan_0603.trace,256,multi_stride_scan,179,21.4,LFU,77.7400,19435,5565,132.8
+603,scan_0603.trace,256,multi_stride_scan,179,21.4,IBM-ARC,77.7560,19439,5561,133.9
+603,scan_0603.trace,256,multi_stride_scan,179,21.4,2Q (VLDB '94),77.0320,19258,5742,135.1
+603,scan_0603.trace,256,multi_stride_scan,179,21.4,Static-Fuzzy (Bengar '20),65.9480,16487,8513,105.2
+603,scan_0603.trace,256,multi_stride_scan,179,21.4,Fast-LUT-ANFIS,71.1720,17793,7207,279.9
+644,scan_0644.trace,256,segmented_scans,147,8.6,LRU,89.1560,22289,2711,109.5
+644,scan_0644.trace,256,segmented_scans,147,8.6,FIFO,85.1160,21279,3721,58.8
+644,scan_0644.trace,256,segmented_scans,147,8.6,LFU,90.8200,22705,2295,121.9
+644,scan_0644.trace,256,segmented_scans,147,8.6,IBM-ARC,90.8200,22705,2295,109.0
+644,scan_0644.trace,256,segmented_scans,147,8.6,2Q (VLDB '94),90.2320,22558,2442,105.0
+644,scan_0644.trace,256,segmented_scans,147,8.6,Static-Fuzzy (Bengar '20),90.3000,22575,2425,62.5
+644,scan_0644.trace,256,segmented_scans,147,8.6,Fast-LUT-ANFIS,88.3720,22093,2907,169.3
+887,scan_0887.trace,512,periodic_large_burst_scan,351,25.0,LRU,67.9800,16995,8005,127.9
+887,scan_0887.trace,512,periodic_large_burst_scan,351,25.0,FIFO,67.9800,16995,8005,68.9
+887,scan_0887.trace,512,periodic_large_burst_scan,351,25.0,LFU,73.5960,18399,6601,133.3
+887,scan_0887.trace,512,periodic_large_burst_scan,351,25.0,IBM-ARC,73.5960,18399,6601,148.7
+887,scan_0887.trace,512,periodic_large_burst_scan,351,25.0,2Q (VLDB '94),67.9800,16995,8005,127.1
+887,scan_0887.trace,512,periodic_large_burst_scan,351,25.0,Static-Fuzzy (Bengar '20),73.3800,18345,6655,85.3
+887,scan_0887.trace,512,periodic_large_burst_scan,351,25.0,Fast-LUT-ANFIS,67.9760,16994,8006,303.5
+981,scan_0981.trace,512,interleaved_hot_scan,400,33.2,LRU,45.6640,11416,13584,158.4
+981,scan_0981.trace,512,interleaved_hot_scan,400,33.2,FIFO,38.6520,9663,15337,101.8
+981,scan_0981.trace,512,interleaved_hot_scan,400,33.2,LFU,64.1600,16040,8960,148.6
+981,scan_0981.trace,512,interleaved_hot_scan,400,33.2,IBM-ARC,64.5600,16140,8860,163.5
+981,scan_0981.trace,512,interleaved_hot_scan,400,33.2,2Q (VLDB '94),61.1000,15275,9725,177.4
+981,scan_0981.trace,512,interleaved_hot_scan,400,33.2,Static-Fuzzy (Bengar '20),45.2480,11312,13688,147.4
+981,scan_0981.trace,512,interleaved_hot_scan,400,33.2,Fast-LUT-ANFIS,43.5800,10895,14105,478.5
+924,scan_0924.trace,512,segmented_scans,431,8.3,LRU,83.2640,20816,4184,121.0
+924,scan_0924.trace,512,segmented_scans,431,8.3,FIFO,75.3120,18828,6172,69.7
+924,scan_0924.trace,512,segmented_scans,431,8.3,LFU,89.4800,22370,2630,121.6
+924,scan_0924.trace,512,segmented_scans,431,8.3,IBM-ARC,89.5320,22383,2617,121.5
+924,scan_0924.trace,512,segmented_scans,431,8.3,2Q (VLDB '94),85.3160,21329,3671,122.3
+924,scan_0924.trace,512,segmented_scans,431,8.3,Static-Fuzzy (Bengar '20),80.2480,20062,4938,82.0
+924,scan_0924.trace,512,segmented_scans,431,8.3,Fast-LUT-ANFIS,84.2800,21070,3930,203.8
+910,scan_0910.trace,512,heavy_scan_pressure,323,54.8,LRU,25.4760,6369,18631,166.0
+910,scan_0910.trace,512,heavy_scan_pressure,323,54.8,FIFO,21.5240,5381,19619,110.4
+910,scan_0910.trace,512,heavy_scan_pressure,323,54.8,LFU,42.4840,10621,14379,161.5
+910,scan_0910.trace,512,heavy_scan_pressure,323,54.8,IBM-ARC,42.9600,10740,14260,202.3
+910,scan_0910.trace,512,heavy_scan_pressure,323,54.8,2Q (VLDB '94),40.9240,10231,14769,211.6
+910,scan_0910.trace,512,heavy_scan_pressure,323,54.8,Static-Fuzzy (Bengar '20),23.8720,5968,19032,171.7
+910,scan_0910.trace,512,heavy_scan_pressure,323,54.8,Fast-LUT-ANFIS,23.7080,5927,19073,580.2
+877,scan_0877.trace,512,periodic_large_burst_scan,315,25.0,LRU,68.6880,17172,7828,121.4
+877,scan_0877.trace,512,periodic_large_burst_scan,315,25.0,FIFO,68.6880,17172,7828,65.9
+877,scan_0877.trace,512,periodic_large_burst_scan,315,25.0,LFU,73.7280,18432,6568,131.6
+877,scan_0877.trace,512,periodic_large_burst_scan,315,25.0,IBM-ARC,73.7280,18432,6568,140.2
+877,scan_0877.trace,512,periodic_large_burst_scan,315,25.0,2Q (VLDB '94),68.6880,17172,7828,119.2
+877,scan_0877.trace,512,periodic_large_burst_scan,315,25.0,Static-Fuzzy (Bengar '20),73.4760,18369,6631,85.5
+877,scan_0877.trace,512,periodic_large_burst_scan,315,25.0,Fast-LUT-ANFIS,68.6960,17174,7826,289.1
+933,scan_0933.trace,512,multi_stride_scan,265,20.8,LRU,76.2400,19060,5940,136.3
+933,scan_0933.trace,512,multi_stride_scan,265,20.8,FIFO,63.7760,15944,9056,80.7
+933,scan_0933.trace,512,multi_stride_scan,265,20.8,LFU,78.1000,19525,5475,136.8
+933,scan_0933.trace,512,multi_stride_scan,265,20.8,IBM-ARC,78.1000,19525,5475,142.5
+933,scan_0933.trace,512,multi_stride_scan,265,20.8,2Q (VLDB '94),76.9920,19248,5752,140.1
+933,scan_0933.trace,512,multi_stride_scan,265,20.8,Static-Fuzzy (Bengar '20),74.5080,18627,6373,88.6
+933,scan_0933.trace,512,multi_stride_scan,265,20.8,Fast-LUT-ANFIS,77.2040,19301,5699,248.3
+891,scan_0891.trace,512,interleaved_hot_scan,339,16.4,LRU,77.8240,19456,5544,145.0
+891,scan_0891.trace,512,interleaved_hot_scan,339,16.4,FIFO,65.5520,16388,8612,83.6
+891,scan_0891.trace,512,interleaved_hot_scan,339,16.4,LFU,82.2000,20550,4450,144.4
+891,scan_0891.trace,512,interleaved_hot_scan,339,16.4,IBM-ARC,82.2000,20550,4450,146.2
+891,scan_0891.trace,512,interleaved_hot_scan,339,16.4,2Q (VLDB '94),80.8600,20215,4785,142.1
+891,scan_0891.trace,512,interleaved_hot_scan,339,16.4,Static-Fuzzy (Bengar '20),76.3720,19093,5907,97.5
+891,scan_0891.trace,512,interleaved_hot_scan,339,16.4,Fast-LUT-ANFIS,79.6400,19910,5090,258.3
+919,scan_0919.trace,512,segmented_scans,319,9.7,LRU,86.2000,21550,3450,110.0
+919,scan_0919.trace,512,segmented_scans,319,9.7,FIFO,80.6640,20166,4834,61.8
+919,scan_0919.trace,512,segmented_scans,319,9.7,LFU,88.9440,22236,2764,116.1
+919,scan_0919.trace,512,segmented_scans,319,9.7,IBM-ARC,88.9520,22238,2762,112.4
+919,scan_0919.trace,512,segmented_scans,319,9.7,2Q (VLDB '94),87.3280,21832,3168,108.0
+919,scan_0919.trace,512,segmented_scans,319,9.7,Static-Fuzzy (Bengar '20),88.6680,22167,2833,63.3
+919,scan_0919.trace,512,segmented_scans,319,9.7,Fast-LUT-ANFIS,87.2200,21805,3195,174.5
+926,scan_0926.trace,512,interleaved_hot_scan,472,26.0,LRU,49.7760,12444,12556,164.8
+926,scan_0926.trace,512,interleaved_hot_scan,472,26.0,FIFO,43.0960,10774,14226,100.7
+926,scan_0926.trace,512,interleaved_hot_scan,472,26.0,LFU,70.2080,17552,7448,152.6
+926,scan_0926.trace,512,interleaved_hot_scan,472,26.0,IBM-ARC,71.2400,17810,7190,161.0
+926,scan_0926.trace,512,interleaved_hot_scan,472,26.0,2Q (VLDB '94),61.4000,15350,9650,186.9
+926,scan_0926.trace,512,interleaved_hot_scan,472,26.0,Static-Fuzzy (Bengar '20),50.0520,12513,12487,144.6
+926,scan_0926.trace,512,interleaved_hot_scan,472,26.0,Fast-LUT-ANFIS,47.9640,11991,13009,468.3
+921,scan_0921.trace,512,interleaved_hot_scan,458,39.0,LRU,34.6440,8661,16339,162.2
+921,scan_0921.trace,512,interleaved_hot_scan,458,39.0,FIFO,30.0800,7520,17480,106.9
+921,scan_0921.trace,512,interleaved_hot_scan,458,39.0,LFU,56.3400,14085,10915,158.6
+921,scan_0921.trace,512,interleaved_hot_scan,458,39.0,IBM-ARC,57.7920,14448,10552,177.4
+921,scan_0921.trace,512,interleaved_hot_scan,458,39.0,2Q (VLDB '94),49.8200,12455,12545,203.5
+921,scan_0921.trace,512,interleaved_hot_scan,458,39.0,Static-Fuzzy (Bengar '20),32.2640,8066,16934,170.9
+921,scan_0921.trace,512,interleaved_hot_scan,458,39.0,Fast-LUT-ANFIS,32.9040,8226,16774,552.5
+908,scan_0908.trace,512,multi_stride_scan,381,30.9,LRU,50.6080,12652,12348,156.6
+908,scan_0908.trace,512,multi_stride_scan,381,30.9,FIFO,42.4560,10614,14386,99.6
+908,scan_0908.trace,512,multi_stride_scan,381,30.9,LFU,66.8480,16712,8288,149.5
+908,scan_0908.trace,512,multi_stride_scan,381,30.9,IBM-ARC,67.1680,16792,8208,161.6
+908,scan_0908.trace,512,multi_stride_scan,381,30.9,2Q (VLDB '94),65.3920,16348,8652,168.4
+908,scan_0908.trace,512,multi_stride_scan,381,30.9,Static-Fuzzy (Bengar '20),50.8720,12718,12282,139.1
+908,scan_0908.trace,512,multi_stride_scan,381,30.9,Fast-LUT-ANFIS,48.9960,12249,12751,448.2
+822,scan_0822.trace,512,periodic_large_burst_scan,391,25.0,LRU,65.7680,16442,8558,126.7
+822,scan_0822.trace,512,periodic_large_burst_scan,391,25.0,FIFO,65.7680,16442,8558,71.7
+822,scan_0822.trace,512,periodic_large_burst_scan,391,25.0,LFU,73.4200,18355,6645,136.7
+822,scan_0822.trace,512,periodic_large_burst_scan,391,25.0,IBM-ARC,73.4200,18355,6645,145.7
+822,scan_0822.trace,512,periodic_large_burst_scan,391,25.0,2Q (VLDB '94),65.7680,16442,8558,128.4
+822,scan_0822.trace,512,periodic_large_burst_scan,391,25.0,Static-Fuzzy (Bengar '20),73.0800,18270,6730,91.9
+822,scan_0822.trace,512,periodic_large_burst_scan,391,25.0,Fast-LUT-ANFIS,65.7640,16441,8559,316.7
+939,scan_0939.trace,512,segmented_scans,265,10.4,LRU,87.5720,21893,3107,116.7
+939,scan_0939.trace,512,segmented_scans,265,10.4,FIFO,81.2080,20302,4698,65.3
+939,scan_0939.trace,512,segmented_scans,265,10.4,LFU,88.5120,22128,2872,123.7
+939,scan_0939.trace,512,segmented_scans,265,10.4,IBM-ARC,88.5120,22128,2872,121.7
+939,scan_0939.trace,512,segmented_scans,265,10.4,2Q (VLDB '94),87.4520,21863,3137,111.0
+939,scan_0939.trace,512,segmented_scans,265,10.4,Static-Fuzzy (Bengar '20),87.4760,21869,3131,68.6
+939,scan_0939.trace,512,segmented_scans,265,10.4,Fast-LUT-ANFIS,88.3600,22090,2910,181.4
+946,scan_0946.trace,512,interleaved_hot_scan,369,17.9,LRU,72.6000,18150,6850,141.1
+946,scan_0946.trace,512,interleaved_hot_scan,369,17.9,FIFO,60.9520,15238,9762,85.5
+946,scan_0946.trace,512,interleaved_hot_scan,369,17.9,LFU,80.5080,20127,4873,138.9
+946,scan_0946.trace,512,interleaved_hot_scan,369,17.9,IBM-ARC,80.5280,20132,4868,141.2
+946,scan_0946.trace,512,interleaved_hot_scan,369,17.9,2Q (VLDB '94),79.0000,19750,5250,138.7
+946,scan_0946.trace,512,interleaved_hot_scan,369,17.9,Static-Fuzzy (Bengar '20),71.9960,17999,7001,101.8
+946,scan_0946.trace,512,interleaved_hot_scan,369,17.9,Fast-LUT-ANFIS,73.7120,18428,6572,286.6
+844,scan_0844.trace,512,segmented_scans,392,7.8,LRU,86.6720,21668,3332,120.8
+844,scan_0844.trace,512,segmented_scans,392,7.8,FIFO,79.6440,19911,5089,68.4
+844,scan_0844.trace,512,segmented_scans,392,7.8,LFU,90.4920,22623,2377,123.4
+844,scan_0844.trace,512,segmented_scans,392,7.8,IBM-ARC,90.5160,22629,2371,120.3
+844,scan_0844.trace,512,segmented_scans,392,7.8,2Q (VLDB '94),88.6560,22164,2836,115.1
+844,scan_0844.trace,512,segmented_scans,392,7.8,Static-Fuzzy (Bengar '20),86.9720,21743,3257,73.7
+844,scan_0844.trace,512,segmented_scans,392,7.8,Fast-LUT-ANFIS,88.0000,22000,3000,185.1
+999,scan_0999.trace,512,segmented_scans,333,5.0,LRU,92.1800,23045,1955,118.1
+999,scan_0999.trace,512,segmented_scans,333,5.0,FIFO,88.5560,22139,2861,59.9
+999,scan_0999.trace,512,segmented_scans,333,5.0,LFU,93.6840,23421,1579,124.2
+999,scan_0999.trace,512,segmented_scans,333,5.0,IBM-ARC,93.6840,23421,1579,111.9
+999,scan_0999.trace,512,segmented_scans,333,5.0,2Q (VLDB '94),92.0440,23011,1989,107.1
+999,scan_0999.trace,512,segmented_scans,333,5.0,Static-Fuzzy (Bengar '20),92.9560,23239,1761,62.1
+999,scan_0999.trace,512,segmented_scans,333,5.0,Fast-LUT-ANFIS,92.3600,23090,1910,153.6
+971,scan_0971.trace,512,interleaved_hot_scan,467,15.1,LRU,67.4320,16858,8142,145.6
+971,scan_0971.trace,512,interleaved_hot_scan,467,15.1,FIFO,58.4440,14611,10389,86.4
+971,scan_0971.trace,512,interleaved_hot_scan,467,15.1,LFU,82.3480,20587,4413,136.5
+971,scan_0971.trace,512,interleaved_hot_scan,467,15.1,IBM-ARC,82.5520,20638,4362,136.1
+971,scan_0971.trace,512,interleaved_hot_scan,467,15.1,2Q (VLDB '94),72.9360,18234,6766,155.8
+971,scan_0971.trace,512,interleaved_hot_scan,467,15.1,Static-Fuzzy (Bengar '20),66.5000,16625,8375,113.2
+971,scan_0971.trace,512,interleaved_hot_scan,467,15.1,Fast-LUT-ANFIS,66.9640,16741,8259,332.3
+803,scan_0803.trace,512,multi_stride_scan,289,29.4,LRU,61.5960,15399,9601,156.5
+803,scan_0803.trace,512,multi_stride_scan,289,29.4,FIFO,50.4360,12609,12391,95.5
+803,scan_0803.trace,512,multi_stride_scan,289,29.4,LFU,69.2560,17314,7686,149.1
+803,scan_0803.trace,512,multi_stride_scan,289,29.4,IBM-ARC,69.2960,17324,7676,162.7
+803,scan_0803.trace,512,multi_stride_scan,289,29.4,2Q (VLDB '94),68.0600,17015,7985,166.8
+803,scan_0803.trace,512,multi_stride_scan,289,29.4,Static-Fuzzy (Bengar '20),60.6280,15157,9843,119.3
+803,scan_0803.trace,512,multi_stride_scan,289,29.4,Fast-LUT-ANFIS,62.6320,15658,9342,355.2
+972,scan_0972.trace,512,periodic_large_burst_scan,338,25.0,LRU,63.8400,15960,9040,137.8
+972,scan_0972.trace,512,periodic_large_burst_scan,338,25.0,FIFO,63.8400,15960,9040,76.4
+972,scan_0972.trace,512,periodic_large_burst_scan,338,25.0,LFU,73.6480,18412,6588,145.1
+972,scan_0972.trace,512,periodic_large_burst_scan,338,25.0,IBM-ARC,73.6480,18412,6588,155.7
+972,scan_0972.trace,512,periodic_large_burst_scan,338,25.0,2Q (VLDB '94),63.8400,15960,9040,145.7
+972,scan_0972.trace,512,periodic_large_burst_scan,338,25.0,Static-Fuzzy (Bengar '20),73.0720,18268,6732,95.6
+972,scan_0972.trace,512,periodic_large_burst_scan,338,25.0,Fast-LUT-ANFIS,63.9200,15980,9020,356.0
+988,scan_0988.trace,512,multi_stride_scan,273,26.5,LRU,67.2240,16806,8194,152.7
+988,scan_0988.trace,512,multi_stride_scan,273,26.5,FIFO,55.2840,13821,11179,92.3
+988,scan_0988.trace,512,multi_stride_scan,273,26.5,LFU,72.3320,18083,6917,150.0
+988,scan_0988.trace,512,multi_stride_scan,273,26.5,IBM-ARC,72.3360,18084,6916,159.4
+988,scan_0988.trace,512,multi_stride_scan,273,26.5,2Q (VLDB '94),71.1760,17794,7206,165.4
+988,scan_0988.trace,512,multi_stride_scan,273,26.5,Static-Fuzzy (Bengar '20),67.0880,16772,8228,111.3
+988,scan_0988.trace,512,multi_stride_scan,273,26.5,Fast-LUT-ANFIS,69.3600,17340,7660,327.0

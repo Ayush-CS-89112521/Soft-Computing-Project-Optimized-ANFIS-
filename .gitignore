@@ -1,0 +1,105 @@
+# =========================================================================
+# Executables, Binaries & Machine Artifacts
+# =========================================================================
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.bin
+bin/
+binaries/
+build/
+cmake-build-*/
+benchmark.exe
+
+# =========================================================================
+# LaTeX Sources & Overleaf Archives (Submitted separately via Overleaf link)
+# =========================================================================
+02_LaTeX_Source/
+**/02_LaTeX_Source/
+*.tex
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+*.vrb
+*.upa
+*.upb
+*.cls
+*.sty
+*.bst
+texput.log
+*.zip
+*.tar
+*.tar.gz
+
+# =========================================================================
+# Heavy Trace Banks (~515 MB / 4,000+ files)
+# (Core benchmark traces ~2 MB in cpp/traces/ remain tracked)
+# =========================================================================
+**/cyclic_bank/
+**/phase_shift_bank/
+**/scan_bank/
+**/zipfian_bank/
+**/umass_raw/
+**/snia_raw/
+
+# =========================================================================
+# Temporary Image Previews & Cache
+# =========================================================================
+page_check-*.png
+page_8_side_by_side-*.png
+pages_7_9-*.png
+page8_verified-*.png
+page9_10_verified-*.png
+page8_verified.png
+page9_verified.png
+page10_verified.png
+*.tmp
+
+# =========================================================================
+# Internal Documentation, Old Notes & Drafts
+# =========================================================================
+06_Documentation_and_Notes/
+**/06_Documentation_and_Notes/
+
+# =========================================================================
+# Python & Virtual Environments
+# =========================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# =========================================================================
+# IDEs & System Junk
+# =========================================================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+.obsidian/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~

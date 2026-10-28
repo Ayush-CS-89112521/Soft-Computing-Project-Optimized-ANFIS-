@@ -1,0 +1,701 @@
+trace_id,filename,capacity,archetype,num_phases,hot_size,policy,hit_rate_pct,hits,misses,avg_latency_ns
+107,phase_shift_0107.trace,32,skew_migration_phases,7,40,LRU,37.1160,9279,15721,125.7
+107,phase_shift_0107.trace,32,skew_migration_phases,7,40,FIFO,33.4960,8374,16626,85.3
+107,phase_shift_0107.trace,32,skew_migration_phases,7,40,LFU,46.0120,11503,13497,197.2
+107,phase_shift_0107.trace,32,skew_migration_phases,7,40,IBM-ARC,43.5200,10880,14120,194.6
+107,phase_shift_0107.trace,32,skew_migration_phases,7,40,2Q (VLDB '94),42.9880,10747,14253,193.0
+107,phase_shift_0107.trace,32,skew_migration_phases,7,40,Static-Fuzzy (Bengar '20),37.9680,9492,15508,143.3
+107,phase_shift_0107.trace,32,skew_migration_phases,7,40,Fast-LUT-ANFIS,37.6360,9409,15591,426.0
+132,phase_shift_0132.trace,32,skew_migration_phases,6,41,LRU,32.0960,8024,16976,135.2
+132,phase_shift_0132.trace,32,skew_migration_phases,6,41,FIFO,29.1040,7276,17724,92.1
+132,phase_shift_0132.trace,32,skew_migration_phases,6,41,LFU,40.8360,10209,14791,213.9
+132,phase_shift_0132.trace,32,skew_migration_phases,6,41,IBM-ARC,38.5680,9642,15358,217.4
+132,phase_shift_0132.trace,32,skew_migration_phases,6,41,2Q (VLDB '94),38.1280,9532,15468,209.4
+132,phase_shift_0132.trace,32,skew_migration_phases,6,41,Static-Fuzzy (Bengar '20),34.4640,8616,16384,160.2
+132,phase_shift_0132.trace,32,skew_migration_phases,6,41,Fast-LUT-ANFIS,32.5640,8141,16859,477.9
+77,phase_shift_0077.trace,32,skew_migration_phases,8,45,LRU,33.2520,8313,16687,133.6
+77,phase_shift_0077.trace,32,skew_migration_phases,8,45,FIFO,30.3720,7593,17407,89.1
+77,phase_shift_0077.trace,32,skew_migration_phases,8,45,LFU,41.9360,10484,14516,213.3
+77,phase_shift_0077.trace,32,skew_migration_phases,8,45,IBM-ARC,39.3080,9827,15173,212.5
+77,phase_shift_0077.trace,32,skew_migration_phases,8,45,2Q (VLDB '94),38.6320,9658,15342,207.0
+77,phase_shift_0077.trace,32,skew_migration_phases,8,45,Static-Fuzzy (Bengar '20),35.3360,8834,16166,154.8
+77,phase_shift_0077.trace,32,skew_migration_phases,8,45,Fast-LUT-ANFIS,33.6880,8422,16578,466.5
+48,phase_shift_0048.trace,32,multi_tenant_interleaved_phases,4,25,LRU,65.1440,16286,8714,105.4
+48,phase_shift_0048.trace,32,multi_tenant_interleaved_phases,4,25,FIFO,55.8480,13962,11038,69.2
+48,phase_shift_0048.trace,32,multi_tenant_interleaved_phases,4,25,LFU,51.6640,12916,12084,177.3
+48,phase_shift_0048.trace,32,multi_tenant_interleaved_phases,4,25,IBM-ARC,73.7800,18445,6555,146.6
+48,phase_shift_0048.trace,32,multi_tenant_interleaved_phases,4,25,2Q (VLDB '94),69.9400,17485,7515,130.5
+48,phase_shift_0048.trace,32,multi_tenant_interleaved_phases,4,25,Static-Fuzzy (Bengar '20),51.8280,12957,12043,113.9
+48,phase_shift_0048.trace,32,multi_tenant_interleaved_phases,4,25,Fast-LUT-ANFIS,59.1240,14781,10219,282.4
+159,phase_shift_0159.trace,32,gradual_drift_phases,10,39,LRU,55.3760,13844,11156,116.6
+159,phase_shift_0159.trace,32,gradual_drift_phases,10,39,FIFO,50.6080,12652,12348,76.4
+159,phase_shift_0159.trace,32,gradual_drift_phases,10,39,LFU,10.0440,2511,22489,206.3
+159,phase_shift_0159.trace,32,gradual_drift_phases,10,39,IBM-ARC,65.7800,16445,8555,168.4
+159,phase_shift_0159.trace,32,gradual_drift_phases,10,39,2Q (VLDB '94),59.8080,14952,10048,160.7
+159,phase_shift_0159.trace,32,gradual_drift_phases,10,39,Static-Fuzzy (Bengar '20),29.0200,7255,17745,151.1
+159,phase_shift_0159.trace,32,gradual_drift_phases,10,39,Fast-LUT-ANFIS,29.6000,7400,17600,456.0
+61,phase_shift_0061.trace,32,abrupt_hop_phases,8,24,LRU,77.7120,19428,5572,103.5
+61,phase_shift_0061.trace,32,abrupt_hop_phases,8,24,FIFO,66.2480,16562,8438,66.8
+61,phase_shift_0061.trace,32,abrupt_hop_phases,8,24,LFU,16.4400,4110,20890,198.3
+61,phase_shift_0061.trace,32,abrupt_hop_phases,8,24,IBM-ARC,84.1560,21039,3961,129.1
+61,phase_shift_0061.trace,32,abrupt_hop_phases,8,24,2Q (VLDB '94),82.1520,20538,4462,117.7
+61,phase_shift_0061.trace,32,abrupt_hop_phases,8,24,Static-Fuzzy (Bengar '20),46.7840,11696,13304,122.4
+61,phase_shift_0061.trace,32,abrupt_hop_phases,8,24,Fast-LUT-ANFIS,68.7360,17184,7816,243.6
+194,phase_shift_0194.trace,32,gradual_drift_phases,5,27,LRU,72.6480,18162,6838,108.3
+194,phase_shift_0194.trace,32,gradual_drift_phases,5,27,FIFO,62.5720,15643,9357,68.4
+194,phase_shift_0194.trace,32,gradual_drift_phases,5,27,LFU,22.0480,5512,19488,195.6
+194,phase_shift_0194.trace,32,gradual_drift_phases,5,27,IBM-ARC,84.2000,21050,3950,126.4
+194,phase_shift_0194.trace,32,gradual_drift_phases,5,27,2Q (VLDB '94),77.3760,19344,5656,129.7
+194,phase_shift_0194.trace,32,gradual_drift_phases,5,27,Static-Fuzzy (Bengar '20),45.4680,11367,13633,127.9
+194,phase_shift_0194.trace,32,gradual_drift_phases,5,27,Fast-LUT-ANFIS,71.2280,17807,7193,229.9
+67,phase_shift_0067.trace,32,skew_migration_phases,7,38,LRU,39.9320,9983,15017,131.7
+67,phase_shift_0067.trace,32,skew_migration_phases,7,38,FIFO,36.3160,9079,15921,85.2
+67,phase_shift_0067.trace,32,skew_migration_phases,7,38,LFU,48.5920,12148,12852,213.8
+67,phase_shift_0067.trace,32,skew_migration_phases,7,38,IBM-ARC,45.4880,11372,13628,201.2
+67,phase_shift_0067.trace,32,skew_migration_phases,7,38,2Q (VLDB '94),45.0920,11273,13727,197.4
+67,phase_shift_0067.trace,32,skew_migration_phases,7,38,Static-Fuzzy (Bengar '20),41.9400,10485,14515,144.4
+67,phase_shift_0067.trace,32,skew_migration_phases,7,38,Fast-LUT-ANFIS,40.4680,10117,14883,424.4
+74,phase_shift_0074.trace,32,gradual_drift_phases,9,23,LRU,78.5120,19628,5372,105.7
+74,phase_shift_0074.trace,32,gradual_drift_phases,9,23,FIFO,66.6840,16671,8329,67.0
+74,phase_shift_0074.trace,32,gradual_drift_phases,9,23,LFU,15.4480,3862,21138,199.7
+74,phase_shift_0074.trace,32,gradual_drift_phases,9,23,IBM-ARC,83.9800,20995,4005,126.9
+74,phase_shift_0074.trace,32,gradual_drift_phases,9,23,2Q (VLDB '94),83.1640,20791,4209,121.3
+74,phase_shift_0074.trace,32,gradual_drift_phases,9,23,Static-Fuzzy (Bengar '20),48.3440,12086,12914,118.5
+74,phase_shift_0074.trace,32,gradual_drift_phases,9,23,Fast-LUT-ANFIS,71.7360,17934,7066,227.9
+137,phase_shift_0137.trace,32,skew_migration_phases,7,21,LRU,39.4320,9858,15142,133.5
+137,phase_shift_0137.trace,32,skew_migration_phases,7,21,FIFO,35.8880,8972,16028,86.7
+137,phase_shift_0137.trace,32,skew_migration_phases,7,21,LFU,48.3400,12085,12915,211.3
+137,phase_shift_0137.trace,32,skew_migration_phases,7,21,IBM-ARC,45.6840,11421,13579,208.0
+137,phase_shift_0137.trace,32,skew_migration_phases,7,21,2Q (VLDB '94),45.2440,11311,13689,199.1
+137,phase_shift_0137.trace,32,skew_migration_phases,7,21,Static-Fuzzy (Bengar '20),42.0600,10515,14485,146.8
+137,phase_shift_0137.trace,32,skew_migration_phases,7,21,Fast-LUT-ANFIS,39.7680,9942,15058,435.2
+4,phase_shift_0004.trace,32,gradual_drift_phases,9,23,LRU,78.3560,19589,5411,106.8
+4,phase_shift_0004.trace,32,gradual_drift_phases,9,23,FIFO,66.7120,16678,8322,68.8
+4,phase_shift_0004.trace,32,gradual_drift_phases,9,23,LFU,15.5680,3892,21108,203.9
+4,phase_shift_0004.trace,32,gradual_drift_phases,9,23,IBM-ARC,83.9320,20983,4017,131.5
+4,phase_shift_0004.trace,32,gradual_drift_phases,9,23,2Q (VLDB '94),83.0880,20772,4228,124.0
+4,phase_shift_0004.trace,32,gradual_drift_phases,9,23,Static-Fuzzy (Bengar '20),48.2720,12068,12932,121.2
+4,phase_shift_0004.trace,32,gradual_drift_phases,9,23,Fast-LUT-ANFIS,75.2800,18820,6180,213.2
+72,phase_shift_0072.trace,32,skew_migration_phases,9,40,LRU,37.9360,9484,15516,130.7
+72,phase_shift_0072.trace,32,skew_migration_phases,9,40,FIFO,34.4040,8601,16399,84.9
+72,phase_shift_0072.trace,32,skew_migration_phases,9,40,LFU,46.2000,11550,13450,209.4
+72,phase_shift_0072.trace,32,skew_migration_phases,9,40,IBM-ARC,43.6960,10924,14076,204.8
+72,phase_shift_0072.trace,32,skew_migration_phases,9,40,2Q (VLDB '94),43.1520,10788,14212,199.7
+72,phase_shift_0072.trace,32,skew_migration_phases,9,40,Static-Fuzzy (Bengar '20),39.5440,9886,15114,146.4
+72,phase_shift_0072.trace,32,skew_migration_phases,9,40,Fast-LUT-ANFIS,38.0720,9518,15482,433.6
+195,phase_shift_0195.trace,32,bursty_phase_spikes,7,23,LRU,64.7320,16183,8817,112.9
+195,phase_shift_0195.trace,32,bursty_phase_spikes,7,23,FIFO,58.2240,14556,10444,71.8
+195,phase_shift_0195.trace,32,bursty_phase_spikes,7,23,LFU,52.8600,13215,11785,185.1
+195,phase_shift_0195.trace,32,bursty_phase_spikes,7,23,IBM-ARC,66.0200,16505,8495,164.1
+195,phase_shift_0195.trace,32,bursty_phase_spikes,7,23,2Q (VLDB '94),65.2640,16316,8684,151.4
+195,phase_shift_0195.trace,32,bursty_phase_spikes,7,23,Static-Fuzzy (Bengar '20),56.9080,14227,10773,113.5
+195,phase_shift_0195.trace,32,bursty_phase_spikes,7,23,Fast-LUT-ANFIS,61.5240,15381,9619,282.7
+125,phase_shift_0125.trace,32,bursty_phase_spikes,9,27,LRU,58.8160,14704,10296,114.8
+125,phase_shift_0125.trace,32,bursty_phase_spikes,9,27,FIFO,52.8720,13218,11782,73.5
+125,phase_shift_0125.trace,32,bursty_phase_spikes,9,27,LFU,50.9480,12737,12263,179.9
+125,phase_shift_0125.trace,32,bursty_phase_spikes,9,27,IBM-ARC,62.4160,15604,9396,172.7
+125,phase_shift_0125.trace,32,bursty_phase_spikes,9,27,2Q (VLDB '94),59.0760,14769,10231,157.4
+125,phase_shift_0125.trace,32,bursty_phase_spikes,9,27,Static-Fuzzy (Bengar '20),48.8880,12222,12778,122.9
+125,phase_shift_0125.trace,32,bursty_phase_spikes,9,27,Fast-LUT-ANFIS,52.9040,13226,11774,325.5
+157,phase_shift_0157.trace,32,skew_migration_phases,10,28,LRU,33.7760,8444,16556,133.9
+157,phase_shift_0157.trace,32,skew_migration_phases,10,28,FIFO,30.8680,7717,17283,87.8
+157,phase_shift_0157.trace,32,skew_migration_phases,10,28,LFU,42.7360,10684,14316,211.0
+157,phase_shift_0157.trace,32,skew_migration_phases,10,28,IBM-ARC,39.9360,9984,15016,211.3
+157,phase_shift_0157.trace,32,skew_migration_phases,10,28,2Q (VLDB '94),39.2360,9809,15191,208.4
+157,phase_shift_0157.trace,32,skew_migration_phases,10,28,Static-Fuzzy (Bengar '20),37.3080,9327,15673,150.2
+157,phase_shift_0157.trace,32,skew_migration_phases,10,28,Fast-LUT-ANFIS,34.0640,8516,16484,459.5
+97,phase_shift_0097.trace,32,skew_migration_phases,8,41,LRU,34.6520,8663,16337,132.3
+97,phase_shift_0097.trace,32,skew_migration_phases,8,41,FIFO,31.6240,7906,17094,86.7
+97,phase_shift_0097.trace,32,skew_migration_phases,8,41,LFU,43.5400,10885,14115,214.2
+97,phase_shift_0097.trace,32,skew_migration_phases,8,41,IBM-ARC,40.7480,10187,14813,209.7
+97,phase_shift_0097.trace,32,skew_migration_phases,8,41,2Q (VLDB '94),40.2840,10071,14929,203.7
+97,phase_shift_0097.trace,32,skew_migration_phases,8,41,Static-Fuzzy (Bengar '20),36.1120,9028,15972,153.2
+97,phase_shift_0097.trace,32,skew_migration_phases,8,41,Fast-LUT-ANFIS,34.7560,8689,16311,452.7
+63,phase_shift_0063.trace,32,multi_tenant_interleaved_phases,7,26,LRU,65.2680,16317,8683,127.3
+63,phase_shift_0063.trace,32,multi_tenant_interleaved_phases,7,26,FIFO,56.0960,14024,10976,80.0
+63,phase_shift_0063.trace,32,multi_tenant_interleaved_phases,7,26,LFU,49.6760,12419,12581,210.0
+63,phase_shift_0063.trace,32,multi_tenant_interleaved_phases,7,26,IBM-ARC,76.4280,19107,5893,164.7
+63,phase_shift_0063.trace,32,multi_tenant_interleaved_phases,7,26,2Q (VLDB '94),71.3240,17831,7169,162.5
+63,phase_shift_0063.trace,32,multi_tenant_interleaved_phases,7,26,Static-Fuzzy (Bengar '20),50.8280,12707,12293,133.0
+63,phase_shift_0063.trace,32,multi_tenant_interleaved_phases,7,26,Fast-LUT-ANFIS,56.4960,14124,10876,350.3
+53,phase_shift_0053.trace,32,multi_tenant_interleaved_phases,5,37,LRU,50.7960,12699,12301,114.1
+53,phase_shift_0053.trace,32,multi_tenant_interleaved_phases,5,37,FIFO,45.9200,11480,13520,74.0
+53,phase_shift_0053.trace,32,multi_tenant_interleaved_phases,5,37,LFU,36.7440,9186,15814,180.2
+53,phase_shift_0053.trace,32,multi_tenant_interleaved_phases,5,37,IBM-ARC,61.5240,15381,9619,163.2
+53,phase_shift_0053.trace,32,multi_tenant_interleaved_phases,5,37,2Q (VLDB '94),55.3600,13840,11160,156.8
+53,phase_shift_0053.trace,32,multi_tenant_interleaved_phases,5,37,Static-Fuzzy (Bengar '20),35.6600,8915,16085,134.9
+53,phase_shift_0053.trace,32,multi_tenant_interleaved_phases,5,37,Fast-LUT-ANFIS,41.4840,10371,14629,365.1
+124,phase_shift_0124.trace,32,gradual_drift_phases,4,19,LRU,83.6560,20914,4086,93.3
+124,phase_shift_0124.trace,32,gradual_drift_phases,4,19,FIFO,71.8600,17965,7035,59.4
+124,phase_shift_0124.trace,32,gradual_drift_phases,4,19,LFU,37.4720,9368,15632,177.7
+124,phase_shift_0124.trace,32,gradual_drift_phases,4,19,IBM-ARC,85.1840,21296,3704,127.2
+124,phase_shift_0124.trace,32,gradual_drift_phases,4,19,2Q (VLDB '94),84.9880,21247,3753,109.2
+124,phase_shift_0124.trace,32,gradual_drift_phases,4,19,Static-Fuzzy (Bengar '20),61.8160,15454,9546,93.5
+124,phase_shift_0124.trace,32,gradual_drift_phases,4,19,Fast-LUT-ANFIS,83.2360,20809,4191,155.5
+108,phase_shift_0108.trace,32,multi_tenant_interleaved_phases,6,39,LRU,47.6680,11917,13083,116.7
+108,phase_shift_0108.trace,32,multi_tenant_interleaved_phases,6,39,FIFO,43.4120,10853,14147,75.6
+108,phase_shift_0108.trace,32,multi_tenant_interleaved_phases,6,39,LFU,34.4120,8603,16397,181.2
+108,phase_shift_0108.trace,32,multi_tenant_interleaved_phases,6,39,IBM-ARC,57.7880,14447,10553,172.8
+108,phase_shift_0108.trace,32,multi_tenant_interleaved_phases,6,39,2Q (VLDB '94),51.9920,12998,12002,163.4
+108,phase_shift_0108.trace,32,multi_tenant_interleaved_phases,6,39,Static-Fuzzy (Bengar '20),37.6920,9423,15577,131.2
+108,phase_shift_0108.trace,32,multi_tenant_interleaved_phases,6,39,Fast-LUT-ANFIS,39.2320,9808,15192,388.0
+346,phase_shift_0346.trace,64,abrupt_hop_phases,5,83,LRU,51.7320,12933,12067,119.4
+346,phase_shift_0346.trace,64,abrupt_hop_phases,5,83,FIFO,47.1280,11782,13218,75.0
+346,phase_shift_0346.trace,64,abrupt_hop_phases,5,83,LFU,13.8080,3452,21548,192.2
+346,phase_shift_0346.trace,64,abrupt_hop_phases,5,83,IBM-ARC,62.2760,15569,9431,170.5
+346,phase_shift_0346.trace,64,abrupt_hop_phases,5,83,2Q (VLDB '94),56.4120,14103,10897,157.9
+346,phase_shift_0346.trace,64,abrupt_hop_phases,5,83,Static-Fuzzy (Bengar '20),19.7200,4930,20070,155.7
+346,phase_shift_0346.trace,64,abrupt_hop_phases,5,83,Fast-LUT-ANFIS,23.0080,5752,19248,488.3
+307,phase_shift_0307.trace,64,skew_migration_phases,5,84,LRU,41.4040,10351,14649,133.2
+307,phase_shift_0307.trace,64,skew_migration_phases,5,84,FIFO,38.1680,9542,15458,83.1
+307,phase_shift_0307.trace,64,skew_migration_phases,5,84,LFU,49.2920,12323,12677,194.3
+307,phase_shift_0307.trace,64,skew_migration_phases,5,84,IBM-ARC,47.1960,11799,13201,200.4
+307,phase_shift_0307.trace,64,skew_migration_phases,5,84,2Q (VLDB '94),46.4880,11622,13378,196.5
+307,phase_shift_0307.trace,64,skew_migration_phases,5,84,Static-Fuzzy (Bengar '20),43.8640,10966,14034,131.8
+307,phase_shift_0307.trace,64,skew_migration_phases,5,84,Fast-LUT-ANFIS,41.8600,10465,14535,417.7
+387,phase_shift_0387.trace,64,skew_migration_phases,5,77,LRU,42.5280,10632,14368,146.2
+387,phase_shift_0387.trace,64,skew_migration_phases,5,77,FIFO,39.2720,9818,15182,89.1
+387,phase_shift_0387.trace,64,skew_migration_phases,5,77,LFU,50.7760,12694,12306,215.9
+387,phase_shift_0387.trace,64,skew_migration_phases,5,77,IBM-ARC,48.4800,12120,12880,220.3
+387,phase_shift_0387.trace,64,skew_migration_phases,5,77,2Q (VLDB '94),47.8080,11952,13048,213.6
+387,phase_shift_0387.trace,64,skew_migration_phases,5,77,Static-Fuzzy (Bengar '20),44.3520,11088,13912,139.6
+387,phase_shift_0387.trace,64,skew_migration_phases,5,77,Fast-LUT-ANFIS,42.9480,10737,14263,440.9
+212,phase_shift_0212.trace,64,skew_migration_phases,4,49,LRU,38.7240,9681,15319,131.8
+212,phase_shift_0212.trace,64,skew_migration_phases,4,49,FIFO,36.1240,9031,15969,83.8
+212,phase_shift_0212.trace,64,skew_migration_phases,4,49,LFU,45.6840,11421,13579,197.5
+212,phase_shift_0212.trace,64,skew_migration_phases,4,49,IBM-ARC,43.9560,10989,14011,205.4
+212,phase_shift_0212.trace,64,skew_migration_phases,4,49,2Q (VLDB '94),43.1160,10779,14221,201.4
+212,phase_shift_0212.trace,64,skew_migration_phases,4,49,Static-Fuzzy (Bengar '20),40.1400,10035,14965,135.9
+212,phase_shift_0212.trace,64,skew_migration_phases,4,49,Fast-LUT-ANFIS,39.0200,9755,15245,421.5
+204,phase_shift_0204.trace,64,gradual_drift_phases,6,67,LRU,62.3360,15584,9416,119.3
+204,phase_shift_0204.trace,64,gradual_drift_phases,6,67,FIFO,55.3880,13847,11153,74.0
+204,phase_shift_0204.trace,64,gradual_drift_phases,6,67,LFU,14.4280,3607,21393,192.9
+204,phase_shift_0204.trace,64,gradual_drift_phases,6,67,IBM-ARC,76.9440,19236,5764,147.7
+204,phase_shift_0204.trace,64,gradual_drift_phases,6,67,2Q (VLDB '94),67.0080,16752,8248,148.6
+204,phase_shift_0204.trace,64,gradual_drift_phases,6,67,Static-Fuzzy (Bengar '20),22.2360,5559,19441,152.0
+204,phase_shift_0204.trace,64,gradual_drift_phases,6,67,Fast-LUT-ANFIS,49.6360,12409,12591,357.8
+384,phase_shift_0384.trace,64,gradual_drift_phases,10,64,LRU,63.1800,15795,9205,114.8
+384,phase_shift_0384.trace,64,gradual_drift_phases,10,64,FIFO,55.8840,13971,11029,70.0
+384,phase_shift_0384.trace,64,gradual_drift_phases,10,64,LFU,9.4600,2365,22635,194.6
+384,phase_shift_0384.trace,64,gradual_drift_phases,10,64,IBM-ARC,78.2080,19552,5448,138.9
+384,phase_shift_0384.trace,64,gradual_drift_phases,10,64,2Q (VLDB '94),67.5360,16884,8116,141.8
+384,phase_shift_0384.trace,64,gradual_drift_phases,10,64,Static-Fuzzy (Bengar '20),20.3680,5092,19908,157.2
+384,phase_shift_0384.trace,64,gradual_drift_phases,10,64,Fast-LUT-ANFIS,34.8360,8709,16291,424.7
+329,phase_shift_0329.trace,64,gradual_drift_phases,8,40,LRU,81.9160,20479,4521,104.8
+329,phase_shift_0329.trace,64,gradual_drift_phases,8,40,FIFO,69.9440,17486,7514,64.6
+329,phase_shift_0329.trace,64,gradual_drift_phases,8,40,LFU,18.4800,4620,20380,188.9
+329,phase_shift_0329.trace,64,gradual_drift_phases,8,40,IBM-ARC,83.7360,20934,4066,139.3
+329,phase_shift_0329.trace,64,gradual_drift_phases,8,40,2Q (VLDB '94),82.8480,20712,4288,119.5
+329,phase_shift_0329.trace,64,gradual_drift_phases,8,40,Static-Fuzzy (Bengar '20),32.5400,8135,16865,135.4
+329,phase_shift_0329.trace,64,gradual_drift_phases,8,40,Fast-LUT-ANFIS,51.1800,12795,12205,334.3
+340,phase_shift_0340.trace,64,bursty_phase_spikes,10,85,LRU,38.1040,9526,15474,133.7
+340,phase_shift_0340.trace,64,bursty_phase_spikes,10,85,FIFO,35.8040,8951,16049,85.4
+340,phase_shift_0340.trace,64,bursty_phase_spikes,10,85,LFU,34.4840,8621,16379,182.8
+340,phase_shift_0340.trace,64,bursty_phase_spikes,10,85,IBM-ARC,40.8800,10220,14780,222.8
+340,phase_shift_0340.trace,64,bursty_phase_spikes,10,85,2Q (VLDB '94),38.0200,9505,15495,203.8
+340,phase_shift_0340.trace,64,bursty_phase_spikes,10,85,Static-Fuzzy (Bengar '20),31.7680,7942,17058,148.3
+340,phase_shift_0340.trace,64,bursty_phase_spikes,10,85,Fast-LUT-ANFIS,33.1400,8285,16715,449.6
+244,phase_shift_0244.trace,64,gradual_drift_phases,9,50,LRU,76.1760,19044,5956,112.3
+244,phase_shift_0244.trace,64,gradual_drift_phases,9,50,FIFO,65.2200,16305,8695,69.8
+244,phase_shift_0244.trace,64,gradual_drift_phases,9,50,LFU,14.5760,3644,21356,198.1
+244,phase_shift_0244.trace,64,gradual_drift_phases,9,50,IBM-ARC,82.9960,20749,4251,138.7
+244,phase_shift_0244.trace,64,gradual_drift_phases,9,50,2Q (VLDB '94),79.7680,19942,5058,126.9
+244,phase_shift_0244.trace,64,gradual_drift_phases,9,50,Static-Fuzzy (Bengar '20),27.2840,6821,18179,149.7
+244,phase_shift_0244.trace,64,gradual_drift_phases,9,50,Fast-LUT-ANFIS,42.5360,10634,14366,394.5
+213,phase_shift_0213.trace,64,multi_tenant_interleaved_phases,4,55,LRU,61.6240,15406,9594,120.1
+213,phase_shift_0213.trace,64,multi_tenant_interleaved_phases,4,55,FIFO,53.3840,13346,11654,75.7
+213,phase_shift_0213.trace,64,multi_tenant_interleaved_phases,4,55,LFU,46.8960,11724,13276,171.8
+213,phase_shift_0213.trace,64,multi_tenant_interleaved_phases,4,55,IBM-ARC,73.2640,18316,6684,153.3
+213,phase_shift_0213.trace,64,multi_tenant_interleaved_phases,4,55,2Q (VLDB '94),66.8680,16717,8283,147.6
+213,phase_shift_0213.trace,64,multi_tenant_interleaved_phases,4,55,Static-Fuzzy (Bengar '20),38.4880,9622,15378,134.5
+213,phase_shift_0213.trace,64,multi_tenant_interleaved_phases,4,55,Fast-LUT-ANFIS,53.7000,13425,11575,333.6
+269,phase_shift_0269.trace,64,gradual_drift_phases,4,76,LRU,56.4920,14123,10877,116.2
+269,phase_shift_0269.trace,64,gradual_drift_phases,4,76,FIFO,51.1600,12790,12210,71.7
+269,phase_shift_0269.trace,64,gradual_drift_phases,4,76,LFU,18.6240,4656,20344,181.5
+269,phase_shift_0269.trace,64,gradual_drift_phases,4,76,IBM-ARC,68.0960,17024,7976,156.3
+269,phase_shift_0269.trace,64,gradual_drift_phases,4,76,2Q (VLDB '94),61.0320,15258,9742,149.0
+269,phase_shift_0269.trace,64,gradual_drift_phases,4,76,Static-Fuzzy (Bengar '20),23.3200,5830,19170,146.8
+269,phase_shift_0269.trace,64,gradual_drift_phases,4,76,Fast-LUT-ANFIS,28.3200,7080,17920,437.4
+358,phase_shift_0358.trace,64,multi_tenant_interleaved_phases,8,83,LRU,44.5880,11147,13853,127.8
+358,phase_shift_0358.trace,64,multi_tenant_interleaved_phases,8,83,FIFO,40.6560,10164,14836,80.1
+358,phase_shift_0358.trace,64,multi_tenant_interleaved_phases,8,83,LFU,32.5280,8132,16868,176.0
+358,phase_shift_0358.trace,64,multi_tenant_interleaved_phases,8,83,IBM-ARC,53.5520,13388,11612,190.2
+358,phase_shift_0358.trace,64,multi_tenant_interleaved_phases,8,83,2Q (VLDB '94),48.2600,12065,12935,176.4
+358,phase_shift_0358.trace,64,multi_tenant_interleaved_phases,8,83,Static-Fuzzy (Bengar '20),27.7040,6926,18074,145.3
+358,phase_shift_0358.trace,64,multi_tenant_interleaved_phases,8,83,Fast-LUT-ANFIS,39.4000,9850,15150,398.2
+202,phase_shift_0202.trace,64,skew_migration_phases,9,51,LRU,40.1800,10045,14955,124.8
+202,phase_shift_0202.trace,64,skew_migration_phases,9,51,FIFO,37.1880,9297,15703,79.6
+202,phase_shift_0202.trace,64,skew_migration_phases,9,51,LFU,47.5080,11877,13123,178.7
+202,phase_shift_0202.trace,64,skew_migration_phases,9,51,IBM-ARC,45.6920,11423,13577,189.5
+202,phase_shift_0202.trace,64,skew_migration_phases,9,51,2Q (VLDB '94),45.3560,11339,13661,185.3
+202,phase_shift_0202.trace,64,skew_migration_phases,9,51,Static-Fuzzy (Bengar '20),43.6920,10923,14077,123.0
+202,phase_shift_0202.trace,64,skew_migration_phases,9,51,Fast-LUT-ANFIS,41.0480,10262,14738,390.9
+235,phase_shift_0235.trace,64,bursty_phase_spikes,10,87,LRU,36.9880,9247,15753,142.2
+235,phase_shift_0235.trace,64,bursty_phase_spikes,10,87,FIFO,34.9560,8739,16261,89.3
+235,phase_shift_0235.trace,64,bursty_phase_spikes,10,87,LFU,33.0360,8259,16741,192.3
+235,phase_shift_0235.trace,64,bursty_phase_spikes,10,87,IBM-ARC,39.7720,9943,15057,239.6
+235,phase_shift_0235.trace,64,bursty_phase_spikes,10,87,2Q (VLDB '94),37.0400,9260,15740,216.2
+235,phase_shift_0235.trace,64,bursty_phase_spikes,10,87,Static-Fuzzy (Bengar '20),28.9560,7239,17761,158.9
+235,phase_shift_0235.trace,64,bursty_phase_spikes,10,87,Fast-LUT-ANFIS,32.9920,8248,16752,472.1
+226,phase_shift_0226.trace,64,abrupt_hop_phases,4,47,LRU,78.4360,19609,5391,103.9
+226,phase_shift_0226.trace,64,abrupt_hop_phases,4,47,FIFO,66.6520,16663,8337,65.5
+226,phase_shift_0226.trace,64,abrupt_hop_phases,4,47,LFU,29.6000,7400,17600,172.5
+226,phase_shift_0226.trace,64,abrupt_hop_phases,4,47,IBM-ARC,84.4320,21108,3892,132.9
+226,phase_shift_0226.trace,64,abrupt_hop_phases,4,47,2Q (VLDB '94),83.6120,20903,4097,115.9
+226,phase_shift_0226.trace,64,abrupt_hop_phases,4,47,Static-Fuzzy (Bengar '20),36.2320,9058,15942,126.6
+226,phase_shift_0226.trace,64,abrupt_hop_phases,4,47,Fast-LUT-ANFIS,54.3520,13588,11412,318.2
+221,phase_shift_0221.trace,64,abrupt_hop_phases,4,67,LRU,61.8200,15455,9545,119.0
+221,phase_shift_0221.trace,64,abrupt_hop_phases,4,67,FIFO,55.1640,13791,11209,73.6
+221,phase_shift_0221.trace,64,abrupt_hop_phases,4,67,LFU,20.8480,5212,19788,183.8
+221,phase_shift_0221.trace,64,abrupt_hop_phases,4,67,IBM-ARC,76.9480,19237,5763,146.3
+221,phase_shift_0221.trace,64,abrupt_hop_phases,4,67,2Q (VLDB '94),67.1280,16782,8218,147.6
+221,phase_shift_0221.trace,64,abrupt_hop_phases,4,67,Static-Fuzzy (Bengar '20),25.0000,6250,18750,151.6
+221,phase_shift_0221.trace,64,abrupt_hop_phases,4,67,Fast-LUT-ANFIS,37.7000,9425,15575,408.3
+201,phase_shift_0201.trace,64,abrupt_hop_phases,10,60,LRU,65.8400,16460,8540,117.6
+201,phase_shift_0201.trace,64,abrupt_hop_phases,10,60,FIFO,57.5440,14386,10614,72.7
+201,phase_shift_0201.trace,64,abrupt_hop_phases,10,60,LFU,10.2320,2558,22442,191.7
+201,phase_shift_0201.trace,64,abrupt_hop_phases,10,60,IBM-ARC,80.3160,20079,4921,138.7
+201,phase_shift_0201.trace,64,abrupt_hop_phases,10,60,2Q (VLDB '94),70.2840,17571,7429,140.8
+201,phase_shift_0201.trace,64,abrupt_hop_phases,10,60,Static-Fuzzy (Bengar '20),21.4160,5354,19646,154.1
+201,phase_shift_0201.trace,64,abrupt_hop_phases,10,60,Fast-LUT-ANFIS,33.3600,8340,16660,432.1
+394,phase_shift_0394.trace,64,gradual_drift_phases,9,93,LRU,46.5600,11640,13360,125.4
+394,phase_shift_0394.trace,64,gradual_drift_phases,9,93,FIFO,43.3440,10836,14164,77.8
+394,phase_shift_0394.trace,64,gradual_drift_phases,9,93,LFU,8.4720,2118,22882,208.8
+394,phase_shift_0394.trace,64,gradual_drift_phases,9,93,IBM-ARC,54.5320,13633,11367,190.3
+394,phase_shift_0394.trace,64,gradual_drift_phases,9,93,2Q (VLDB '94),50.4520,12613,12387,172.0
+394,phase_shift_0394.trace,64,gradual_drift_phases,9,93,Static-Fuzzy (Bengar '20),15.8720,3968,21032,161.7
+394,phase_shift_0394.trace,64,gradual_drift_phases,9,93,Fast-LUT-ANFIS,38.2920,9573,15427,407.7
+328,phase_shift_0328.trace,64,multi_tenant_interleaved_phases,10,72,LRU,49.4520,12363,12637,127.2
+328,phase_shift_0328.trace,64,multi_tenant_interleaved_phases,10,72,FIFO,44.8520,11213,13787,78.8
+328,phase_shift_0328.trace,64,multi_tenant_interleaved_phases,10,72,LFU,36.7880,9197,15803,178.9
+328,phase_shift_0328.trace,64,multi_tenant_interleaved_phases,10,72,IBM-ARC,55.2160,13804,11196,192.4
+328,phase_shift_0328.trace,64,multi_tenant_interleaved_phases,10,72,2Q (VLDB '94),49.8960,12474,12526,177.1
+328,phase_shift_0328.trace,64,multi_tenant_interleaved_phases,10,72,Static-Fuzzy (Bengar '20),33.1040,8276,16724,142.2
+328,phase_shift_0328.trace,64,multi_tenant_interleaved_phases,10,72,Fast-LUT-ANFIS,39.5480,9887,15113,416.4
+391,phase_shift_0391.trace,64,abrupt_hop_phases,5,38,LRU,83.2680,20817,4183,102.0
+391,phase_shift_0391.trace,64,abrupt_hop_phases,5,38,FIFO,71.3720,17843,7157,62.6
+391,phase_shift_0391.trace,64,abrupt_hop_phases,5,38,LFU,28.7840,7196,17804,178.8
+391,phase_shift_0391.trace,64,abrupt_hop_phases,5,38,IBM-ARC,84.5920,21148,3852,132.6
+391,phase_shift_0391.trace,64,abrupt_hop_phases,5,38,2Q (VLDB '94),83.9760,20994,4006,117.9
+391,phase_shift_0391.trace,64,abrupt_hop_phases,5,38,Static-Fuzzy (Bengar '20),37.3800,9345,15655,130.5
+391,phase_shift_0391.trace,64,abrupt_hop_phases,5,38,Fast-LUT-ANFIS,63.5720,15893,9107,270.0
+522,phase_shift_0522.trace,128,skew_migration_phases,6,124,LRU,40.6440,10161,14839,133.9
+522,phase_shift_0522.trace,128,skew_migration_phases,6,124,FIFO,38.0120,9503,15497,85.1
+522,phase_shift_0522.trace,128,skew_migration_phases,6,124,LFU,47.8040,11951,13049,197.9
+522,phase_shift_0522.trace,128,skew_migration_phases,6,124,IBM-ARC,46.2960,11574,13426,215.3
+522,phase_shift_0522.trace,128,skew_migration_phases,6,124,2Q (VLDB '94),45.5440,11386,13614,194.3
+522,phase_shift_0522.trace,128,skew_migration_phases,6,124,Static-Fuzzy (Bengar '20),42.3360,10584,14416,131.6
+522,phase_shift_0522.trace,128,skew_migration_phases,6,124,Fast-LUT-ANFIS,41.2840,10321,14679,427.0
+581,phase_shift_0581.trace,128,abrupt_hop_phases,8,106,LRU,71.9800,17995,7005,114.2
+581,phase_shift_0581.trace,128,abrupt_hop_phases,8,106,FIFO,62.2920,15573,9427,70.1
+581,phase_shift_0581.trace,128,abrupt_hop_phases,8,106,LFU,20.2320,5058,19942,183.0
+581,phase_shift_0581.trace,128,abrupt_hop_phases,8,106,IBM-ARC,79.7920,19948,5052,148.9
+581,phase_shift_0581.trace,128,abrupt_hop_phases,8,106,2Q (VLDB '94),74.7280,18682,6318,131.2
+581,phase_shift_0581.trace,128,abrupt_hop_phases,8,106,Static-Fuzzy (Bengar '20),22.7840,5696,19304,151.9
+581,phase_shift_0581.trace,128,abrupt_hop_phases,8,106,Fast-LUT-ANFIS,63.9200,15980,9020,288.0
+576,phase_shift_0576.trace,128,abrupt_hop_phases,4,145,LRU,57.0480,14262,10738,119.6
+576,phase_shift_0576.trace,128,abrupt_hop_phases,4,145,FIFO,51.1680,12792,12208,74.0
+576,phase_shift_0576.trace,128,abrupt_hop_phases,4,145,LFU,18.6920,4673,20327,177.9
+576,phase_shift_0576.trace,128,abrupt_hop_phases,4,145,IBM-ARC,70.2880,17572,7428,159.3
+576,phase_shift_0576.trace,128,abrupt_hop_phases,4,145,2Q (VLDB '94),62.0640,15516,9484,150.6
+576,phase_shift_0576.trace,128,abrupt_hop_phases,4,145,Static-Fuzzy (Bengar '20),19.9640,4991,20009,156.5
+576,phase_shift_0576.trace,128,abrupt_hop_phases,4,145,Fast-LUT-ANFIS,52.8880,13222,11778,340.5
+542,phase_shift_0542.trace,128,skew_migration_phases,6,125,LRU,38.5640,9641,15359,131.4
+542,phase_shift_0542.trace,128,skew_migration_phases,6,125,FIFO,36.0960,9024,15976,83.0
+542,phase_shift_0542.trace,128,skew_migration_phases,6,125,LFU,45.7400,11435,13565,189.1
+542,phase_shift_0542.trace,128,skew_migration_phases,6,125,IBM-ARC,44.4040,11101,13899,205.6
+542,phase_shift_0542.trace,128,skew_migration_phases,6,125,2Q (VLDB '94),43.6280,10907,14093,191.8
+542,phase_shift_0542.trace,128,skew_migration_phases,6,125,Static-Fuzzy (Bengar '20),40.5200,10130,14870,132.9
+542,phase_shift_0542.trace,128,skew_migration_phases,6,125,Fast-LUT-ANFIS,39.0480,9762,15238,436.7
+425,phase_shift_0425.trace,128,bursty_phase_spikes,7,90,LRU,64.1000,16025,8975,112.1
+425,phase_shift_0425.trace,128,bursty_phase_spikes,7,90,FIFO,57.9520,14488,10512,68.7
+425,phase_shift_0425.trace,128,bursty_phase_spikes,7,90,LFU,52.6000,13150,11850,159.2
+425,phase_shift_0425.trace,128,bursty_phase_spikes,7,90,IBM-ARC,64.2120,16053,8947,175.9
+425,phase_shift_0425.trace,128,bursty_phase_spikes,7,90,2Q (VLDB '94),62.9680,15742,9258,144.1
+425,phase_shift_0425.trace,128,bursty_phase_spikes,7,90,Static-Fuzzy (Bengar '20),50.3600,12590,12410,117.3
+425,phase_shift_0425.trace,128,bursty_phase_spikes,7,90,Fast-LUT-ANFIS,52.6160,13154,11846,345.5
+429,phase_shift_0429.trace,128,gradual_drift_phases,10,104,LRU,71.5600,17890,7110,111.4
+429,phase_shift_0429.trace,128,gradual_drift_phases,10,104,FIFO,61.6320,15408,9592,68.0
+429,phase_shift_0429.trace,128,gradual_drift_phases,10,104,LFU,10.9120,2728,22272,185.2
+429,phase_shift_0429.trace,128,gradual_drift_phases,10,104,IBM-ARC,78.4760,19619,5381,151.4
+429,phase_shift_0429.trace,128,gradual_drift_phases,10,104,2Q (VLDB '94),74.0000,18500,6500,126.7
+429,phase_shift_0429.trace,128,gradual_drift_phases,10,104,Static-Fuzzy (Bengar '20),15.8560,3964,21036,156.6
+429,phase_shift_0429.trace,128,gradual_drift_phases,10,104,Fast-LUT-ANFIS,62.1840,15546,9454,287.7
+529,phase_shift_0529.trace,128,gradual_drift_phases,8,144,LRU,57.4720,14368,10632,121.3
+529,phase_shift_0529.trace,128,gradual_drift_phases,8,144,FIFO,51.9160,12979,12021,74.2
+529,phase_shift_0529.trace,128,gradual_drift_phases,8,144,LFU,9.6840,2421,22579,189.1
+529,phase_shift_0529.trace,128,gradual_drift_phases,8,144,IBM-ARC,68.0920,17023,7977,167.7
+529,phase_shift_0529.trace,128,gradual_drift_phases,8,144,2Q (VLDB '94),60.5360,15134,9866,154.8
+529,phase_shift_0529.trace,128,gradual_drift_phases,8,144,Static-Fuzzy (Bengar '20),13.5680,3392,21608,163.4
+529,phase_shift_0529.trace,128,gradual_drift_phases,8,144,Fast-LUT-ANFIS,52.7200,13180,11820,347.1
+489,phase_shift_0489.trace,128,gradual_drift_phases,7,134,LRU,61.3120,15328,9672,118.9
+489,phase_shift_0489.trace,128,gradual_drift_phases,7,134,FIFO,54.4920,13623,11377,73.8
+489,phase_shift_0489.trace,128,gradual_drift_phases,7,134,LFU,11.7400,2935,22065,188.8
+489,phase_shift_0489.trace,128,gradual_drift_phases,7,134,IBM-ARC,74.1960,18549,6451,154.4
+489,phase_shift_0489.trace,128,gradual_drift_phases,7,134,2Q (VLDB '94),64.7200,16180,8820,145.9
+489,phase_shift_0489.trace,128,gradual_drift_phases,7,134,Static-Fuzzy (Bengar '20),15.6160,3904,21096,165.0
+489,phase_shift_0489.trace,128,gradual_drift_phases,7,134,Fast-LUT-ANFIS,54.7400,13685,11315,333.4
+437,phase_shift_0437.trace,128,skew_migration_phases,10,167,LRU,39.9680,9992,15008,131.3
+437,phase_shift_0437.trace,128,skew_migration_phases,10,167,FIFO,37.5800,9395,15605,82.7
+437,phase_shift_0437.trace,128,skew_migration_phases,10,167,LFU,46.2520,11563,13437,189.6
+437,phase_shift_0437.trace,128,skew_migration_phases,10,167,IBM-ARC,45.5600,11390,13610,208.2
+437,phase_shift_0437.trace,128,skew_migration_phases,10,167,2Q (VLDB '94),44.5720,11143,13857,189.7
+437,phase_shift_0437.trace,128,skew_migration_phases,10,167,Static-Fuzzy (Bengar '20),43.2440,10811,14189,127.5
+437,phase_shift_0437.trace,128,skew_migration_phases,10,167,Fast-LUT-ANFIS,40.5280,10132,14868,425.8
+580,phase_shift_0580.trace,128,bursty_phase_spikes,6,186,LRU,34.7000,8675,16325,132.4
+580,phase_shift_0580.trace,128,bursty_phase_spikes,6,186,FIFO,33.4040,8351,16649,84.2
+580,phase_shift_0580.trace,128,bursty_phase_spikes,6,186,LFU,30.9360,7734,17266,173.7
+580,phase_shift_0580.trace,128,bursty_phase_spikes,6,186,IBM-ARC,37.1240,9281,15719,232.9
+580,phase_shift_0580.trace,128,bursty_phase_spikes,6,186,2Q (VLDB '94),34.9080,8727,16273,199.6
+580,phase_shift_0580.trace,128,bursty_phase_spikes,6,186,Static-Fuzzy (Bengar '20),28.7800,7195,17805,148.4
+580,phase_shift_0580.trace,128,bursty_phase_spikes,6,186,Fast-LUT-ANFIS,34.3640,8591,16409,444.9
+434,phase_shift_0434.trace,128,gradual_drift_phases,5,116,LRU,69.2760,17319,7681,118.2
+434,phase_shift_0434.trace,128,gradual_drift_phases,5,116,FIFO,60.1960,15049,9951,72.7
+434,phase_shift_0434.trace,128,gradual_drift_phases,5,116,LFU,18.7760,4694,20306,188.3
+434,phase_shift_0434.trace,128,gradual_drift_phases,5,116,IBM-ARC,81.7520,20438,4562,145.8
+434,phase_shift_0434.trace,128,gradual_drift_phases,5,116,2Q (VLDB '94),73.2400,18310,6690,138.8
+434,phase_shift_0434.trace,128,gradual_drift_phases,5,116,Static-Fuzzy (Bengar '20),20.5160,5129,19871,160.1
+434,phase_shift_0434.trace,128,gradual_drift_phases,5,116,Fast-LUT-ANFIS,62.2800,15570,9430,306.0
+442,phase_shift_0442.trace,128,skew_migration_phases,10,85,LRU,38.9800,9745,15255,132.9
+442,phase_shift_0442.trace,128,skew_migration_phases,10,85,FIFO,36.7240,9181,15819,84.9
+442,phase_shift_0442.trace,128,skew_migration_phases,10,85,LFU,44.8520,11213,13787,185.4
+442,phase_shift_0442.trace,128,skew_migration_phases,10,85,IBM-ARC,44.6360,11159,13841,214.6
+442,phase_shift_0442.trace,128,skew_migration_phases,10,85,2Q (VLDB '94),43.9720,10993,14007,195.1
+442,phase_shift_0442.trace,128,skew_migration_phases,10,85,Static-Fuzzy (Bengar '20),40.2560,10064,14936,140.6
+442,phase_shift_0442.trace,128,skew_migration_phases,10,85,Fast-LUT-ANFIS,39.5960,9899,15101,447.7
+573,phase_shift_0573.trace,128,multi_tenant_interleaved_phases,10,160,LRU,41.2440,10311,14689,134.4
+573,phase_shift_0573.trace,128,multi_tenant_interleaved_phases,10,160,FIFO,38.6520,9663,15337,84.1
+573,phase_shift_0573.trace,128,multi_tenant_interleaved_phases,10,160,LFU,32.6200,8155,16845,180.9
+573,phase_shift_0573.trace,128,multi_tenant_interleaved_phases,10,160,IBM-ARC,37.3640,9341,15659,250.1
+573,phase_shift_0573.trace,128,multi_tenant_interleaved_phases,10,160,2Q (VLDB '94),31.7320,7933,17067,205.1
+573,phase_shift_0573.trace,128,multi_tenant_interleaved_phases,10,160,Static-Fuzzy (Bengar '20),25.8360,6459,18541,157.5
+573,phase_shift_0573.trace,128,multi_tenant_interleaved_phases,10,160,Fast-LUT-ANFIS,40.3640,10091,14909,421.7
+411,phase_shift_0411.trace,128,abrupt_hop_phases,4,173,LRU,50.0000,12500,12500,130.7
+411,phase_shift_0411.trace,128,abrupt_hop_phases,4,173,FIFO,46.0280,11507,13493,79.7
+411,phase_shift_0411.trace,128,abrupt_hop_phases,4,173,LFU,15.9560,3989,21011,191.1
+411,phase_shift_0411.trace,128,abrupt_hop_phases,4,173,IBM-ARC,59.5160,14879,10121,193.9
+411,phase_shift_0411.trace,128,abrupt_hop_phases,4,173,2Q (VLDB '94),54.1320,13533,11467,171.0
+411,phase_shift_0411.trace,128,abrupt_hop_phases,4,173,Static-Fuzzy (Bengar '20),17.0400,4260,20740,165.2
+411,phase_shift_0411.trace,128,abrupt_hop_phases,4,173,Fast-LUT-ANFIS,47.4880,11872,13128,386.0
+505,phase_shift_0505.trace,128,bursty_phase_spikes,7,82,LRU,66.7920,16698,8302,115.1
+505,phase_shift_0505.trace,128,bursty_phase_spikes,7,82,FIFO,61.4840,15371,9629,69.8
+505,phase_shift_0505.trace,128,bursty_phase_spikes,7,82,LFU,53.4720,13368,11632,158.6
+505,phase_shift_0505.trace,128,bursty_phase_spikes,7,82,IBM-ARC,66.5240,16631,8369,175.2
+505,phase_shift_0505.trace,128,bursty_phase_spikes,7,82,2Q (VLDB '94),65.1200,16280,8720,146.2
+505,phase_shift_0505.trace,128,bursty_phase_spikes,7,82,Static-Fuzzy (Bengar '20),51.6360,12909,12091,117.4
+505,phase_shift_0505.trace,128,bursty_phase_spikes,7,82,Fast-LUT-ANFIS,56.7000,14175,10825,329.1
+441,phase_shift_0441.trace,128,abrupt_hop_phases,5,173,LRU,48.8640,12216,12784,135.5
+441,phase_shift_0441.trace,128,abrupt_hop_phases,5,173,FIFO,45.1080,11277,13723,84.6
+441,phase_shift_0441.trace,128,abrupt_hop_phases,5,173,LFU,12.6320,3158,21842,199.5
+441,phase_shift_0441.trace,128,abrupt_hop_phases,5,173,IBM-ARC,58.4200,14605,10395,199.6
+441,phase_shift_0441.trace,128,abrupt_hop_phases,5,173,2Q (VLDB '94),52.4040,13101,11899,180.7
+441,phase_shift_0441.trace,128,abrupt_hop_phases,5,173,Static-Fuzzy (Bengar '20),14.0960,3524,21476,176.7
+441,phase_shift_0441.trace,128,abrupt_hop_phases,5,173,Fast-LUT-ANFIS,47.0600,11765,13235,400.7
+457,phase_shift_0457.trace,128,skew_migration_phases,7,189,LRU,44.4640,11116,13884,129.1
+457,phase_shift_0457.trace,128,skew_migration_phases,7,189,FIFO,41.8960,10474,14526,80.4
+457,phase_shift_0457.trace,128,skew_migration_phases,7,189,LFU,50.8080,12702,12298,192.1
+457,phase_shift_0457.trace,128,skew_migration_phases,7,189,IBM-ARC,49.7160,12429,12571,203.8
+457,phase_shift_0457.trace,128,skew_migration_phases,7,189,2Q (VLDB '94),49.1440,12286,12714,184.6
+457,phase_shift_0457.trace,128,skew_migration_phases,7,189,Static-Fuzzy (Bengar '20),45.7560,11439,13561,130.1
+457,phase_shift_0457.trace,128,skew_migration_phases,7,189,Fast-LUT-ANFIS,44.9080,11227,13773,411.5
+548,phase_shift_0548.trace,128,multi_tenant_interleaved_phases,5,153,LRU,44.3480,11087,13913,135.7
+548,phase_shift_0548.trace,128,multi_tenant_interleaved_phases,5,153,FIFO,41.1040,10276,14724,83.3
+548,phase_shift_0548.trace,128,multi_tenant_interleaved_phases,5,153,LFU,33.7720,8443,16557,178.8
+548,phase_shift_0548.trace,128,multi_tenant_interleaved_phases,5,153,IBM-ARC,41.7040,10426,14574,240.8
+548,phase_shift_0548.trace,128,multi_tenant_interleaved_phases,5,153,2Q (VLDB '94),38.7320,9683,15317,198.6
+548,phase_shift_0548.trace,128,multi_tenant_interleaved_phases,5,153,Static-Fuzzy (Bengar '20),27.6440,6911,18089,153.5
+548,phase_shift_0548.trace,128,multi_tenant_interleaved_phases,5,153,Fast-LUT-ANFIS,43.2800,10820,14180,415.9
+464,phase_shift_0464.trace,128,gradual_drift_phases,10,182,LRU,45.9320,11483,13517,133.9
+464,phase_shift_0464.trace,128,gradual_drift_phases,10,182,FIFO,42.8280,10707,14293,83.2
+464,phase_shift_0464.trace,128,gradual_drift_phases,10,182,LFU,6.1920,1548,23452,210.7
+464,phase_shift_0464.trace,128,gradual_drift_phases,10,182,IBM-ARC,52.6520,13163,11837,212.3
+464,phase_shift_0464.trace,128,gradual_drift_phases,10,182,2Q (VLDB '94),48.2080,12052,12948,181.9
+464,phase_shift_0464.trace,128,gradual_drift_phases,10,182,Static-Fuzzy (Bengar '20),9.8680,2467,22533,181.3
+464,phase_shift_0464.trace,128,gradual_drift_phases,10,182,Fast-LUT-ANFIS,45.0400,11260,13740,403.6
+495,phase_shift_0495.trace,128,bursty_phase_spikes,7,185,LRU,37.8400,9460,15540,140.4
+495,phase_shift_0495.trace,128,bursty_phase_spikes,7,185,FIFO,35.9920,8998,16002,88.3
+495,phase_shift_0495.trace,128,bursty_phase_spikes,7,185,LFU,35.7080,8927,16073,179.9
+495,phase_shift_0495.trace,128,bursty_phase_spikes,7,185,IBM-ARC,40.6800,10170,14830,242.3
+495,phase_shift_0495.trace,128,bursty_phase_spikes,7,185,2Q (VLDB '94),37.7320,9433,15567,210.6
+495,phase_shift_0495.trace,128,bursty_phase_spikes,7,185,Static-Fuzzy (Bengar '20),32.1800,8045,16955,150.0
+495,phase_shift_0495.trace,128,bursty_phase_spikes,7,185,Fast-LUT-ANFIS,37.4400,9360,15640,454.1
+696,phase_shift_0696.trace,256,abrupt_hop_phases,7,245,LRU,64.6280,16157,8843,125.8
+696,phase_shift_0696.trace,256,abrupt_hop_phases,7,245,FIFO,57.5760,14394,10606,78.0
+696,phase_shift_0696.trace,256,abrupt_hop_phases,7,245,LFU,12.0200,3005,21995,190.5
+696,phase_shift_0696.trace,256,abrupt_hop_phases,7,245,IBM-ARC,74.1520,18538,6462,166.3
+696,phase_shift_0696.trace,256,abrupt_hop_phases,7,245,2Q (VLDB '94),65.2640,16316,8684,147.9
+696,phase_shift_0696.trace,256,abrupt_hop_phases,7,245,Static-Fuzzy (Bengar '20),13.6760,3419,21581,174.8
+696,phase_shift_0696.trace,256,abrupt_hop_phases,7,245,Fast-LUT-ANFIS,59.7640,14941,10059,335.6
+759,phase_shift_0759.trace,256,gradual_drift_phases,9,332,LRU,49.6720,12418,12582,142.1
+759,phase_shift_0759.trace,256,gradual_drift_phases,9,332,FIFO,46.1480,11537,13463,86.3
+759,phase_shift_0759.trace,256,gradual_drift_phases,9,332,LFU,7.2520,1813,23187,205.5
+759,phase_shift_0759.trace,256,gradual_drift_phases,9,332,IBM-ARC,53.8680,13467,11533,219.7
+759,phase_shift_0759.trace,256,gradual_drift_phases,9,332,2Q (VLDB '94),49.1600,12290,12710,179.1
+759,phase_shift_0759.trace,256,gradual_drift_phases,9,332,Static-Fuzzy (Bengar '20),9.0000,2250,22750,189.8
+759,phase_shift_0759.trace,256,gradual_drift_phases,9,332,Fast-LUT-ANFIS,48.3680,12092,12908,407.4
+724,phase_shift_0724.trace,256,gradual_drift_phases,8,293,LRU,54.9480,13737,11263,153.7
+724,phase_shift_0724.trace,256,gradual_drift_phases,8,293,FIFO,50.0200,12505,12495,91.9
+724,phase_shift_0724.trace,256,gradual_drift_phases,8,293,LFU,9.0320,2258,22742,221.0
+724,phase_shift_0724.trace,256,gradual_drift_phases,8,293,IBM-ARC,62.0000,15500,9500,221.9
+724,phase_shift_0724.trace,256,gradual_drift_phases,8,293,2Q (VLDB '94),55.3440,13836,11164,190.0
+724,phase_shift_0724.trace,256,gradual_drift_phases,8,293,Static-Fuzzy (Bengar '20),10.6280,2657,22343,204.0
+724,phase_shift_0724.trace,256,gradual_drift_phases,8,293,Fast-LUT-ANFIS,53.0160,13254,11746,418.7
+687,phase_shift_0687.trace,256,skew_migration_phases,4,241,LRU,45.4160,11354,13646,141.3
+687,phase_shift_0687.trace,256,skew_migration_phases,4,241,FIFO,43.5720,10893,14107,88.1
+687,phase_shift_0687.trace,256,skew_migration_phases,4,241,LFU,51.3400,12835,12165,186.3
+687,phase_shift_0687.trace,256,skew_migration_phases,4,241,IBM-ARC,50.1240,12531,12469,210.1
+687,phase_shift_0687.trace,256,skew_migration_phases,4,241,2Q (VLDB '94),49.3080,12327,12673,190.5
+687,phase_shift_0687.trace,256,skew_migration_phases,4,241,Static-Fuzzy (Bengar '20),48.2440,12061,12939,134.6
+687,phase_shift_0687.trace,256,skew_migration_phases,4,241,Fast-LUT-ANFIS,45.7880,11447,13553,433.0
+693,phase_shift_0693.trace,256,multi_tenant_interleaved_phases,5,314,LRU,43.3080,10827,14173,146.2
+693,phase_shift_0693.trace,256,multi_tenant_interleaved_phases,5,314,FIFO,40.1600,10040,14960,91.1
+693,phase_shift_0693.trace,256,multi_tenant_interleaved_phases,5,314,LFU,32.9440,8236,16764,184.0
+693,phase_shift_0693.trace,256,multi_tenant_interleaved_phases,5,314,IBM-ARC,40.3360,10084,14916,248.0
+693,phase_shift_0693.trace,256,multi_tenant_interleaved_phases,5,314,2Q (VLDB '94),37.1560,9289,15711,201.6
+693,phase_shift_0693.trace,256,multi_tenant_interleaved_phases,5,314,Static-Fuzzy (Bengar '20),26.5560,6639,18361,165.7
+693,phase_shift_0693.trace,256,multi_tenant_interleaved_phases,5,314,Fast-LUT-ANFIS,42.2920,10573,14427,443.5
+655,phase_shift_0655.trace,256,bursty_phase_spikes,9,369,LRU,35.3160,8829,16171,161.6
+655,phase_shift_0655.trace,256,bursty_phase_spikes,9,369,FIFO,33.6400,8410,16590,101.1
+655,phase_shift_0655.trace,256,bursty_phase_spikes,9,369,LFU,33.6480,8412,16588,188.7
+655,phase_shift_0655.trace,256,bursty_phase_spikes,9,369,IBM-ARC,35.9520,8988,16012,270.2
+655,phase_shift_0655.trace,256,bursty_phase_spikes,9,369,2Q (VLDB '94),32.2880,8072,16928,232.1
+655,phase_shift_0655.trace,256,bursty_phase_spikes,9,369,Static-Fuzzy (Bengar '20),30.8720,7718,17282,161.9
+655,phase_shift_0655.trace,256,bursty_phase_spikes,9,369,Fast-LUT-ANFIS,34.6920,8673,16327,500.0
+677,phase_shift_0677.trace,256,skew_migration_phases,8,296,LRU,41.0480,10262,14738,146.0
+677,phase_shift_0677.trace,256,skew_migration_phases,8,296,FIFO,39.2760,9819,15181,90.1
+677,phase_shift_0677.trace,256,skew_migration_phases,8,296,LFU,45.9360,11484,13516,191.8
+677,phase_shift_0677.trace,256,skew_migration_phases,8,296,IBM-ARC,46.2040,11551,13449,214.9
+677,phase_shift_0677.trace,256,skew_migration_phases,8,296,2Q (VLDB '94),44.9600,11240,13760,201.4
+677,phase_shift_0677.trace,256,skew_migration_phases,8,296,Static-Fuzzy (Bengar '20),44.1720,11043,13957,145.6
+677,phase_shift_0677.trace,256,skew_migration_phases,8,296,Fast-LUT-ANFIS,41.4240,10356,14644,466.8
+779,phase_shift_0779.trace,256,gradual_drift_phases,5,192,LRU,75.0880,18772,6228,131.2
+779,phase_shift_0779.trace,256,gradual_drift_phases,5,192,FIFO,64.1720,16043,8957,76.8
+779,phase_shift_0779.trace,256,gradual_drift_phases,5,192,LFU,22.5840,5646,19354,198.5
+779,phase_shift_0779.trace,256,gradual_drift_phases,5,192,IBM-ARC,79.8520,19963,5037,162.0
+779,phase_shift_0779.trace,256,gradual_drift_phases,5,192,2Q (VLDB '94),77.0600,19265,5735,140.5
+779,phase_shift_0779.trace,256,gradual_drift_phases,5,192,Static-Fuzzy (Bengar '20),19.5680,4892,20108,178.2
+779,phase_shift_0779.trace,256,gradual_drift_phases,5,192,Fast-LUT-ANFIS,62.5320,15633,9367,333.7
+791,phase_shift_0791.trace,256,abrupt_hop_phases,6,374,LRU,45.9080,11477,13523,155.8
+791,phase_shift_0791.trace,256,abrupt_hop_phases,6,374,FIFO,43.0000,10750,14250,95.5
+791,phase_shift_0791.trace,256,abrupt_hop_phases,6,374,LFU,15.9800,3995,21005,217.8
+791,phase_shift_0791.trace,256,abrupt_hop_phases,6,374,IBM-ARC,52.3120,13078,11922,240.7
+791,phase_shift_0791.trace,256,abrupt_hop_phases,6,374,2Q (VLDB '94),47.9240,11981,13019,202.3
+791,phase_shift_0791.trace,256,abrupt_hop_phases,6,374,Static-Fuzzy (Bengar '20),14.9800,3745,21255,200.2
+791,phase_shift_0791.trace,256,abrupt_hop_phases,6,374,Fast-LUT-ANFIS,44.8400,11210,13790,458.0
+613,phase_shift_0613.trace,256,multi_tenant_interleaved_phases,5,330,LRU,40.6160,10154,14846,145.7
+613,phase_shift_0613.trace,256,multi_tenant_interleaved_phases,5,330,FIFO,37.9880,9497,15503,93.3
+613,phase_shift_0613.trace,256,multi_tenant_interleaved_phases,5,330,LFU,31.4200,7855,17145,188.1
+613,phase_shift_0613.trace,256,multi_tenant_interleaved_phases,5,330,IBM-ARC,36.1560,9039,15961,256.5
+613,phase_shift_0613.trace,256,multi_tenant_interleaved_phases,5,330,2Q (VLDB '94),32.7000,8175,16825,210.1
+613,phase_shift_0613.trace,256,multi_tenant_interleaved_phases,5,330,Static-Fuzzy (Bengar '20),24.6720,6168,18832,169.9
+613,phase_shift_0613.trace,256,multi_tenant_interleaved_phases,5,330,Fast-LUT-ANFIS,39.7880,9947,15053,465.3
+726,phase_shift_0726.trace,256,abrupt_hop_phases,7,253,LRU,62.7760,15694,9306,129.0
+726,phase_shift_0726.trace,256,abrupt_hop_phases,7,253,FIFO,55.9640,13991,11009,77.8
+726,phase_shift_0726.trace,256,abrupt_hop_phases,7,253,LFU,16.1040,4026,20974,185.8
+726,phase_shift_0726.trace,256,abrupt_hop_phases,7,253,IBM-ARC,72.0240,18006,6994,170.6
+726,phase_shift_0726.trace,256,abrupt_hop_phases,7,253,2Q (VLDB '94),63.3880,15847,9153,150.6
+726,phase_shift_0726.trace,256,abrupt_hop_phases,7,253,Static-Fuzzy (Bengar '20),16.2760,4069,20931,173.1
+726,phase_shift_0726.trace,256,abrupt_hop_phases,7,253,Fast-LUT-ANFIS,58.3920,14598,10402,349.5
+754,phase_shift_0754.trace,256,gradual_drift_phases,5,169,LRU,79.3160,19829,5171,120.5
+754,phase_shift_0754.trace,256,gradual_drift_phases,5,169,FIFO,68.0880,17022,7978,73.0
+754,phase_shift_0754.trace,256,gradual_drift_phases,5,169,LFU,25.3240,6331,18669,183.8
+754,phase_shift_0754.trace,256,gradual_drift_phases,5,169,IBM-ARC,81.3000,20325,4675,159.1
+754,phase_shift_0754.trace,256,gradual_drift_phases,5,169,2Q (VLDB '94),78.7120,19678,5322,129.7
+754,phase_shift_0754.trace,256,gradual_drift_phases,5,169,Static-Fuzzy (Bengar '20),20.5440,5136,19864,164.7
+754,phase_shift_0754.trace,256,gradual_drift_phases,5,169,Fast-LUT-ANFIS,66.1080,16527,8473,298.5
+778,phase_shift_0778.trace,256,multi_tenant_interleaved_phases,8,244,LRU,51.5720,12893,12107,137.6
+778,phase_shift_0778.trace,256,multi_tenant_interleaved_phases,8,244,FIFO,47.3560,11839,13161,86.1
+778,phase_shift_0778.trace,256,multi_tenant_interleaved_phases,8,244,LFU,42.9360,10734,14266,174.4
+778,phase_shift_0778.trace,256,multi_tenant_interleaved_phases,8,244,IBM-ARC,46.6320,11658,13342,229.0
+778,phase_shift_0778.trace,256,multi_tenant_interleaved_phases,8,244,2Q (VLDB '94),42.1240,10531,14469,189.8
+778,phase_shift_0778.trace,256,multi_tenant_interleaved_phases,8,244,Static-Fuzzy (Bengar '20),32.6560,8164,16836,154.3
+778,phase_shift_0778.trace,256,multi_tenant_interleaved_phases,8,244,Fast-LUT-ANFIS,50.1840,12546,12454,403.9
+704,phase_shift_0704.trace,256,gradual_drift_phases,6,222,LRU,69.1400,17285,7715,125.1
+704,phase_shift_0704.trace,256,gradual_drift_phases,6,222,FIFO,60.0080,15002,9998,76.2
+704,phase_shift_0704.trace,256,gradual_drift_phases,6,222,LFU,15.7160,3929,21071,188.3
+704,phase_shift_0704.trace,256,gradual_drift_phases,6,222,IBM-ARC,76.8480,19212,5788,161.5
+704,phase_shift_0704.trace,256,gradual_drift_phases,6,222,2Q (VLDB '94),70.4480,17612,7388,139.2
+704,phase_shift_0704.trace,256,gradual_drift_phases,6,222,Static-Fuzzy (Bengar '20),15.0200,3755,21245,176.9
+704,phase_shift_0704.trace,256,gradual_drift_phases,6,222,Fast-LUT-ANFIS,59.6840,14921,10079,336.8
+625,phase_shift_0625.trace,256,bursty_phase_spikes,8,310,LRU,39.3720,9843,15157,145.5
+625,phase_shift_0625.trace,256,bursty_phase_spikes,8,310,FIFO,37.1440,9286,15714,92.6
+625,phase_shift_0625.trace,256,bursty_phase_spikes,8,310,LFU,36.4480,9112,15888,179.5
+625,phase_shift_0625.trace,256,bursty_phase_spikes,8,310,IBM-ARC,41.2720,10318,14682,240.0
+625,phase_shift_0625.trace,256,bursty_phase_spikes,8,310,2Q (VLDB '94),36.4800,9120,15880,204.4
+625,phase_shift_0625.trace,256,bursty_phase_spikes,8,310,Static-Fuzzy (Bengar '20),31.0840,7771,17229,161.4
+625,phase_shift_0625.trace,256,bursty_phase_spikes,8,310,Fast-LUT-ANFIS,38.7720,9693,15307,463.9
+640,phase_shift_0640.trace,256,bursty_phase_spikes,5,318,LRU,43.0280,10757,14243,142.3
+640,phase_shift_0640.trace,256,bursty_phase_spikes,5,318,FIFO,40.4040,10101,14899,89.7
+640,phase_shift_0640.trace,256,bursty_phase_spikes,5,318,LFU,42.5360,10634,14366,175.4
+640,phase_shift_0640.trace,256,bursty_phase_spikes,5,318,IBM-ARC,46.8200,11705,13295,230.1
+640,phase_shift_0640.trace,256,bursty_phase_spikes,5,318,2Q (VLDB '94),42.3600,10590,14410,198.5
+640,phase_shift_0640.trace,256,bursty_phase_spikes,5,318,Static-Fuzzy (Bengar '20),37.4480,9362,15638,148.6
+640,phase_shift_0640.trace,256,bursty_phase_spikes,5,318,Fast-LUT-ANFIS,42.1760,10544,14456,445.1
+799,phase_shift_0799.trace,256,gradual_drift_phases,6,287,LRU,57.3080,14327,10673,133.4
+799,phase_shift_0799.trace,256,gradual_drift_phases,6,287,FIFO,51.6040,12901,12099,82.7
+799,phase_shift_0799.trace,256,gradual_drift_phases,6,287,LFU,13.7080,3427,21573,190.5
+799,phase_shift_0799.trace,256,gradual_drift_phases,6,287,IBM-ARC,67.0720,16768,8232,181.6
+799,phase_shift_0799.trace,256,gradual_drift_phases,6,287,2Q (VLDB '94),59.9360,14984,10016,159.0
+799,phase_shift_0799.trace,256,gradual_drift_phases,6,287,Static-Fuzzy (Bengar '20),13.7120,3428,21572,179.8
+799,phase_shift_0799.trace,256,gradual_drift_phases,6,287,Fast-LUT-ANFIS,53.9600,13490,11510,365.0
+699,phase_shift_0699.trace,256,gradual_drift_phases,4,313,LRU,53.7720,13443,11557,139.2
+699,phase_shift_0699.trace,256,gradual_drift_phases,4,313,FIFO,48.8960,12224,12776,87.2
+699,phase_shift_0699.trace,256,gradual_drift_phases,4,313,LFU,20.6720,5168,19832,189.2
+699,phase_shift_0699.trace,256,gradual_drift_phases,4,313,IBM-ARC,64.1160,16029,8971,193.8
+699,phase_shift_0699.trace,256,gradual_drift_phases,4,313,2Q (VLDB '94),57.1280,14282,10718,168.0
+699,phase_shift_0699.trace,256,gradual_drift_phases,4,313,Static-Fuzzy (Bengar '20),18.9160,4729,20271,173.4
+699,phase_shift_0699.trace,256,gradual_drift_phases,4,313,Fast-LUT-ANFIS,51.6480,12912,12088,383.2
+603,phase_shift_0603.trace,256,multi_tenant_interleaved_phases,4,297,LRU,42.6400,10660,14340,144.9
+603,phase_shift_0603.trace,256,multi_tenant_interleaved_phases,4,297,FIFO,40.1200,10030,14970,90.0
+603,phase_shift_0603.trace,256,multi_tenant_interleaved_phases,4,297,LFU,35.0040,8751,16249,184.5
+603,phase_shift_0603.trace,256,multi_tenant_interleaved_phases,4,297,IBM-ARC,38.9600,9740,15260,253.2
+603,phase_shift_0603.trace,256,multi_tenant_interleaved_phases,4,297,2Q (VLDB '94),33.2960,8324,16676,208.3
+603,phase_shift_0603.trace,256,multi_tenant_interleaved_phases,4,297,Static-Fuzzy (Bengar '20),28.3120,7078,17922,166.0
+603,phase_shift_0603.trace,256,multi_tenant_interleaved_phases,4,297,Fast-LUT-ANFIS,41.7720,10443,14557,448.2
+644,phase_shift_0644.trace,256,gradual_drift_phases,7,267,LRU,60.3280,15082,9918,130.4
+644,phase_shift_0644.trace,256,gradual_drift_phases,7,267,FIFO,54.3080,13577,11423,80.9
+644,phase_shift_0644.trace,256,gradual_drift_phases,7,267,LFU,13.1520,3288,21712,192.7
+644,phase_shift_0644.trace,256,gradual_drift_phases,7,267,IBM-ARC,70.2960,17574,7426,176.5
+644,phase_shift_0644.trace,256,gradual_drift_phases,7,267,2Q (VLDB '94),62.3440,15586,9414,153.4
+644,phase_shift_0644.trace,256,gradual_drift_phases,7,267,Static-Fuzzy (Bengar '20),14.5600,3640,21360,179.9
+644,phase_shift_0644.trace,256,gradual_drift_phases,7,267,Fast-LUT-ANFIS,56.4400,14110,10890,360.2
+887,phase_shift_0887.trace,512,skew_migration_phases,10,583,LRU,42.4600,10615,14385,152.8
+887,phase_shift_0887.trace,512,skew_migration_phases,10,583,FIFO,41.1960,10299,14701,94.7
+887,phase_shift_0887.trace,512,skew_migration_phases,10,583,LFU,46.9400,11735,13265,190.1
+887,phase_shift_0887.trace,512,skew_migration_phases,10,583,IBM-ARC,47.4480,11862,13138,225.1
+887,phase_shift_0887.trace,512,skew_migration_phases,10,583,2Q (VLDB '94),45.1880,11297,13703,224.6
+887,phase_shift_0887.trace,512,skew_migration_phases,10,583,Static-Fuzzy (Bengar '20),45.6520,11413,13587,140.2
+887,phase_shift_0887.trace,512,skew_migration_phases,10,583,Fast-LUT-ANFIS,42.8800,10720,14280,464.1
+981,phase_shift_0981.trace,512,abrupt_hop_phases,9,342,LRU,71.6680,17917,7083,130.5
+981,phase_shift_0981.trace,512,abrupt_hop_phases,9,342,FIFO,64.1400,16035,8965,74.9
+981,phase_shift_0981.trace,512,abrupt_hop_phases,9,342,LFU,13.2720,3318,21682,212.0
+981,phase_shift_0981.trace,512,abrupt_hop_phases,9,342,IBM-ARC,70.3920,17598,7402,190.2
+981,phase_shift_0981.trace,512,abrupt_hop_phases,9,342,2Q (VLDB '94),62.1320,15533,9467,160.5
+981,phase_shift_0981.trace,512,abrupt_hop_phases,9,342,Static-Fuzzy (Bengar '20),11.1240,2781,22219,187.9
+981,phase_shift_0981.trace,512,abrupt_hop_phases,9,342,Fast-LUT-ANFIS,70.0440,17511,7489,293.6
+924,phase_shift_0924.trace,512,gradual_drift_phases,9,468,LRU,61.2600,15315,9685,140.1
+924,phase_shift_0924.trace,512,gradual_drift_phases,9,468,FIFO,55.3560,13839,11161,85.8
+924,phase_shift_0924.trace,512,gradual_drift_phases,9,468,LFU,9.7400,2435,22565,214.5
+924,phase_shift_0924.trace,512,gradual_drift_phases,9,468,IBM-ARC,58.8440,14711,10289,214.0
+924,phase_shift_0924.trace,512,gradual_drift_phases,9,468,2Q (VLDB '94),53.7360,13434,11566,176.5
+924,phase_shift_0924.trace,512,gradual_drift_phases,9,468,Static-Fuzzy (Bengar '20),9.9600,2490,22510,198.0
+924,phase_shift_0924.trace,512,gradual_drift_phases,9,468,Fast-LUT-ANFIS,59.4240,14856,10144,367.2
+910,phase_shift_0910.trace,512,bursty_phase_spikes,7,617,LRU,40.9800,10245,14755,157.8
+910,phase_shift_0910.trace,512,bursty_phase_spikes,7,617,FIFO,38.6600,9665,15335,99.7
+910,phase_shift_0910.trace,512,bursty_phase_spikes,7,617,LFU,39.8120,9953,15047,199.8
+910,phase_shift_0910.trace,512,bursty_phase_spikes,7,617,IBM-ARC,41.0720,10268,14732,259.2
+910,phase_shift_0910.trace,512,bursty_phase_spikes,7,617,2Q (VLDB '94),35.3920,8848,16152,237.8
+910,phase_shift_0910.trace,512,bursty_phase_spikes,7,617,Static-Fuzzy (Bengar '20),36.0800,9020,15980,168.6
+910,phase_shift_0910.trace,512,bursty_phase_spikes,7,617,Fast-LUT-ANFIS,40.2280,10057,14943,513.4
+877,phase_shift_0877.trace,512,skew_migration_phases,8,498,LRU,43.3160,10829,14171,151.4
+877,phase_shift_0877.trace,512,skew_migration_phases,8,498,FIFO,42.1480,10537,14463,93.7
+877,phase_shift_0877.trace,512,skew_migration_phases,8,498,LFU,47.9320,11983,13017,195.0
+877,phase_shift_0877.trace,512,skew_migration_phases,8,498,IBM-ARC,48.3280,12082,12918,221.9
+877,phase_shift_0877.trace,512,skew_migration_phases,8,498,2Q (VLDB '94),45.9840,11496,13504,219.5
+877,phase_shift_0877.trace,512,skew_migration_phases,8,498,Static-Fuzzy (Bengar '20),46.5720,11643,13357,139.3
+877,phase_shift_0877.trace,512,skew_migration_phases,8,498,Fast-LUT-ANFIS,43.7040,10926,14074,464.5
+933,phase_shift_0933.trace,512,multi_tenant_interleaved_phases,6,339,LRU,46.9200,11730,13270,156.0
+933,phase_shift_0933.trace,512,multi_tenant_interleaved_phases,6,339,FIFO,46.7640,11691,13309,90.7
+933,phase_shift_0933.trace,512,multi_tenant_interleaved_phases,6,339,LFU,59.3160,14829,10171,183.2
+933,phase_shift_0933.trace,512,multi_tenant_interleaved_phases,6,339,IBM-ARC,57.3440,14336,10664,217.6
+933,phase_shift_0933.trace,512,multi_tenant_interleaved_phases,6,339,2Q (VLDB '94),54.6760,13669,11331,200.7
+933,phase_shift_0933.trace,512,multi_tenant_interleaved_phases,6,339,Static-Fuzzy (Bengar '20),40.3120,10078,14922,160.8
+933,phase_shift_0933.trace,512,multi_tenant_interleaved_phases,6,339,Fast-LUT-ANFIS,47.0000,11750,13250,473.7
+891,phase_shift_0891.trace,512,abrupt_hop_phases,5,642,LRU,50.5360,12634,12366,149.5
+891,phase_shift_0891.trace,512,abrupt_hop_phases,5,642,FIFO,46.4680,11617,13383,92.2
+891,phase_shift_0891.trace,512,abrupt_hop_phases,5,642,LFU,12.5480,3137,21863,204.1
+891,phase_shift_0891.trace,512,abrupt_hop_phases,5,642,IBM-ARC,55.0720,13768,11232,225.9
+891,phase_shift_0891.trace,512,abrupt_hop_phases,5,642,2Q (VLDB '94),49.3640,12341,12659,197.2
+891,phase_shift_0891.trace,512,abrupt_hop_phases,5,642,Static-Fuzzy (Bengar '20),11.8080,2952,22048,191.4
+891,phase_shift_0891.trace,512,abrupt_hop_phases,5,642,Fast-LUT-ANFIS,49.2400,12310,12690,425.6
+919,phase_shift_0919.trace,512,gradual_drift_phases,7,323,LRU,75.6520,18913,6087,131.8
+919,phase_shift_0919.trace,512,gradual_drift_phases,7,323,FIFO,67.6960,16924,8076,75.1
+919,phase_shift_0919.trace,512,gradual_drift_phases,7,323,LFU,18.1920,4548,20452,194.3
+919,phase_shift_0919.trace,512,gradual_drift_phases,7,323,IBM-ARC,75.5000,18875,6125,183.9
+919,phase_shift_0919.trace,512,gradual_drift_phases,7,323,2Q (VLDB '94),68.0600,17015,7985,154.8
+919,phase_shift_0919.trace,512,gradual_drift_phases,7,323,Static-Fuzzy (Bengar '20),15.3760,3844,21156,180.7
+919,phase_shift_0919.trace,512,gradual_drift_phases,7,323,Fast-LUT-ANFIS,73.0320,18258,6742,271.2
+926,phase_shift_0926.trace,512,abrupt_hop_phases,9,359,LRU,70.7200,17680,7320,132.1
+926,phase_shift_0926.trace,512,abrupt_hop_phases,9,359,FIFO,63.2920,15823,9177,77.4
+926,phase_shift_0926.trace,512,abrupt_hop_phases,9,359,LFU,12.5720,3143,21857,210.7
+926,phase_shift_0926.trace,512,abrupt_hop_phases,9,359,IBM-ARC,69.3840,17346,7654,200.4
+926,phase_shift_0926.trace,512,abrupt_hop_phases,9,359,2Q (VLDB '94),61.0040,15251,9749,166.0
+926,phase_shift_0926.trace,512,abrupt_hop_phases,9,359,Static-Fuzzy (Bengar '20),11.5080,2877,22123,192.3
+926,phase_shift_0926.trace,512,abrupt_hop_phases,9,359,Fast-LUT-ANFIS,69.1120,17278,7722,305.5
+921,phase_shift_0921.trace,512,abrupt_hop_phases,6,338,LRU,76.2960,19074,5926,128.1
+921,phase_shift_0921.trace,512,abrupt_hop_phases,6,338,FIFO,67.2520,16813,8187,74.2
+921,phase_shift_0921.trace,512,abrupt_hop_phases,6,338,LFU,20.6200,5155,19845,191.6
+921,phase_shift_0921.trace,512,abrupt_hop_phases,6,338,IBM-ARC,77.0320,19258,5742,178.6
+921,phase_shift_0921.trace,512,abrupt_hop_phases,6,338,2Q (VLDB '94),71.4400,17860,7140,147.8
+921,phase_shift_0921.trace,512,abrupt_hop_phases,6,338,Static-Fuzzy (Bengar '20),16.0520,4013,20987,177.8
+921,phase_shift_0921.trace,512,abrupt_hop_phases,6,338,Fast-LUT-ANFIS,72.2160,18054,6946,281.0
+908,phase_shift_0908.trace,512,multi_tenant_interleaved_phases,9,358,LRU,46.5000,11625,13375,150.8
+908,phase_shift_0908.trace,512,multi_tenant_interleaved_phases,9,358,FIFO,46.4640,11616,13384,87.6
+908,phase_shift_0908.trace,512,multi_tenant_interleaved_phases,9,358,LFU,56.6160,14154,10846,169.9
+908,phase_shift_0908.trace,512,multi_tenant_interleaved_phases,9,358,IBM-ARC,53.3000,13325,11675,220.6
+908,phase_shift_0908.trace,512,multi_tenant_interleaved_phases,9,358,2Q (VLDB '94),51.7640,12941,12059,198.6
+908,phase_shift_0908.trace,512,multi_tenant_interleaved_phases,9,358,Static-Fuzzy (Bengar '20),37.5160,9379,15621,153.1
+908,phase_shift_0908.trace,512,multi_tenant_interleaved_phases,9,358,Fast-LUT-ANFIS,46.4640,11616,13384,439.6
+822,phase_shift_0822.trace,512,skew_migration_phases,6,466,LRU,41.9680,10492,14508,156.6
+822,phase_shift_0822.trace,512,skew_migration_phases,6,466,FIFO,40.4880,10122,14878,97.4
+822,phase_shift_0822.trace,512,skew_migration_phases,6,466,LFU,46.3640,11591,13409,208.6
+822,phase_shift_0822.trace,512,skew_migration_phases,6,466,IBM-ARC,46.6360,11659,13341,234.6
+822,phase_shift_0822.trace,512,skew_migration_phases,6,466,2Q (VLDB '94),44.4480,11112,13888,228.8
+822,phase_shift_0822.trace,512,skew_migration_phases,6,466,Static-Fuzzy (Bengar '20),45.5600,11390,13610,147.6
+822,phase_shift_0822.trace,512,skew_migration_phases,6,466,Fast-LUT-ANFIS,42.2480,10562,14438,496.0
+939,phase_shift_0939.trace,512,gradual_drift_phases,5,527,LRU,59.1880,14797,10203,146.7
+939,phase_shift_0939.trace,512,gradual_drift_phases,5,527,FIFO,53.3640,13341,11659,90.2
+939,phase_shift_0939.trace,512,gradual_drift_phases,5,527,LFU,14.9680,3742,21258,215.1
+939,phase_shift_0939.trace,512,gradual_drift_phases,5,527,IBM-ARC,66.0960,16524,8476,203.8
+939,phase_shift_0939.trace,512,gradual_drift_phases,5,527,2Q (VLDB '94),58.3320,14583,10417,181.9
+939,phase_shift_0939.trace,512,gradual_drift_phases,5,527,Static-Fuzzy (Bengar '20),13.8400,3460,21540,199.3
+939,phase_shift_0939.trace,512,gradual_drift_phases,5,527,Fast-LUT-ANFIS,57.2040,14301,10699,402.9
+946,phase_shift_0946.trace,512,abrupt_hop_phases,7,671,LRU,47.9800,11995,13005,180.8
+946,phase_shift_0946.trace,512,abrupt_hop_phases,7,671,FIFO,44.5800,11145,13855,108.9
+946,phase_shift_0946.trace,512,abrupt_hop_phases,7,671,LFU,11.9040,2976,22024,254.7
+946,phase_shift_0946.trace,512,abrupt_hop_phases,7,671,IBM-ARC,48.6480,12162,12838,287.9
+946,phase_shift_0946.trace,512,abrupt_hop_phases,7,671,2Q (VLDB '94),44.0920,11023,13977,247.2
+946,phase_shift_0946.trace,512,abrupt_hop_phases,7,671,Static-Fuzzy (Bengar '20),11.1720,2793,22207,231.3
+946,phase_shift_0946.trace,512,abrupt_hop_phases,7,671,Fast-LUT-ANFIS,46.9200,11730,13270,536.5
+844,phase_shift_0844.trace,512,gradual_drift_phases,6,397,LRU,70.7560,17689,7311,131.8
+844,phase_shift_0844.trace,512,gradual_drift_phases,6,397,FIFO,62.2680,15567,9433,79.6
+844,phase_shift_0844.trace,512,gradual_drift_phases,6,397,LFU,17.3120,4328,20672,212.7
+844,phase_shift_0844.trace,512,gradual_drift_phases,6,397,IBM-ARC,72.0320,18008,6992,186.7
+844,phase_shift_0844.trace,512,gradual_drift_phases,6,397,2Q (VLDB '94),66.5480,16637,8363,158.1
+844,phase_shift_0844.trace,512,gradual_drift_phases,6,397,Static-Fuzzy (Bengar '20),14.8240,3706,21294,182.9
+844,phase_shift_0844.trace,512,gradual_drift_phases,6,397,Fast-LUT-ANFIS,67.5040,16876,8124,318.4
+999,phase_shift_0999.trace,512,gradual_drift_phases,8,708,LRU,44.6240,11156,13844,153.5
+999,phase_shift_0999.trace,512,gradual_drift_phases,8,708,FIFO,41.9240,10481,14519,95.0
+999,phase_shift_0999.trace,512,gradual_drift_phases,8,708,LFU,7.6040,1901,23099,221.5
+999,phase_shift_0999.trace,512,gradual_drift_phases,8,708,IBM-ARC,43.2600,10815,14185,258.2
+999,phase_shift_0999.trace,512,gradual_drift_phases,8,708,2Q (VLDB '94),39.2560,9814,15186,216.6
+999,phase_shift_0999.trace,512,gradual_drift_phases,8,708,Static-Fuzzy (Bengar '20),7.3400,1835,23165,204.1
+999,phase_shift_0999.trace,512,gradual_drift_phases,8,708,Fast-LUT-ANFIS,43.7440,10936,14064,467.0
+971,phase_shift_0971.trace,512,abrupt_hop_phases,5,667,LRU,48.3560,12089,12911,150.9
+971,phase_shift_0971.trace,512,abrupt_hop_phases,5,667,FIFO,45.0200,11255,13745,92.6
+971,phase_shift_0971.trace,512,abrupt_hop_phases,5,667,LFU,12.0680,3017,21983,218.9
+971,phase_shift_0971.trace,512,abrupt_hop_phases,5,667,IBM-ARC,53.1400,13285,11715,231.9
+971,phase_shift_0971.trace,512,abrupt_hop_phases,5,667,2Q (VLDB '94),47.7960,11949,13051,200.7
+971,phase_shift_0971.trace,512,abrupt_hop_phases,5,667,Static-Fuzzy (Bengar '20),11.1560,2789,22211,200.0
+971,phase_shift_0971.trace,512,abrupt_hop_phases,5,667,Fast-LUT-ANFIS,47.4960,11874,13126,449.3
+803,phase_shift_0803.trace,512,multi_tenant_interleaved_phases,6,370,LRU,54.8120,13703,11297,148.3
+803,phase_shift_0803.trace,512,multi_tenant_interleaved_phases,6,370,FIFO,52.5320,13133,11867,86.7
+803,phase_shift_0803.trace,512,multi_tenant_interleaved_phases,6,370,LFU,55.2920,13823,11177,179.8
+803,phase_shift_0803.trace,512,multi_tenant_interleaved_phases,6,370,IBM-ARC,50.1480,12537,12463,231.3
+803,phase_shift_0803.trace,512,multi_tenant_interleaved_phases,6,370,2Q (VLDB '94),48.9720,12243,12757,199.5
+803,phase_shift_0803.trace,512,multi_tenant_interleaved_phases,6,370,Static-Fuzzy (Bengar '20),37.0440,9261,15739,159.1
+803,phase_shift_0803.trace,512,multi_tenant_interleaved_phases,6,370,Fast-LUT-ANFIS,54.0640,13516,11484,411.2
+972,phase_shift_0972.trace,512,skew_migration_phases,4,526,LRU,43.4440,10861,14139,146.9
+972,phase_shift_0972.trace,512,skew_migration_phases,4,526,FIFO,42.2440,10561,14439,92.5
+972,phase_shift_0972.trace,512,skew_migration_phases,4,526,LFU,47.4920,11873,13127,197.7
+972,phase_shift_0972.trace,512,skew_migration_phases,4,526,IBM-ARC,47.7120,11928,13072,217.5
+972,phase_shift_0972.trace,512,skew_migration_phases,4,526,2Q (VLDB '94),45.9000,11475,13525,215.2
+972,phase_shift_0972.trace,512,skew_migration_phases,4,526,Static-Fuzzy (Bengar '20),46.4800,11620,13380,142.8
+972,phase_shift_0972.trace,512,skew_migration_phases,4,526,Fast-LUT-ANFIS,43.5160,10879,14121,471.8
+988,phase_shift_0988.trace,512,multi_tenant_interleaved_phases,4,383,LRU,43.0360,10759,14241,150.7
+988,phase_shift_0988.trace,512,multi_tenant_interleaved_phases,4,383,FIFO,42.8560,10714,14286,90.5
+988,phase_shift_0988.trace,512,multi_tenant_interleaved_phases,4,383,LFU,52.8440,13211,11789,185.6
+988,phase_shift_0988.trace,512,multi_tenant_interleaved_phases,4,383,IBM-ARC,50.7240,12681,12319,226.9
+988,phase_shift_0988.trace,512,multi_tenant_interleaved_phases,4,383,2Q (VLDB '94),50.4160,12604,12396,202.2
+988,phase_shift_0988.trace,512,multi_tenant_interleaved_phases,4,383,Static-Fuzzy (Bengar '20),36.2960,9074,15926,163.7
+988,phase_shift_0988.trace,512,multi_tenant_interleaved_phases,4,383,Fast-LUT-ANFIS,42.9840,10746,14254,489.6

@@ -1,0 +1,701 @@
+trace_id,filename,capacity,archetype,alpha,universe_size,policy,hit_rate_pct,hits,misses,avg_latency_ns
+107,zipf_trace_0107.trace,32,shuffled_rank_zipf,0.992,942,LRU,38.2240,9556,15444,131.2
+107,zipf_trace_0107.trace,32,shuffled_rank_zipf,1.0,942,FIFO,33.1440,8286,16714,85.8
+107,zipf_trace_0107.trace,32,shuffled_rank_zipf,1.0,942,LFU,16.0160,4004,20996,229.3
+107,zipf_trace_0107.trace,32,shuffled_rank_zipf,1.0,942,IBM-ARC,47.4920,11873,13127,192.3
+107,zipf_trace_0107.trace,32,shuffled_rank_zipf,1.0,942,2Q (VLDB '94),46.3080,11577,13423,185.9
+107,zipf_trace_0107.trace,32,shuffled_rank_zipf,1.0,942,Static-Fuzzy (Bengar '20),34.4840,8621,16379,158.1
+107,zipf_trace_0107.trace,32,shuffled_rank_zipf,1.0,942,Fast-LUT-ANFIS,40.0120,10003,14997,432.8
+132,zipf_trace_0132.trace,32,shuffled_rank_zipf,1.0,848,LRU,43.5120,10878,14122,123.1
+132,zipf_trace_0132.trace,32,shuffled_rank_zipf,1.0,848,FIFO,38.0040,9501,15499,78.5
+132,zipf_trace_0132.trace,32,shuffled_rank_zipf,1.0,848,LFU,15.5160,3879,21121,218.2
+132,zipf_trace_0132.trace,32,shuffled_rank_zipf,1.0,848,IBM-ARC,51.9520,12988,12012,180.1
+132,zipf_trace_0132.trace,32,shuffled_rank_zipf,1.0,848,2Q (VLDB '94),51.1880,12797,12203,172.1
+132,zipf_trace_0132.trace,32,shuffled_rank_zipf,1.0,848,Static-Fuzzy (Bengar '20),39.0600,9765,15235,146.2
+132,zipf_trace_0132.trace,32,shuffled_rank_zipf,1.0,848,Fast-LUT-ANFIS,44.9200,11230,13770,390.3
+77,zipf_trace_0077.trace,32,shuffled_rank_zipf,1.2,900,LRU,57.1280,14282,10718,118.4
+77,zipf_trace_0077.trace,32,shuffled_rank_zipf,1.2,900,FIFO,50.7480,12687,12313,73.7
+77,zipf_trace_0077.trace,32,shuffled_rank_zipf,1.2,900,LFU,23.3360,5834,19166,220.2
+77,zipf_trace_0077.trace,32,shuffled_rank_zipf,1.2,900,IBM-ARC,64.4160,16104,8896,156.3
+77,zipf_trace_0077.trace,32,shuffled_rank_zipf,1.2,900,2Q (VLDB '94),63.4360,15859,9141,151.1
+77,zipf_trace_0077.trace,32,shuffled_rank_zipf,1.2,900,Static-Fuzzy (Bengar '20),51.9720,12993,12007,128.2
+77,zipf_trace_0077.trace,32,shuffled_rank_zipf,1.2,900,Fast-LUT-ANFIS,56.8640,14216,10784,323.8
+48,zipf_trace_0048.trace,32,zipf_with_scans,1.1,661,LRU,45.0000,11250,13750,128.1
+48,zipf_trace_0048.trace,32,zipf_with_scans,1.1,661,FIFO,39.2960,9824,15176,81.1
+48,zipf_trace_0048.trace,32,zipf_with_scans,1.1,661,LFU,54.5640,13641,11359,194.3
+48,zipf_trace_0048.trace,32,zipf_with_scans,1.1,661,IBM-ARC,55.2800,13820,11180,183.2
+48,zipf_trace_0048.trace,32,zipf_with_scans,1.1,661,2Q (VLDB '94),53.7480,13437,11563,175.3
+48,zipf_trace_0048.trace,32,zipf_with_scans,1.1,661,Static-Fuzzy (Bengar '20),45.6760,11419,13581,130.8
+48,zipf_trace_0048.trace,32,zipf_with_scans,1.1,661,Fast-LUT-ANFIS,47.2840,11821,13179,374.7
+159,zipf_trace_0159.trace,32,bimodal_zipf,1.1,765,LRU,56.1920,14048,10952,114.0
+159,zipf_trace_0159.trace,32,bimodal_zipf,1.1,765,FIFO,49.9720,12493,12507,71.3
+159,zipf_trace_0159.trace,32,bimodal_zipf,1.1,765,LFU,66.1440,16536,8464,173.6
+159,zipf_trace_0159.trace,32,bimodal_zipf,1.1,765,IBM-ARC,63.9720,15993,9007,151.1
+159,zipf_trace_0159.trace,32,bimodal_zipf,1.1,765,2Q (VLDB '94),63.0440,15761,9239,149.6
+159,zipf_trace_0159.trace,32,bimodal_zipf,1.1,765,Static-Fuzzy (Bengar '20),58.3080,14577,10423,105.1
+159,zipf_trace_0159.trace,32,bimodal_zipf,1.1,765,Fast-LUT-ANFIS,56.1080,14027,10973,303.2
+61,zipf_trace_0061.trace,32,stationary_zipf,0.9,1104,LRU,30.9040,7726,17274,131.1
+61,zipf_trace_0061.trace,32,stationary_zipf,0.9,1104,FIFO,26.6000,6650,18350,83.8
+61,zipf_trace_0061.trace,32,stationary_zipf,0.9,1104,LFU,42.0880,10522,14478,193.5
+61,zipf_trace_0061.trace,32,stationary_zipf,0.9,1104,IBM-ARC,41.9200,10480,14520,198.9
+61,zipf_trace_0061.trace,32,stationary_zipf,0.9,1104,2Q (VLDB '94),40.9240,10231,14769,196.0
+61,zipf_trace_0061.trace,32,stationary_zipf,0.9,1104,Static-Fuzzy (Bengar '20),33.5240,8381,16619,147.7
+61,zipf_trace_0061.trace,32,stationary_zipf,0.9,1104,Fast-LUT-ANFIS,34.5040,8626,16374,437.3
+194,zipf_trace_0194.trace,32,bimodal_zipf,0.7,1013,LRU,24.7160,6179,18821,139.9
+194,zipf_trace_0194.trace,32,bimodal_zipf,0.7,1013,FIFO,21.3480,5337,19663,90.4
+194,zipf_trace_0194.trace,32,bimodal_zipf,0.7,1013,LFU,36.9520,9238,15762,206.6
+194,zipf_trace_0194.trace,32,bimodal_zipf,0.7,1013,IBM-ARC,34.5880,8647,16353,215.7
+194,zipf_trace_0194.trace,32,bimodal_zipf,0.7,1013,2Q (VLDB '94),33.8080,8452,16548,210.8
+194,zipf_trace_0194.trace,32,bimodal_zipf,0.7,1013,Static-Fuzzy (Bengar '20),26.5120,6628,18372,161.4
+194,zipf_trace_0194.trace,32,bimodal_zipf,0.7,1013,Fast-LUT-ANFIS,28.9760,7244,17756,484.4
+67,zipf_trace_0067.trace,32,shuffled_rank_zipf,1.0,587,LRU,45.7480,11437,13563,127.2
+67,zipf_trace_0067.trace,32,shuffled_rank_zipf,1.0,587,FIFO,40.1840,10046,14954,80.6
+67,zipf_trace_0067.trace,32,shuffled_rank_zipf,1.0,587,LFU,16.5480,4137,20863,212.1
+67,zipf_trace_0067.trace,32,shuffled_rank_zipf,1.0,587,IBM-ARC,54.1520,13538,11462,188.1
+67,zipf_trace_0067.trace,32,shuffled_rank_zipf,1.0,587,2Q (VLDB '94),52.9720,13243,11757,176.0
+67,zipf_trace_0067.trace,32,shuffled_rank_zipf,1.0,587,Static-Fuzzy (Bengar '20),41.6200,10405,14595,141.0
+67,zipf_trace_0067.trace,32,shuffled_rank_zipf,1.0,587,Fast-LUT-ANFIS,47.1400,11785,13215,384.4
+74,zipf_trace_0074.trace,32,bimodal_zipf,0.8,717,LRU,30.9520,7738,17262,135.9
+74,zipf_trace_0074.trace,32,bimodal_zipf,0.8,717,FIFO,26.7240,6681,18319,87.7
+74,zipf_trace_0074.trace,32,bimodal_zipf,0.8,717,LFU,40.2320,10058,14942,210.2
+74,zipf_trace_0074.trace,32,bimodal_zipf,0.8,717,IBM-ARC,40.5840,10146,14854,206.2
+74,zipf_trace_0074.trace,32,bimodal_zipf,0.8,717,2Q (VLDB '94),39.7640,9941,15059,200.2
+74,zipf_trace_0074.trace,32,bimodal_zipf,0.8,717,Static-Fuzzy (Bengar '20),30.9000,7725,17275,156.8
+74,zipf_trace_0074.trace,32,bimodal_zipf,0.8,717,Fast-LUT-ANFIS,35.6000,8900,16100,446.2
+137,zipf_trace_0137.trace,32,shuffled_rank_zipf,1.2,729,LRU,60.4000,15100,9900,112.2
+137,zipf_trace_0137.trace,32,shuffled_rank_zipf,1.2,729,FIFO,54.2240,13556,11444,69.9
+137,zipf_trace_0137.trace,32,shuffled_rank_zipf,1.2,729,LFU,21.9000,5475,19525,218.3
+137,zipf_trace_0137.trace,32,shuffled_rank_zipf,1.2,729,IBM-ARC,66.9800,16745,8255,153.5
+137,zipf_trace_0137.trace,32,shuffled_rank_zipf,1.2,729,2Q (VLDB '94),65.9920,16498,8502,144.4
+137,zipf_trace_0137.trace,32,shuffled_rank_zipf,1.2,729,Static-Fuzzy (Bengar '20),55.2760,13819,11181,122.3
+137,zipf_trace_0137.trace,32,shuffled_rank_zipf,1.2,729,Fast-LUT-ANFIS,59.5800,14895,10105,303.1
+4,zipf_trace_0004.trace,32,bimodal_zipf,1.0,890,LRU,47.2280,11807,13193,121.6
+4,zipf_trace_0004.trace,32,bimodal_zipf,1.0,890,FIFO,41.6000,10400,14600,75.8
+4,zipf_trace_0004.trace,32,bimodal_zipf,1.0,890,LFU,57.3920,14348,10652,188.4
+4,zipf_trace_0004.trace,32,bimodal_zipf,1.0,890,IBM-ARC,56.0480,14012,10988,170.4
+4,zipf_trace_0004.trace,32,bimodal_zipf,1.0,890,2Q (VLDB '94),55.0400,13760,11240,164.8
+4,zipf_trace_0004.trace,32,bimodal_zipf,1.0,890,Static-Fuzzy (Bengar '20),48.3680,12092,12908,124.5
+4,zipf_trace_0004.trace,32,bimodal_zipf,1.0,890,Fast-LUT-ANFIS,50.0240,12506,12494,343.5
+72,zipf_trace_0072.trace,32,shuffled_rank_zipf,1.2,1039,LRU,55.0760,13769,11231,118.0
+72,zipf_trace_0072.trace,32,shuffled_rank_zipf,1.2,1039,FIFO,48.9640,12241,12759,73.4
+72,zipf_trace_0072.trace,32,shuffled_rank_zipf,1.2,1039,LFU,22.7600,5690,19310,202.9
+72,zipf_trace_0072.trace,32,shuffled_rank_zipf,1.2,1039,IBM-ARC,62.6080,15652,9348,162.6
+72,zipf_trace_0072.trace,32,shuffled_rank_zipf,1.2,1039,2Q (VLDB '94),61.5160,15379,9621,153.6
+72,zipf_trace_0072.trace,32,shuffled_rank_zipf,1.2,1039,Static-Fuzzy (Bengar '20),49.6040,12401,12599,127.5
+72,zipf_trace_0072.trace,32,shuffled_rank_zipf,1.2,1039,Fast-LUT-ANFIS,54.4120,13603,11397,328.7
+195,zipf_trace_0195.trace,32,varying_alpha_zipf,1.1,582,LRU,44.5280,11132,13868,126.2
+195,zipf_trace_0195.trace,32,varying_alpha_zipf,1.1,582,FIFO,39.8160,9954,15046,80.9
+195,zipf_trace_0195.trace,32,varying_alpha_zipf,1.1,582,LFU,53.9640,13491,11509,192.7
+195,zipf_trace_0195.trace,32,varying_alpha_zipf,1.1,582,IBM-ARC,52.4760,13119,11881,182.4
+195,zipf_trace_0195.trace,32,varying_alpha_zipf,1.1,582,2Q (VLDB '94),51.7640,12941,12059,175.8
+195,zipf_trace_0195.trace,32,varying_alpha_zipf,1.1,582,Static-Fuzzy (Bengar '20),45.9720,11493,13507,128.7
+195,zipf_trace_0195.trace,32,varying_alpha_zipf,1.1,582,Fast-LUT-ANFIS,46.2600,11565,13435,372.6
+125,zipf_trace_0125.trace,32,varying_alpha_zipf,1.0,1053,LRU,40.0120,10003,14997,127.3
+125,zipf_trace_0125.trace,32,varying_alpha_zipf,1.0,1053,FIFO,35.6600,8915,16085,81.0
+125,zipf_trace_0125.trace,32,varying_alpha_zipf,1.0,1053,LFU,50.7720,12693,12307,192.9
+125,zipf_trace_0125.trace,32,varying_alpha_zipf,1.0,1053,IBM-ARC,48.7560,12189,12811,185.5
+125,zipf_trace_0125.trace,32,varying_alpha_zipf,1.0,1053,2Q (VLDB '94),47.8280,11957,13043,181.9
+125,zipf_trace_0125.trace,32,varying_alpha_zipf,1.0,1053,Static-Fuzzy (Bengar '20),44.0160,11004,13996,132.1
+125,zipf_trace_0125.trace,32,varying_alpha_zipf,1.0,1053,Fast-LUT-ANFIS,42.0360,10509,14491,395.0
+157,zipf_trace_0157.trace,32,shuffled_rank_zipf,0.9,607,LRU,35.0280,8757,16243,136.6
+157,zipf_trace_0157.trace,32,shuffled_rank_zipf,0.9,607,FIFO,30.5400,7635,17365,87.1
+157,zipf_trace_0157.trace,32,shuffled_rank_zipf,0.9,607,LFU,15.9000,3975,21025,206.3
+157,zipf_trace_0157.trace,32,shuffled_rank_zipf,0.9,607,IBM-ARC,43.6320,10908,14092,206.9
+157,zipf_trace_0157.trace,32,shuffled_rank_zipf,0.9,607,2Q (VLDB '94),43.0200,10755,14245,197.3
+157,zipf_trace_0157.trace,32,shuffled_rank_zipf,0.9,607,Static-Fuzzy (Bengar '20),31.0760,7769,17231,153.4
+157,zipf_trace_0157.trace,32,shuffled_rank_zipf,0.9,607,Fast-LUT-ANFIS,37.0840,9271,15729,433.4
+97,zipf_trace_0097.trace,32,shuffled_rank_zipf,0.7,760,LRU,17.4040,4351,20649,136.2
+97,zipf_trace_0097.trace,32,shuffled_rank_zipf,0.7,760,FIFO,15.3280,3832,21168,90.0
+97,zipf_trace_0097.trace,32,shuffled_rank_zipf,0.7,760,LFU,9.5960,2399,22601,238.6
+97,zipf_trace_0097.trace,32,shuffled_rank_zipf,0.7,760,IBM-ARC,26.6760,6669,18331,222.7
+97,zipf_trace_0097.trace,32,shuffled_rank_zipf,0.7,760,2Q (VLDB '94),26.1760,6544,18456,214.9
+97,zipf_trace_0097.trace,32,shuffled_rank_zipf,0.7,760,Static-Fuzzy (Bengar '20),15.4800,3870,21130,184.5
+97,zipf_trace_0097.trace,32,shuffled_rank_zipf,0.7,760,Fast-LUT-ANFIS,17.9000,4475,20525,541.9
+63,zipf_trace_0063.trace,32,zipf_with_scans,1.2,1001,LRU,46.2680,11567,13433,119.1
+63,zipf_trace_0063.trace,32,zipf_with_scans,1.2,1001,FIFO,40.3640,10091,14909,75.5
+63,zipf_trace_0063.trace,32,zipf_with_scans,1.2,1001,LFU,57.8160,14454,10546,184.3
+63,zipf_trace_0063.trace,32,zipf_with_scans,1.2,1001,IBM-ARC,56.4240,14106,10894,157.5
+63,zipf_trace_0063.trace,32,zipf_with_scans,1.2,1001,2Q (VLDB '94),55.0120,13753,11247,158.9
+63,zipf_trace_0063.trace,32,zipf_with_scans,1.2,1001,Static-Fuzzy (Bengar '20),44.0440,11011,13989,124.9
+63,zipf_trace_0063.trace,32,zipf_with_scans,1.2,1001,Fast-LUT-ANFIS,48.1360,12034,12966,346.3
+53,zipf_trace_0053.trace,32,zipf_with_scans,1.2,858,LRU,44.5800,11145,13855,121.8
+53,zipf_trace_0053.trace,32,zipf_with_scans,1.2,858,FIFO,38.9000,9725,15275,77.2
+53,zipf_trace_0053.trace,32,zipf_with_scans,1.2,858,LFU,55.9080,13977,11023,193.8
+53,zipf_trace_0053.trace,32,zipf_with_scans,1.2,858,IBM-ARC,55.4240,13856,11144,164.2
+53,zipf_trace_0053.trace,32,zipf_with_scans,1.2,858,2Q (VLDB '94),53.9480,13487,11513,166.3
+53,zipf_trace_0053.trace,32,zipf_with_scans,1.2,858,Static-Fuzzy (Bengar '20),44.2120,11053,13947,129.3
+53,zipf_trace_0053.trace,32,zipf_with_scans,1.2,858,Fast-LUT-ANFIS,46.5280,11632,13368,367.1
+124,zipf_trace_0124.trace,32,bimodal_zipf,0.9,614,LRU,41.2360,10309,14691,128.2
+124,zipf_trace_0124.trace,32,bimodal_zipf,0.9,614,FIFO,36.0800,9020,15980,81.3
+124,zipf_trace_0124.trace,32,bimodal_zipf,0.9,614,LFU,51.8240,12956,12044,195.6
+124,zipf_trace_0124.trace,32,bimodal_zipf,0.9,614,IBM-ARC,49.9320,12483,12517,182.4
+124,zipf_trace_0124.trace,32,bimodal_zipf,0.9,614,2Q (VLDB '94),49.1640,12291,12709,178.7
+124,zipf_trace_0124.trace,32,bimodal_zipf,0.9,614,Static-Fuzzy (Bengar '20),41.5680,10392,14608,134.8
+124,zipf_trace_0124.trace,32,bimodal_zipf,0.9,614,Fast-LUT-ANFIS,44.4080,11102,13898,383.8
+108,zipf_trace_0108.trace,32,zipf_with_scans,0.8,806,LRU,20.8880,5222,19778,141.9
+108,zipf_trace_0108.trace,32,zipf_with_scans,0.8,806,FIFO,18.0000,4500,20500,91.7
+108,zipf_trace_0108.trace,32,zipf_with_scans,0.8,806,LFU,34.1520,8538,16462,203.8
+108,zipf_trace_0108.trace,32,zipf_with_scans,0.8,806,IBM-ARC,32.0000,8000,17000,215.2
+108,zipf_trace_0108.trace,32,zipf_with_scans,0.8,806,2Q (VLDB '94),30.8400,7710,17290,214.7
+108,zipf_trace_0108.trace,32,zipf_with_scans,0.8,806,Static-Fuzzy (Bengar '20),23.8600,5965,19035,164.0
+108,zipf_trace_0108.trace,32,zipf_with_scans,0.8,806,Fast-LUT-ANFIS,24.8280,6207,18793,506.1
+346,zipf_trace_0346.trace,64,stationary_zipf,1.1,1229,LRU,53.8720,13468,11532,125.3
+346,zipf_trace_0346.trace,64,stationary_zipf,1.1,1229,FIFO,48.2960,12074,12926,76.0
+346,zipf_trace_0346.trace,64,stationary_zipf,1.1,1229,LFU,63.6280,15907,9093,204.7
+346,zipf_trace_0346.trace,64,stationary_zipf,1.1,1229,IBM-ARC,61.8840,15471,9529,167.5
+346,zipf_trace_0346.trace,64,stationary_zipf,1.1,1229,2Q (VLDB '94),60.9320,15233,9767,163.9
+346,zipf_trace_0346.trace,64,stationary_zipf,1.1,1229,Static-Fuzzy (Bengar '20),53.6320,13408,11592,120.1
+346,zipf_trace_0346.trace,64,stationary_zipf,1.1,1229,Fast-LUT-ANFIS,55.8640,13966,11034,343.7
+307,zipf_trace_0307.trace,64,shuffled_rank_zipf,0.9,1380,LRU,39.0680,9767,15233,138.7
+307,zipf_trace_0307.trace,64,shuffled_rank_zipf,0.9,1380,FIFO,34.2400,8560,16440,85.7
+307,zipf_trace_0307.trace,64,shuffled_rank_zipf,0.9,1380,LFU,15.5720,3893,21107,207.8
+307,zipf_trace_0307.trace,64,shuffled_rank_zipf,0.9,1380,IBM-ARC,47.6800,11920,13080,203.9
+307,zipf_trace_0307.trace,64,shuffled_rank_zipf,0.9,1380,2Q (VLDB '94),46.2000,11550,13450,198.4
+307,zipf_trace_0307.trace,64,shuffled_rank_zipf,0.9,1380,Static-Fuzzy (Bengar '20),28.7640,7191,17809,158.0
+307,zipf_trace_0307.trace,64,shuffled_rank_zipf,0.9,1380,Fast-LUT-ANFIS,38.6840,9671,15329,449.6
+387,zipf_trace_0387.trace,64,shuffled_rank_zipf,0.9,1269,LRU,34.0120,8503,16497,144.0
+387,zipf_trace_0387.trace,64,shuffled_rank_zipf,0.9,1269,FIFO,29.6880,7422,17578,89.7
+387,zipf_trace_0387.trace,64,shuffled_rank_zipf,0.9,1269,LFU,15.3120,3828,21172,209.8
+387,zipf_trace_0387.trace,64,shuffled_rank_zipf,0.9,1269,IBM-ARC,42.7600,10690,14310,218.5
+387,zipf_trace_0387.trace,64,shuffled_rank_zipf,0.9,1269,2Q (VLDB '94),41.5040,10376,14624,210.7
+387,zipf_trace_0387.trace,64,shuffled_rank_zipf,0.9,1269,Static-Fuzzy (Bengar '20),25.9800,6495,18505,162.4
+387,zipf_trace_0387.trace,64,shuffled_rank_zipf,0.9,1269,Fast-LUT-ANFIS,32.8160,8204,16796,484.4
+212,zipf_trace_0212.trace,64,shuffled_rank_zipf,0.7,2087,LRU,16.9800,4245,20755,149.8
+212,zipf_trace_0212.trace,64,shuffled_rank_zipf,0.7,2087,FIFO,14.8720,3718,21282,94.4
+212,zipf_trace_0212.trace,64,shuffled_rank_zipf,0.7,2087,LFU,10.0400,2510,22490,236.3
+212,zipf_trace_0212.trace,64,shuffled_rank_zipf,0.7,2087,IBM-ARC,25.9240,6481,18519,244.8
+212,zipf_trace_0212.trace,64,shuffled_rank_zipf,0.7,2087,2Q (VLDB '94),24.7800,6195,18805,239.4
+212,zipf_trace_0212.trace,64,shuffled_rank_zipf,0.7,2087,Static-Fuzzy (Bengar '20),12.1400,3035,21965,189.8
+212,zipf_trace_0212.trace,64,shuffled_rank_zipf,0.7,2087,Fast-LUT-ANFIS,16.3600,4090,20910,577.2
+204,zipf_trace_0204.trace,64,bimodal_zipf,0.7,1072,LRU,34.9760,8744,16256,141.8
+204,zipf_trace_0204.trace,64,bimodal_zipf,0.7,1072,FIFO,30.5680,7642,17358,88.3
+204,zipf_trace_0204.trace,64,bimodal_zipf,0.7,1072,LFU,45.8760,11469,13531,214.8
+204,zipf_trace_0204.trace,64,bimodal_zipf,0.7,1072,IBM-ARC,43.9560,10989,14011,209.1
+204,zipf_trace_0204.trace,64,bimodal_zipf,0.7,1072,2Q (VLDB '94),43.2000,10800,14200,205.9
+204,zipf_trace_0204.trace,64,bimodal_zipf,0.7,1072,Static-Fuzzy (Bengar '20),33.3760,8344,16656,152.0
+204,zipf_trace_0204.trace,64,bimodal_zipf,0.7,1072,Fast-LUT-ANFIS,38.1360,9534,15466,453.8
+384,zipf_trace_0384.trace,64,bimodal_zipf,1.2,1289,LRU,66.1080,16527,8473,119.5
+384,zipf_trace_0384.trace,64,bimodal_zipf,1.2,1289,FIFO,60.4880,15122,9878,70.7
+384,zipf_trace_0384.trace,64,bimodal_zipf,1.2,1289,LFU,72.5800,18145,6855,205.1
+384,zipf_trace_0384.trace,64,bimodal_zipf,1.2,1289,IBM-ARC,72.3480,18087,6913,151.1
+384,zipf_trace_0384.trace,64,bimodal_zipf,1.2,1289,2Q (VLDB '94),71.4800,17870,7130,148.1
+384,zipf_trace_0384.trace,64,bimodal_zipf,1.2,1289,Static-Fuzzy (Bengar '20),64.2040,16051,8949,106.9
+384,zipf_trace_0384.trace,64,bimodal_zipf,1.2,1289,Fast-LUT-ANFIS,66.8800,16720,8280,288.8
+329,zipf_trace_0329.trace,64,bimodal_zipf,1.2,1537,LRU,66.8880,16722,8278,117.3
+329,zipf_trace_0329.trace,64,bimodal_zipf,1.2,1537,FIFO,61.4840,15371,9629,68.8
+329,zipf_trace_0329.trace,64,bimodal_zipf,1.2,1537,LFU,73.7680,18442,6558,201.7
+329,zipf_trace_0329.trace,64,bimodal_zipf,1.2,1537,IBM-ARC,72.6520,18163,6837,148.2
+329,zipf_trace_0329.trace,64,bimodal_zipf,1.2,1537,2Q (VLDB '94),71.8520,17963,7037,142.9
+329,zipf_trace_0329.trace,64,bimodal_zipf,1.2,1537,Static-Fuzzy (Bengar '20),64.9440,16236,8764,105.5
+329,zipf_trace_0329.trace,64,bimodal_zipf,1.2,1537,Fast-LUT-ANFIS,67.7680,16942,8058,274.7
+340,zipf_trace_0340.trace,64,varying_alpha_zipf,0.8,1182,LRU,47.8360,11959,13041,126.5
+340,zipf_trace_0340.trace,64,varying_alpha_zipf,0.8,1182,FIFO,43.5440,10886,14114,76.6
+340,zipf_trace_0340.trace,64,varying_alpha_zipf,0.8,1182,LFU,54.5760,13644,11356,202.2
+340,zipf_trace_0340.trace,64,varying_alpha_zipf,0.8,1182,IBM-ARC,55.1560,13789,11211,178.3
+340,zipf_trace_0340.trace,64,varying_alpha_zipf,0.8,1182,2Q (VLDB '94),54.7160,13679,11321,173.4
+340,zipf_trace_0340.trace,64,varying_alpha_zipf,0.8,1182,Static-Fuzzy (Bengar '20),45.6280,11407,13593,127.0
+340,zipf_trace_0340.trace,64,varying_alpha_zipf,0.8,1182,Fast-LUT-ANFIS,48.9640,12241,12759,369.7
+244,zipf_trace_0244.trace,64,bimodal_zipf,1.0,1119,LRU,50.2800,12570,12430,125.5
+244,zipf_trace_0244.trace,64,bimodal_zipf,1.0,1119,FIFO,44.7800,11195,13805,76.0
+244,zipf_trace_0244.trace,64,bimodal_zipf,1.0,1119,LFU,59.6920,14923,10077,208.5
+244,zipf_trace_0244.trace,64,bimodal_zipf,1.0,1119,IBM-ARC,58.0480,14512,10488,173.8
+244,zipf_trace_0244.trace,64,bimodal_zipf,1.0,1119,2Q (VLDB '94),57.2640,14316,10684,166.4
+244,zipf_trace_0244.trace,64,bimodal_zipf,1.0,1119,Static-Fuzzy (Bengar '20),47.8120,11953,13047,131.8
+244,zipf_trace_0244.trace,64,bimodal_zipf,1.0,1119,Fast-LUT-ANFIS,52.4800,13120,11880,354.4
+213,zipf_trace_0213.trace,64,zipf_with_scans,0.9,2004,LRU,24.8000,6200,18800,143.6
+213,zipf_trace_0213.trace,64,zipf_with_scans,0.9,2004,FIFO,21.2680,5317,19683,90.5
+213,zipf_trace_0213.trace,64,zipf_with_scans,0.9,2004,LFU,36.5200,9130,15870,220.9
+213,zipf_trace_0213.trace,64,zipf_with_scans,0.9,2004,IBM-ARC,35.8560,8964,16036,215.3
+213,zipf_trace_0213.trace,64,zipf_with_scans,0.9,2004,2Q (VLDB '94),34.5760,8644,16356,219.8
+213,zipf_trace_0213.trace,64,zipf_with_scans,0.9,2004,Static-Fuzzy (Bengar '20),23.9280,5982,19018,168.1
+213,zipf_trace_0213.trace,64,zipf_with_scans,0.9,2004,Fast-LUT-ANFIS,26.4160,6604,18396,519.4
+269,zipf_trace_0269.trace,64,bimodal_zipf,1.2,1922,LRU,63.0920,15773,9227,117.8
+269,zipf_trace_0269.trace,64,bimodal_zipf,1.2,1922,FIFO,57.3600,14340,10660,70.2
+269,zipf_trace_0269.trace,64,bimodal_zipf,1.2,1922,LFU,71.2040,17801,7199,197.4
+269,zipf_trace_0269.trace,64,bimodal_zipf,1.2,1922,IBM-ARC,70.2120,17553,7447,148.8
+269,zipf_trace_0269.trace,64,bimodal_zipf,1.2,1922,2Q (VLDB '94),69.2080,17302,7698,146.9
+269,zipf_trace_0269.trace,64,bimodal_zipf,1.2,1922,Static-Fuzzy (Bengar '20),62.5840,15646,9354,104.2
+269,zipf_trace_0269.trace,64,bimodal_zipf,1.2,1922,Fast-LUT-ANFIS,64.1440,16036,8964,285.5
+358,zipf_trace_0358.trace,64,zipf_with_scans,1.1,1653,LRU,47.8760,11969,13031,132.1
+358,zipf_trace_0358.trace,64,zipf_with_scans,1.1,1653,FIFO,42.5360,10634,14366,79.7
+358,zipf_trace_0358.trace,64,zipf_with_scans,1.1,1653,LFU,58.1440,14536,10464,209.1
+358,zipf_trace_0358.trace,64,zipf_with_scans,1.1,1653,IBM-ARC,58.1160,14529,10471,173.9
+358,zipf_trace_0358.trace,64,zipf_with_scans,1.1,1653,2Q (VLDB '94),56.5280,14132,10868,176.4
+358,zipf_trace_0358.trace,64,zipf_with_scans,1.1,1653,Static-Fuzzy (Bengar '20),46.3280,11582,13418,134.8
+358,zipf_trace_0358.trace,64,zipf_with_scans,1.1,1653,Fast-LUT-ANFIS,50.1400,12535,12465,382.6
+202,zipf_trace_0202.trace,64,shuffled_rank_zipf,0.8,1256,LRU,24.2480,6062,18938,140.4
+202,zipf_trace_0202.trace,64,shuffled_rank_zipf,0.8,1256,FIFO,21.2840,5321,19679,86.7
+202,zipf_trace_0202.trace,64,shuffled_rank_zipf,0.8,1256,LFU,12.3200,3080,21920,197.0
+202,zipf_trace_0202.trace,64,shuffled_rank_zipf,0.8,1256,IBM-ARC,33.2600,8315,16685,222.7
+202,zipf_trace_0202.trace,64,shuffled_rank_zipf,0.8,1256,2Q (VLDB '94),32.1080,8027,16973,212.8
+202,zipf_trace_0202.trace,64,shuffled_rank_zipf,0.8,1256,Static-Fuzzy (Bengar '20),17.6440,4411,20589,165.4
+202,zipf_trace_0202.trace,64,shuffled_rank_zipf,0.8,1256,Fast-LUT-ANFIS,23.9520,5988,19012,500.5
+235,zipf_trace_0235.trace,64,varying_alpha_zipf,1.0,1982,LRU,44.5920,11148,13852,128.3
+235,zipf_trace_0235.trace,64,varying_alpha_zipf,1.0,1982,FIFO,40.3600,10090,14910,77.3
+235,zipf_trace_0235.trace,64,varying_alpha_zipf,1.0,1982,LFU,53.8040,13451,11549,205.1
+235,zipf_trace_0235.trace,64,varying_alpha_zipf,1.0,1982,IBM-ARC,52.7840,13196,11804,179.0
+235,zipf_trace_0235.trace,64,varying_alpha_zipf,1.0,1982,2Q (VLDB '94),51.7520,12938,12062,177.8
+235,zipf_trace_0235.trace,64,varying_alpha_zipf,1.0,1982,Static-Fuzzy (Bengar '20),44.7320,11183,13817,131.3
+235,zipf_trace_0235.trace,64,varying_alpha_zipf,1.0,1982,Fast-LUT-ANFIS,45.4880,11372,13628,390.1
+226,zipf_trace_0226.trace,64,stationary_zipf,0.8,1615,LRU,21.3960,5349,19651,144.5
+226,zipf_trace_0226.trace,64,stationary_zipf,0.8,1615,FIFO,18.7160,4679,20321,89.8
+226,zipf_trace_0226.trace,64,stationary_zipf,0.8,1615,LFU,31.5640,7891,17109,215.8
+226,zipf_trace_0226.trace,64,stationary_zipf,0.8,1615,IBM-ARC,30.8680,7717,17283,223.5
+226,zipf_trace_0226.trace,64,stationary_zipf,0.8,1615,2Q (VLDB '94),30.3040,7576,17424,220.2
+226,zipf_trace_0226.trace,64,stationary_zipf,0.8,1615,Static-Fuzzy (Bengar '20),19.9280,4982,20018,171.8
+226,zipf_trace_0226.trace,64,stationary_zipf,0.8,1615,Fast-LUT-ANFIS,21.5480,5387,19613,531.6
+221,zipf_trace_0221.trace,64,stationary_zipf,1.1,1339,LRU,61.2200,15305,9695,121.1
+221,zipf_trace_0221.trace,64,stationary_zipf,1.1,1339,FIFO,55.4880,13872,11128,71.6
+221,zipf_trace_0221.trace,64,stationary_zipf,1.1,1339,LFU,69.3400,17335,7665,203.5
+221,zipf_trace_0221.trace,64,stationary_zipf,1.1,1339,IBM-ARC,68.2120,17053,7947,155.7
+221,zipf_trace_0221.trace,64,stationary_zipf,1.1,1339,2Q (VLDB '94),67.1720,16793,8207,152.5
+221,zipf_trace_0221.trace,64,stationary_zipf,1.1,1339,Static-Fuzzy (Bengar '20),60.5000,15125,9875,107.8
+221,zipf_trace_0221.trace,64,stationary_zipf,1.1,1339,Fast-LUT-ANFIS,62.9080,15727,9273,299.7
+201,zipf_trace_0201.trace,64,stationary_zipf,1.0,1229,LRU,50.9200,12730,12270,128.5
+201,zipf_trace_0201.trace,64,stationary_zipf,1.0,1229,FIFO,45.1600,11290,13710,78.0
+201,zipf_trace_0201.trace,64,stationary_zipf,1.0,1229,LFU,59.3200,14830,10170,213.2
+201,zipf_trace_0201.trace,64,stationary_zipf,1.0,1229,IBM-ARC,59.2760,14819,10181,172.1
+201,zipf_trace_0201.trace,64,stationary_zipf,1.0,1229,2Q (VLDB '94),58.0600,14515,10485,171.4
+201,zipf_trace_0201.trace,64,stationary_zipf,1.0,1229,Static-Fuzzy (Bengar '20),50.0400,12510,12490,125.6
+201,zipf_trace_0201.trace,64,stationary_zipf,1.0,1229,Fast-LUT-ANFIS,52.9880,13247,11753,360.9
+394,zipf_trace_0394.trace,64,bimodal_zipf,1.0,1880,LRU,46.8800,11720,13280,143.9
+394,zipf_trace_0394.trace,64,bimodal_zipf,1.0,1880,FIFO,41.6800,10420,14580,86.9
+394,zipf_trace_0394.trace,64,bimodal_zipf,1.0,1880,LFU,56.4680,14117,10883,233.6
+394,zipf_trace_0394.trace,64,bimodal_zipf,1.0,1880,IBM-ARC,55.5360,13884,11116,195.8
+394,zipf_trace_0394.trace,64,bimodal_zipf,1.0,1880,2Q (VLDB '94),54.4400,13610,11390,191.4
+394,zipf_trace_0394.trace,64,bimodal_zipf,1.0,1880,Static-Fuzzy (Bengar '20),46.9520,11738,13262,142.1
+394,zipf_trace_0394.trace,64,bimodal_zipf,1.0,1880,Fast-LUT-ANFIS,48.8880,12222,12778,418.4
+328,zipf_trace_0328.trace,64,zipf_with_scans,0.8,2137,LRU,17.8160,4454,20546,225.7
+328,zipf_trace_0328.trace,64,zipf_with_scans,0.8,2137,FIFO,15.2480,3812,21188,148.9
+328,zipf_trace_0328.trace,64,zipf_with_scans,0.8,2137,LFU,28.8000,7200,17800,341.0
+328,zipf_trace_0328.trace,64,zipf_with_scans,0.8,2137,IBM-ARC,28.9840,7246,17754,347.4
+328,zipf_trace_0328.trace,64,zipf_with_scans,0.8,2137,2Q (VLDB '94),27.5200,6880,18120,356.5
+328,zipf_trace_0328.trace,64,zipf_with_scans,0.8,2137,Static-Fuzzy (Bengar '20),18.9480,4737,20263,264.4
+328,zipf_trace_0328.trace,64,zipf_with_scans,0.8,2137,Fast-LUT-ANFIS,17.6160,4404,20596,863.0
+391,zipf_trace_0391.trace,64,stationary_zipf,0.9,1376,LRU,35.3760,8844,16156,144.3
+391,zipf_trace_0391.trace,64,stationary_zipf,0.9,1376,FIFO,30.6640,7666,17334,90.0
+391,zipf_trace_0391.trace,64,stationary_zipf,0.9,1376,LFU,46.0280,11507,13493,227.3
+391,zipf_trace_0391.trace,64,stationary_zipf,0.9,1376,IBM-ARC,45.5480,11387,13613,209.0
+391,zipf_trace_0391.trace,64,stationary_zipf,0.9,1376,2Q (VLDB '94),44.4360,11109,13891,207.1
+391,zipf_trace_0391.trace,64,stationary_zipf,0.9,1376,Static-Fuzzy (Bengar '20),34.9920,8748,16252,157.0
+391,zipf_trace_0391.trace,64,stationary_zipf,0.9,1376,Fast-LUT-ANFIS,39.2680,9817,15183,468.6
+522,zipf_trace_0522.trace,128,shuffled_rank_zipf,0.8,3130,LRU,29.5040,7376,17624,174.6
+522,zipf_trace_0522.trace,128,shuffled_rank_zipf,0.8,3130,FIFO,25.7520,6438,18562,102.7
+522,zipf_trace_0522.trace,128,shuffled_rank_zipf,0.8,3130,LFU,16.8080,4202,20798,273.4
+522,zipf_trace_0522.trace,128,shuffled_rank_zipf,0.8,3130,IBM-ARC,37.2960,9324,15676,293.6
+522,zipf_trace_0522.trace,128,shuffled_rank_zipf,0.8,3130,2Q (VLDB '94),35.4840,8871,16129,261.7
+522,zipf_trace_0522.trace,128,shuffled_rank_zipf,0.8,3130,Static-Fuzzy (Bengar '20),16.2040,4051,20949,214.0
+522,zipf_trace_0522.trace,128,shuffled_rank_zipf,0.8,3130,Fast-LUT-ANFIS,28.7320,7183,17817,612.6
+581,zipf_trace_0581.trace,128,stationary_zipf,1.2,4372,LRU,68.9440,17236,7764,134.4
+581,zipf_trace_0581.trace,128,stationary_zipf,1.2,4372,FIFO,64.0920,16023,8977,75.8
+581,zipf_trace_0581.trace,128,stationary_zipf,1.2,4372,LFU,75.2480,18812,6188,206.1
+581,zipf_trace_0581.trace,128,stationary_zipf,1.2,4372,IBM-ARC,74.6720,18668,6332,170.2
+581,zipf_trace_0581.trace,128,stationary_zipf,1.2,4372,2Q (VLDB '94),73.4440,18361,6639,156.7
+581,zipf_trace_0581.trace,128,stationary_zipf,1.2,4372,Static-Fuzzy (Bengar '20),67.3920,16848,8152,107.3
+581,zipf_trace_0581.trace,128,stationary_zipf,1.2,4372,Fast-LUT-ANFIS,69.4440,17361,7639,300.7
+576,zipf_trace_0576.trace,128,stationary_zipf,0.7,3991,LRU,17.0040,4251,20749,169.5
+576,zipf_trace_0576.trace,128,stationary_zipf,0.7,3991,FIFO,14.8240,3706,21294,112.4
+576,zipf_trace_0576.trace,128,stationary_zipf,0.7,3991,LFU,26.4320,6608,18392,225.7
+576,zipf_trace_0576.trace,128,stationary_zipf,0.7,3991,IBM-ARC,26.3120,6578,18422,286.9
+576,zipf_trace_0576.trace,128,stationary_zipf,0.7,3991,2Q (VLDB '94),25.3280,6332,18668,262.4
+576,zipf_trace_0576.trace,128,stationary_zipf,0.7,3991,Static-Fuzzy (Bengar '20),17.1920,4298,20702,199.4
+576,zipf_trace_0576.trace,128,stationary_zipf,0.7,3991,Fast-LUT-ANFIS,16.4880,4122,20878,661.6
+542,zipf_trace_0542.trace,128,shuffled_rank_zipf,0.7,2315,LRU,24.5400,6135,18865,156.9
+542,zipf_trace_0542.trace,128,shuffled_rank_zipf,0.7,2315,FIFO,21.6880,5422,19578,99.2
+542,zipf_trace_0542.trace,128,shuffled_rank_zipf,0.7,2315,LFU,14.6920,3673,21327,238.5
+542,zipf_trace_0542.trace,128,shuffled_rank_zipf,0.7,2315,IBM-ARC,32.2000,8050,16950,269.3
+542,zipf_trace_0542.trace,128,shuffled_rank_zipf,0.7,2315,2Q (VLDB '94),30.4080,7602,17398,240.0
+542,zipf_trace_0542.trace,128,shuffled_rank_zipf,0.7,2315,Static-Fuzzy (Bengar '20),16.3000,4075,20925,192.7
+542,zipf_trace_0542.trace,128,shuffled_rank_zipf,0.7,2315,Fast-LUT-ANFIS,23.6760,5919,19081,587.8
+425,zipf_trace_0425.trace,128,varying_alpha_zipf,0.9,3213,LRU,49.4160,12354,12646,133.2
+425,zipf_trace_0425.trace,128,varying_alpha_zipf,0.9,3213,FIFO,45.4080,11352,13648,79.8
+425,zipf_trace_0425.trace,128,varying_alpha_zipf,0.9,3213,LFU,58.6840,14671,10329,195.6
+425,zipf_trace_0425.trace,128,varying_alpha_zipf,0.9,3213,IBM-ARC,56.6080,14152,10848,197.2
+425,zipf_trace_0425.trace,128,varying_alpha_zipf,0.9,3213,2Q (VLDB '94),55.6600,13915,11085,177.0
+425,zipf_trace_0425.trace,128,varying_alpha_zipf,0.9,3213,Static-Fuzzy (Bengar '20),51.3800,12845,12155,123.0
+425,zipf_trace_0425.trace,128,varying_alpha_zipf,0.9,3213,Fast-LUT-ANFIS,51.0960,12774,12226,404.9
+429,zipf_trace_0429.trace,128,bimodal_zipf,0.7,3834,LRU,32.0520,8013,16987,201.1
+429,zipf_trace_0429.trace,128,bimodal_zipf,0.7,3834,FIFO,28.1120,7028,17972,122.7
+429,zipf_trace_0429.trace,128,bimodal_zipf,0.7,3834,LFU,41.5280,10382,14618,314.7
+429,zipf_trace_0429.trace,128,bimodal_zipf,0.7,3834,IBM-ARC,41.6800,10420,14580,301.6
+429,zipf_trace_0429.trace,128,bimodal_zipf,0.7,3834,2Q (VLDB '94),40.5200,10130,14870,565.2
+429,zipf_trace_0429.trace,128,bimodal_zipf,0.7,3834,Static-Fuzzy (Bengar '20),30.6240,7656,17344,222.4
+429,zipf_trace_0429.trace,128,bimodal_zipf,0.7,3834,Fast-LUT-ANFIS,33.0880,8272,16728,679.1
+529,zipf_trace_0529.trace,128,bimodal_zipf,1.2,3075,LRU,70.3840,17596,7404,121.7
+529,zipf_trace_0529.trace,128,bimodal_zipf,1.2,3075,FIFO,65.2680,16317,8683,69.3
+529,zipf_trace_0529.trace,128,bimodal_zipf,1.2,3075,LFU,76.0080,19002,5998,188.4
+529,zipf_trace_0529.trace,128,bimodal_zipf,1.2,3075,IBM-ARC,75.5720,18893,6107,149.3
+529,zipf_trace_0529.trace,128,bimodal_zipf,1.2,3075,2Q (VLDB '94),74.5560,18639,6361,136.8
+529,zipf_trace_0529.trace,128,bimodal_zipf,1.2,3075,Static-Fuzzy (Bengar '20),69.3240,17331,7669,97.1
+529,zipf_trace_0529.trace,128,bimodal_zipf,1.2,3075,Fast-LUT-ANFIS,70.6400,17660,7340,266.8
+489,zipf_trace_0489.trace,128,bimodal_zipf,1.1,2933,LRU,60.1320,15033,9967,138.1
+489,zipf_trace_0489.trace,128,bimodal_zipf,1.1,2933,FIFO,55.0360,13759,11241,80.3
+489,zipf_trace_0489.trace,128,bimodal_zipf,1.1,2933,LFU,67.3080,16827,8173,209.2
+489,zipf_trace_0489.trace,128,bimodal_zipf,1.1,2933,IBM-ARC,67.0320,16758,8242,188.4
+489,zipf_trace_0489.trace,128,bimodal_zipf,1.1,2933,2Q (VLDB '94),66.1760,16544,8456,169.3
+489,zipf_trace_0489.trace,128,bimodal_zipf,1.1,2933,Static-Fuzzy (Bengar '20),59.6480,14912,10088,120.4
+489,zipf_trace_0489.trace,128,bimodal_zipf,1.1,2933,Fast-LUT-ANFIS,61.1160,15279,9721,353.6
+437,zipf_trace_0437.trace,128,shuffled_rank_zipf,1.2,3395,LRU,70.4000,17600,7400,154.4
+437,zipf_trace_0437.trace,128,shuffled_rank_zipf,1.2,3395,FIFO,65.7160,16429,8571,84.8
+437,zipf_trace_0437.trace,128,shuffled_rank_zipf,1.2,3395,LFU,47.9680,11992,13008,285.0
+437,zipf_trace_0437.trace,128,shuffled_rank_zipf,1.2,3395,IBM-ARC,73.8000,18450,6550,206.6
+437,zipf_trace_0437.trace,128,shuffled_rank_zipf,1.2,3395,2Q (VLDB '94),72.8000,18200,6800,189.0
+437,zipf_trace_0437.trace,128,shuffled_rank_zipf,1.2,3395,Static-Fuzzy (Bengar '20),52.3440,13086,11914,164.6
+437,zipf_trace_0437.trace,128,shuffled_rank_zipf,1.2,3395,Fast-LUT-ANFIS,66.9920,16748,8252,369.6
+580,zipf_trace_0580.trace,128,varying_alpha_zipf,0.8,2554,LRU,51.3600,12840,12160,151.2
+580,zipf_trace_0580.trace,128,varying_alpha_zipf,0.8,2554,FIFO,47.2400,11810,13190,86.8
+580,zipf_trace_0580.trace,128,varying_alpha_zipf,0.8,2554,LFU,59.9080,14977,10023,203.2
+580,zipf_trace_0580.trace,128,varying_alpha_zipf,0.8,2554,IBM-ARC,58.1320,14533,10467,215.8
+580,zipf_trace_0580.trace,128,varying_alpha_zipf,0.8,2554,2Q (VLDB '94),57.1720,14293,10707,191.8
+580,zipf_trace_0580.trace,128,varying_alpha_zipf,0.8,2554,Static-Fuzzy (Bengar '20),52.7960,13199,11801,135.1
+580,zipf_trace_0580.trace,128,varying_alpha_zipf,0.8,2554,Fast-LUT-ANFIS,52.1560,13039,11961,427.9
+434,zipf_trace_0434.trace,128,bimodal_zipf,0.9,2843,LRU,52.0320,13008,11992,133.6
+434,zipf_trace_0434.trace,128,bimodal_zipf,0.9,2843,FIFO,46.9960,11749,13251,79.0
+434,zipf_trace_0434.trace,128,bimodal_zipf,0.9,2843,LFU,60.1720,15043,9957,198.0
+434,zipf_trace_0434.trace,128,bimodal_zipf,0.9,2843,IBM-ARC,59.7200,14930,10070,185.1
+434,zipf_trace_0434.trace,128,bimodal_zipf,0.9,2843,2Q (VLDB '94),58.7840,14696,10304,169.3
+434,zipf_trace_0434.trace,128,bimodal_zipf,0.9,2843,Static-Fuzzy (Bengar '20),51.7400,12935,12065,125.0
+434,zipf_trace_0434.trace,128,bimodal_zipf,0.9,2843,Fast-LUT-ANFIS,53.3880,13347,11653,371.1
+442,zipf_trace_0442.trace,128,shuffled_rank_zipf,1.0,3479,LRU,47.6560,11914,13086,140.9
+442,zipf_trace_0442.trace,128,shuffled_rank_zipf,1.0,3479,FIFO,42.7640,10691,14309,84.3
+442,zipf_trace_0442.trace,128,shuffled_rank_zipf,1.0,3479,LFU,28.1880,7047,17953,245.5
+442,zipf_trace_0442.trace,128,shuffled_rank_zipf,1.0,3479,IBM-ARC,54.4520,13613,11387,215.6
+442,zipf_trace_0442.trace,128,shuffled_rank_zipf,1.0,3479,2Q (VLDB '94),52.8880,13222,11778,190.3
+442,zipf_trace_0442.trace,128,shuffled_rank_zipf,1.0,3479,Static-Fuzzy (Bengar '20),31.2440,7811,17189,168.0
+442,zipf_trace_0442.trace,128,shuffled_rank_zipf,1.0,3479,Fast-LUT-ANFIS,45.8440,11461,13539,450.5
+573,zipf_trace_0573.trace,128,zipf_with_scans,1.1,4448,LRU,41.3280,10332,14668,160.8
+573,zipf_trace_0573.trace,128,zipf_with_scans,1.1,4448,FIFO,36.5920,9148,15852,93.7
+573,zipf_trace_0573.trace,128,zipf_with_scans,1.1,4448,LFU,50.7520,12688,12312,224.2
+573,zipf_trace_0573.trace,128,zipf_with_scans,1.1,4448,IBM-ARC,51.4280,12857,12143,226.1
+573,zipf_trace_0573.trace,128,zipf_with_scans,1.1,4448,2Q (VLDB '94),49.5600,12390,12610,216.7
+573,zipf_trace_0573.trace,128,zipf_with_scans,1.1,4448,Static-Fuzzy (Bengar '20),41.9760,10494,14506,167.1
+573,zipf_trace_0573.trace,128,zipf_with_scans,1.1,4448,Fast-LUT-ANFIS,42.6320,10658,14342,497.8
+411,zipf_trace_0411.trace,128,stationary_zipf,0.9,4008,LRU,37.6320,9408,15592,154.8
+411,zipf_trace_0411.trace,128,stationary_zipf,0.9,4008,FIFO,33.1600,8290,16710,94.9
+411,zipf_trace_0411.trace,128,stationary_zipf,0.9,4008,LFU,46.7520,11688,13312,208.5
+411,zipf_trace_0411.trace,128,stationary_zipf,0.9,4008,IBM-ARC,46.8960,11724,13276,233.1
+411,zipf_trace_0411.trace,128,stationary_zipf,0.9,4008,2Q (VLDB '94),45.9040,11476,13524,213.6
+411,zipf_trace_0411.trace,128,stationary_zipf,0.9,4008,Static-Fuzzy (Bengar '20),35.0200,8755,16245,163.2
+411,zipf_trace_0411.trace,128,stationary_zipf,0.9,4008,Fast-LUT-ANFIS,39.6480,9912,15088,492.7
+505,zipf_trace_0505.trace,128,varying_alpha_zipf,1.2,1934,LRU,54.0280,13507,11493,133.0
+505,zipf_trace_0505.trace,128,varying_alpha_zipf,1.2,1934,FIFO,49.7480,12437,12563,79.8
+505,zipf_trace_0505.trace,128,varying_alpha_zipf,1.2,1934,LFU,62.7160,15679,9321,196.5
+505,zipf_trace_0505.trace,128,varying_alpha_zipf,1.2,1934,IBM-ARC,60.7760,15194,9806,189.8
+505,zipf_trace_0505.trace,128,varying_alpha_zipf,1.2,1934,2Q (VLDB '94),59.7840,14946,10054,169.8
+505,zipf_trace_0505.trace,128,varying_alpha_zipf,1.2,1934,Static-Fuzzy (Bengar '20),54.5760,13644,11356,125.2
+505,zipf_trace_0505.trace,128,varying_alpha_zipf,1.2,1934,Fast-LUT-ANFIS,54.6240,13656,11344,371.4
+441,zipf_trace_0441.trace,128,stationary_zipf,0.9,3177,LRU,34.7640,8691,16309,149.9
+441,zipf_trace_0441.trace,128,stationary_zipf,0.9,3177,FIFO,30.4680,7617,17383,91.9
+441,zipf_trace_0441.trace,128,stationary_zipf,0.9,3177,LFU,45.3720,11343,13657,213.5
+441,zipf_trace_0441.trace,128,stationary_zipf,0.9,3177,IBM-ARC,44.3320,11083,13917,230.9
+441,zipf_trace_0441.trace,128,stationary_zipf,0.9,3177,2Q (VLDB '94),43.3320,10833,14167,208.5
+441,zipf_trace_0441.trace,128,stationary_zipf,0.9,3177,Static-Fuzzy (Bengar '20),34.2400,8560,16440,160.7
+441,zipf_trace_0441.trace,128,stationary_zipf,0.9,3177,Fast-LUT-ANFIS,36.4440,9111,15889,497.0
+457,zipf_trace_0457.trace,128,shuffled_rank_zipf,1.2,2092,LRU,76.0440,19011,5989,112.9
+457,zipf_trace_0457.trace,128,shuffled_rank_zipf,1.2,2092,FIFO,71.5960,17899,7101,63.0
+457,zipf_trace_0457.trace,128,shuffled_rank_zipf,1.2,2092,LFU,55.9600,13990,11010,200.1
+457,zipf_trace_0457.trace,128,shuffled_rank_zipf,1.2,2092,IBM-ARC,78.5480,19637,5363,149.5
+457,zipf_trace_0457.trace,128,shuffled_rank_zipf,1.2,2092,2Q (VLDB '94),77.3640,19341,5659,129.3
+457,zipf_trace_0457.trace,128,shuffled_rank_zipf,1.2,2092,Static-Fuzzy (Bengar '20),58.5400,14635,10365,111.2
+457,zipf_trace_0457.trace,128,shuffled_rank_zipf,1.2,2092,Fast-LUT-ANFIS,72.5920,18148,6852,246.7
+548,zipf_trace_0548.trace,128,zipf_with_scans,0.9,3503,LRU,33.9840,8496,16504,151.4
+548,zipf_trace_0548.trace,128,zipf_with_scans,0.9,3503,FIFO,29.8160,7454,17546,93.3
+548,zipf_trace_0548.trace,128,zipf_with_scans,0.9,3503,LFU,44.9520,11238,13762,202.2
+548,zipf_trace_0548.trace,128,zipf_with_scans,0.9,3503,IBM-ARC,44.9320,11233,13767,225.1
+548,zipf_trace_0548.trace,128,zipf_with_scans,0.9,3503,2Q (VLDB '94),43.1080,10777,14223,209.0
+548,zipf_trace_0548.trace,128,zipf_with_scans,0.9,3503,Static-Fuzzy (Bengar '20),34.7480,8687,16313,160.5
+548,zipf_trace_0548.trace,128,zipf_with_scans,0.9,3503,Fast-LUT-ANFIS,36.0440,9011,15989,499.3
+464,zipf_trace_0464.trace,128,bimodal_zipf,1.1,4079,LRU,64.5840,16146,8854,125.8
+464,zipf_trace_0464.trace,128,bimodal_zipf,1.1,4079,FIFO,59.7000,14925,10075,72.0
+464,zipf_trace_0464.trace,128,bimodal_zipf,1.1,4079,LFU,71.2160,17804,7196,190.1
+464,zipf_trace_0464.trace,128,bimodal_zipf,1.1,4079,IBM-ARC,70.6880,17672,7328,165.7
+464,zipf_trace_0464.trace,128,bimodal_zipf,1.1,4079,2Q (VLDB '94),69.5040,17376,7624,150.5
+464,zipf_trace_0464.trace,128,bimodal_zipf,1.1,4079,Static-Fuzzy (Bengar '20),63.4640,15866,9134,108.7
+464,zipf_trace_0464.trace,128,bimodal_zipf,1.1,4079,Fast-LUT-ANFIS,65.0800,16270,8730,302.7
+495,zipf_trace_0495.trace,128,varying_alpha_zipf,0.9,4246,LRU,47.7240,11931,13069,151.3
+495,zipf_trace_0495.trace,128,varying_alpha_zipf,0.9,4246,FIFO,43.7960,10949,14051,90.8
+495,zipf_trace_0495.trace,128,varying_alpha_zipf,0.9,4246,LFU,55.0880,13772,11228,230.3
+495,zipf_trace_0495.trace,128,varying_alpha_zipf,0.9,4246,IBM-ARC,55.6080,13902,11098,226.2
+495,zipf_trace_0495.trace,128,varying_alpha_zipf,0.9,4246,2Q (VLDB '94),54.3160,13579,11421,209.0
+495,zipf_trace_0495.trace,128,varying_alpha_zipf,0.9,4246,Static-Fuzzy (Bengar '20),46.4280,11607,13393,153.0
+495,zipf_trace_0495.trace,128,varying_alpha_zipf,0.9,4246,Fast-LUT-ANFIS,48.3000,12075,12925,458.1
+696,zipf_trace_0696.trace,256,stationary_zipf,0.8,7309,LRU,24.0720,6018,18982,183.0
+696,zipf_trace_0696.trace,256,stationary_zipf,0.8,7309,FIFO,21.0320,5258,19742,111.3
+696,zipf_trace_0696.trace,256,stationary_zipf,0.8,7309,LFU,33.0560,8264,16736,204.0
+696,zipf_trace_0696.trace,256,stationary_zipf,0.8,7309,IBM-ARC,33.2720,8318,16682,270.3
+696,zipf_trace_0696.trace,256,stationary_zipf,0.8,7309,2Q (VLDB '94),32.3160,8079,16921,255.5
+696,zipf_trace_0696.trace,256,stationary_zipf,0.8,7309,Static-Fuzzy (Bengar '20),22.8040,5701,19299,193.1
+696,zipf_trace_0696.trace,256,stationary_zipf,0.8,7309,Fast-LUT-ANFIS,23.4680,5867,19133,618.9
+759,zipf_trace_0759.trace,256,bimodal_zipf,1.2,6474,LRU,74.5680,18642,6358,133.2
+759,zipf_trace_0759.trace,256,bimodal_zipf,1.2,6474,FIFO,70.2920,17573,7427,73.4
+759,zipf_trace_0759.trace,256,bimodal_zipf,1.2,6474,LFU,78.7640,19691,5309,185.6
+759,zipf_trace_0759.trace,256,bimodal_zipf,1.2,6474,IBM-ARC,79.1320,19783,5217,153.9
+759,zipf_trace_0759.trace,256,bimodal_zipf,1.2,6474,2Q (VLDB '94),77.7680,19442,5558,144.5
+759,zipf_trace_0759.trace,256,bimodal_zipf,1.2,6474,Static-Fuzzy (Bengar '20),74.6040,18651,6349,94.5
+759,zipf_trace_0759.trace,256,bimodal_zipf,1.2,6474,Fast-LUT-ANFIS,74.8680,18717,6283,268.3
+724,zipf_trace_0724.trace,256,bimodal_zipf,1.2,8143,LRU,78.2000,19550,5450,136.9
+724,zipf_trace_0724.trace,256,bimodal_zipf,1.2,8143,FIFO,74.2800,18570,6430,71.7
+724,zipf_trace_0724.trace,256,bimodal_zipf,1.2,8143,LFU,82.2320,20558,4442,193.7
+724,zipf_trace_0724.trace,256,bimodal_zipf,1.2,8143,IBM-ARC,82.2400,20560,4440,151.9
+724,zipf_trace_0724.trace,256,bimodal_zipf,1.2,8143,2Q (VLDB '94),81.2040,20301,4699,142.2
+724,zipf_trace_0724.trace,256,bimodal_zipf,1.2,8143,Static-Fuzzy (Bengar '20),76.3720,19093,5907,94.7
+724,zipf_trace_0724.trace,256,bimodal_zipf,1.2,8143,Fast-LUT-ANFIS,79.0080,19752,5248,245.7
+687,zipf_trace_0687.trace,256,shuffled_rank_zipf,0.7,4601,LRU,26.1880,6547,18453,168.6
+687,zipf_trace_0687.trace,256,shuffled_rank_zipf,0.7,4601,FIFO,23.4000,5850,19150,101.9
+687,zipf_trace_0687.trace,256,shuffled_rank_zipf,0.7,4601,LFU,16.4560,4114,20886,204.7
+687,zipf_trace_0687.trace,256,shuffled_rank_zipf,0.7,4601,IBM-ARC,31.9840,7996,17004,271.5
+687,zipf_trace_0687.trace,256,shuffled_rank_zipf,0.7,4601,2Q (VLDB '94),29.6720,7418,17582,240.5
+687,zipf_trace_0687.trace,256,shuffled_rank_zipf,0.7,4601,Static-Fuzzy (Bengar '20),13.6520,3413,21587,188.4
+687,zipf_trace_0687.trace,256,shuffled_rank_zipf,0.7,4601,Fast-LUT-ANFIS,25.2320,6308,18692,561.3
+693,zipf_trace_0693.trace,256,zipf_with_scans,1.2,6991,LRU,59.3200,14830,10170,135.9
+693,zipf_trace_0693.trace,256,zipf_with_scans,1.2,6991,FIFO,55.1920,13798,11202,76.2
+693,zipf_trace_0693.trace,256,zipf_with_scans,1.2,6991,LFU,65.0320,16258,8742,178.7
+693,zipf_trace_0693.trace,256,zipf_with_scans,1.2,6991,IBM-ARC,65.8480,16462,8538,164.8
+693,zipf_trace_0693.trace,256,zipf_with_scans,1.2,6991,2Q (VLDB '94),64.2840,16071,8929,159.5
+693,zipf_trace_0693.trace,256,zipf_with_scans,1.2,6991,Static-Fuzzy (Bengar '20),58.4840,14621,10379,110.5
+693,zipf_trace_0693.trace,256,zipf_with_scans,1.2,6991,Fast-LUT-ANFIS,59.7880,14947,10053,329.5
+655,zipf_trace_0655.trace,256,varying_alpha_zipf,1.0,6723,LRU,52.1800,13045,11955,149.1
+655,zipf_trace_0655.trace,256,varying_alpha_zipf,1.0,6723,FIFO,48.6000,12150,12850,86.2
+655,zipf_trace_0655.trace,256,varying_alpha_zipf,1.0,6723,LFU,57.4120,14353,10647,186.6
+655,zipf_trace_0655.trace,256,varying_alpha_zipf,1.0,6723,IBM-ARC,58.2920,14573,10427,200.9
+655,zipf_trace_0655.trace,256,varying_alpha_zipf,1.0,6723,2Q (VLDB '94),57.2160,14304,10696,188.2
+655,zipf_trace_0655.trace,256,varying_alpha_zipf,1.0,6723,Static-Fuzzy (Bengar '20),45.4040,11351,13649,141.2
+655,zipf_trace_0655.trace,256,varying_alpha_zipf,1.0,6723,Fast-LUT-ANFIS,52.8240,13206,11794,391.1
+677,zipf_trace_0677.trace,256,shuffled_rank_zipf,1.0,5899,LRU,57.0880,14272,10728,146.5
+677,zipf_trace_0677.trace,256,shuffled_rank_zipf,1.0,5899,FIFO,52.6160,13154,11846,84.4
+677,zipf_trace_0677.trace,256,shuffled_rank_zipf,1.0,5899,LFU,40.1120,10028,14972,202.9
+677,zipf_trace_0677.trace,256,shuffled_rank_zipf,1.0,5899,IBM-ARC,60.1520,15038,9962,206.2
+677,zipf_trace_0677.trace,256,shuffled_rank_zipf,1.0,5899,2Q (VLDB '94),58.5840,14646,10354,178.6
+677,zipf_trace_0677.trace,256,shuffled_rank_zipf,1.0,5899,Static-Fuzzy (Bengar '20),35.1640,8791,16209,159.9
+677,zipf_trace_0677.trace,256,shuffled_rank_zipf,1.0,5899,Fast-LUT-ANFIS,55.4040,13851,11149,384.3
+779,zipf_trace_0779.trace,256,bimodal_zipf,0.9,6662,LRU,48.8880,12222,12778,153.4
+779,zipf_trace_0779.trace,256,bimodal_zipf,0.9,6662,FIFO,44.3120,11078,13922,89.4
+779,zipf_trace_0779.trace,256,bimodal_zipf,0.9,6662,LFU,56.6920,14173,10827,188.9
+779,zipf_trace_0779.trace,256,bimodal_zipf,0.9,6662,IBM-ARC,56.6800,14170,10830,201.2
+779,zipf_trace_0779.trace,256,bimodal_zipf,0.9,6662,2Q (VLDB '94),55.4400,13860,11140,189.0
+779,zipf_trace_0779.trace,256,bimodal_zipf,0.9,6662,Static-Fuzzy (Bengar '20),47.0880,11772,13228,140.1
+779,zipf_trace_0779.trace,256,bimodal_zipf,0.9,6662,Fast-LUT-ANFIS,50.3640,12591,12409,418.9
+791,zipf_trace_0791.trace,256,stationary_zipf,1.0,4149,LRU,54.7720,13693,11307,148.1
+791,zipf_trace_0791.trace,256,stationary_zipf,1.0,4149,FIFO,50.0400,12510,12490,86.0
+791,zipf_trace_0791.trace,256,stationary_zipf,1.0,4149,LFU,62.0280,15507,9493,195.7
+791,zipf_trace_0791.trace,256,stationary_zipf,1.0,4149,IBM-ARC,62.1160,15529,9471,191.1
+791,zipf_trace_0791.trace,256,stationary_zipf,1.0,4149,2Q (VLDB '94),60.7080,15177,9823,175.7
+791,zipf_trace_0791.trace,256,stationary_zipf,1.0,4149,Static-Fuzzy (Bengar '20),54.6400,13660,11340,130.0
+791,zipf_trace_0791.trace,256,stationary_zipf,1.0,4149,Fast-LUT-ANFIS,56.2760,14069,10931,379.3
+613,zipf_trace_0613.trace,256,zipf_with_scans,0.9,6200,LRU,33.7840,8446,16554,166.1
+613,zipf_trace_0613.trace,256,zipf_with_scans,0.9,6200,FIFO,29.8960,7474,17526,100.3
+613,zipf_trace_0613.trace,256,zipf_with_scans,0.9,6200,LFU,42.1280,10532,14468,193.5
+613,zipf_trace_0613.trace,256,zipf_with_scans,0.9,6200,IBM-ARC,43.2280,10807,14193,233.0
+613,zipf_trace_0613.trace,256,zipf_with_scans,0.9,6200,2Q (VLDB '94),41.6200,10405,14595,221.0
+613,zipf_trace_0613.trace,256,zipf_with_scans,0.9,6200,Static-Fuzzy (Bengar '20),33.1640,8291,16709,167.8
+613,zipf_trace_0613.trace,256,zipf_with_scans,0.9,6200,Fast-LUT-ANFIS,33.8640,8466,16534,524.2
+726,zipf_trace_0726.trace,256,stationary_zipf,1.0,4735,LRU,50.4040,12601,12399,152.4
+726,zipf_trace_0726.trace,256,stationary_zipf,1.0,4735,FIFO,45.5240,11381,13619,89.7
+726,zipf_trace_0726.trace,256,stationary_zipf,1.0,4735,LFU,57.9440,14486,10514,195.5
+726,zipf_trace_0726.trace,256,stationary_zipf,1.0,4735,IBM-ARC,57.7840,14446,10554,202.7
+726,zipf_trace_0726.trace,256,stationary_zipf,1.0,4735,2Q (VLDB '94),56.5640,14141,10859,186.5
+726,zipf_trace_0726.trace,256,stationary_zipf,1.0,4735,Static-Fuzzy (Bengar '20),48.7720,12193,12807,138.5
+726,zipf_trace_0726.trace,256,stationary_zipf,1.0,4735,Fast-LUT-ANFIS,51.7840,12946,12054,412.1
+754,zipf_trace_0754.trace,256,bimodal_zipf,1.1,6232,LRU,66.8400,16710,8290,131.4
+754,zipf_trace_0754.trace,256,bimodal_zipf,1.1,6232,FIFO,62.3760,15594,9406,74.5
+754,zipf_trace_0754.trace,256,bimodal_zipf,1.1,6232,LFU,72.1000,18025,6975,178.0
+754,zipf_trace_0754.trace,256,bimodal_zipf,1.1,6232,IBM-ARC,72.1560,18039,6961,157.4
+754,zipf_trace_0754.trace,256,bimodal_zipf,1.1,6232,2Q (VLDB '94),70.8560,17714,7286,150.7
+754,zipf_trace_0754.trace,256,bimodal_zipf,1.1,6232,Static-Fuzzy (Bengar '20),65.9920,16498,8502,104.6
+754,zipf_trace_0754.trace,256,bimodal_zipf,1.1,6232,Fast-LUT-ANFIS,67.2400,16810,8190,289.0
+778,zipf_trace_0778.trace,256,zipf_with_scans,1.2,6045,LRU,68.2040,17051,7949,130.1
+778,zipf_trace_0778.trace,256,zipf_with_scans,1.2,6045,FIFO,63.9440,15986,9014,72.1
+778,zipf_trace_0778.trace,256,zipf_with_scans,1.2,6045,LFU,73.2040,18301,6699,180.0
+778,zipf_trace_0778.trace,256,zipf_with_scans,1.2,6045,IBM-ARC,73.6560,18414,6586,151.7
+778,zipf_trace_0778.trace,256,zipf_with_scans,1.2,6045,2Q (VLDB '94),72.2200,18055,6945,144.2
+778,zipf_trace_0778.trace,256,zipf_with_scans,1.2,6045,Static-Fuzzy (Bengar '20),67.6480,16912,8088,100.9
+778,zipf_trace_0778.trace,256,zipf_with_scans,1.2,6045,Fast-LUT-ANFIS,68.4360,17109,7891,278.5
+704,zipf_trace_0704.trace,256,bimodal_zipf,1.1,5354,LRU,69.4480,17362,7638,133.8
+704,zipf_trace_0704.trace,256,bimodal_zipf,1.1,5354,FIFO,65.1600,16290,8710,73.7
+704,zipf_trace_0704.trace,256,bimodal_zipf,1.1,5354,LFU,74.1440,18536,6464,182.7
+704,zipf_trace_0704.trace,256,bimodal_zipf,1.1,5354,IBM-ARC,74.5520,18638,6362,159.6
+704,zipf_trace_0704.trace,256,bimodal_zipf,1.1,5354,2Q (VLDB '94),73.4240,18356,6644,148.1
+704,zipf_trace_0704.trace,256,bimodal_zipf,1.1,5354,Static-Fuzzy (Bengar '20),68.0160,17004,7996,105.5
+704,zipf_trace_0704.trace,256,bimodal_zipf,1.1,5354,Fast-LUT-ANFIS,69.6960,17424,7576,275.1
+625,zipf_trace_0625.trace,256,varying_alpha_zipf,0.8,5011,LRU,54.6360,13659,11341,138.8
+625,zipf_trace_0625.trace,256,varying_alpha_zipf,0.8,5011,FIFO,50.8760,12719,12281,79.3
+625,zipf_trace_0625.trace,256,varying_alpha_zipf,0.8,5011,LFU,60.8560,15214,9786,179.1
+625,zipf_trace_0625.trace,256,varying_alpha_zipf,0.8,5011,IBM-ARC,60.7680,15192,9808,181.3
+625,zipf_trace_0625.trace,256,varying_alpha_zipf,0.8,5011,2Q (VLDB '94),59.6360,14909,10091,168.5
+625,zipf_trace_0625.trace,256,varying_alpha_zipf,0.8,5011,Static-Fuzzy (Bengar '20),52.8080,13202,11798,125.1
+625,zipf_trace_0625.trace,256,varying_alpha_zipf,0.8,5011,Fast-LUT-ANFIS,55.2600,13815,11185,356.8
+640,zipf_trace_0640.trace,256,varying_alpha_zipf,1.0,5131,LRU,54.2320,13558,11442,138.3
+640,zipf_trace_0640.trace,256,varying_alpha_zipf,1.0,5131,FIFO,50.5400,12635,12365,79.4
+640,zipf_trace_0640.trace,256,varying_alpha_zipf,1.0,5131,LFU,61.2480,15312,9688,177.1
+640,zipf_trace_0640.trace,256,varying_alpha_zipf,1.0,5131,IBM-ARC,60.4360,15109,9891,182.8
+640,zipf_trace_0640.trace,256,varying_alpha_zipf,1.0,5131,2Q (VLDB '94),59.4000,14850,10150,169.3
+640,zipf_trace_0640.trace,256,varying_alpha_zipf,1.0,5131,Static-Fuzzy (Bengar '20),54.6120,13653,11347,122.1
+640,zipf_trace_0640.trace,256,varying_alpha_zipf,1.0,5131,Fast-LUT-ANFIS,54.8360,13709,11291,358.0
+799,zipf_trace_0799.trace,256,bimodal_zipf,1.0,7541,LRU,53.6760,13419,11581,143.5
+799,zipf_trace_0799.trace,256,bimodal_zipf,1.0,7541,FIFO,48.9840,12246,12754,82.3
+799,zipf_trace_0799.trace,256,bimodal_zipf,1.0,7541,LFU,59.9000,14975,10025,182.9
+799,zipf_trace_0799.trace,256,bimodal_zipf,1.0,7541,IBM-ARC,60.5920,15148,9852,183.8
+799,zipf_trace_0799.trace,256,bimodal_zipf,1.0,7541,2Q (VLDB '94),59.5240,14881,10119,173.3
+799,zipf_trace_0799.trace,256,bimodal_zipf,1.0,7541,Static-Fuzzy (Bengar '20),52.7280,13182,11818,127.1
+799,zipf_trace_0799.trace,256,bimodal_zipf,1.0,7541,Fast-LUT-ANFIS,54.7920,13698,11302,370.1
+699,zipf_trace_0699.trace,256,bimodal_zipf,1.1,7782,LRU,66.8600,16715,8285,138.6
+699,zipf_trace_0699.trace,256,bimodal_zipf,1.1,7782,FIFO,62.3800,15595,9405,75.9
+699,zipf_trace_0699.trace,256,bimodal_zipf,1.1,7782,LFU,72.0640,18016,6984,184.0
+699,zipf_trace_0699.trace,256,bimodal_zipf,1.1,7782,IBM-ARC,72.1320,18033,6967,162.2
+699,zipf_trace_0699.trace,256,bimodal_zipf,1.1,7782,2Q (VLDB '94),70.7520,17688,7312,154.8
+699,zipf_trace_0699.trace,256,bimodal_zipf,1.1,7782,Static-Fuzzy (Bengar '20),65.7200,16430,8570,109.8
+699,zipf_trace_0699.trace,256,bimodal_zipf,1.1,7782,Fast-LUT-ANFIS,67.4200,16855,8145,298.3
+603,zipf_trace_0603.trace,256,zipf_with_scans,0.8,6858,LRU,21.0040,5251,19749,174.0
+603,zipf_trace_0603.trace,256,zipf_with_scans,0.8,6858,FIFO,18.2480,4562,20438,107.4
+603,zipf_trace_0603.trace,256,zipf_with_scans,0.8,6858,LFU,30.4760,7619,17381,193.8
+603,zipf_trace_0603.trace,256,zipf_with_scans,0.8,6858,IBM-ARC,31.2960,7824,17176,257.1
+603,zipf_trace_0603.trace,256,zipf_with_scans,0.8,6858,2Q (VLDB '94),29.2360,7309,17691,253.1
+603,zipf_trace_0603.trace,256,zipf_with_scans,0.8,6858,Static-Fuzzy (Bengar '20),21.9160,5479,19521,192.8
+603,zipf_trace_0603.trace,256,zipf_with_scans,0.8,6858,Fast-LUT-ANFIS,20.3760,5094,19906,611.4
+644,zipf_trace_0644.trace,256,bimodal_zipf,1.1,4131,LRU,69.4640,17366,7634,134.4
+644,zipf_trace_0644.trace,256,bimodal_zipf,1.1,4131,FIFO,65.2200,16305,8695,74.6
+644,zipf_trace_0644.trace,256,bimodal_zipf,1.1,4131,LFU,74.8400,18710,6290,185.8
+644,zipf_trace_0644.trace,256,bimodal_zipf,1.1,4131,IBM-ARC,74.3240,18581,6419,160.7
+644,zipf_trace_0644.trace,256,bimodal_zipf,1.1,4131,2Q (VLDB '94),73.2040,18301,6699,149.7
+644,zipf_trace_0644.trace,256,bimodal_zipf,1.1,4131,Static-Fuzzy (Bengar '20),69.2200,17305,7695,104.4
+644,zipf_trace_0644.trace,256,bimodal_zipf,1.1,4131,Fast-LUT-ANFIS,69.7600,17440,7560,285.4
+887,zipf_trace_0887.trace,512,shuffled_rank_zipf,1.0,13202,LRU,55.4800,13870,11130,159.6
+887,zipf_trace_0887.trace,512,shuffled_rank_zipf,1.0,13202,FIFO,51.6160,12904,12096,90.1
+887,zipf_trace_0887.trace,512,shuffled_rank_zipf,1.0,13202,LFU,42.4120,10603,14397,203.1
+887,zipf_trace_0887.trace,512,shuffled_rank_zipf,1.0,13202,IBM-ARC,56.3720,14093,10907,228.0
+887,zipf_trace_0887.trace,512,shuffled_rank_zipf,1.0,13202,2Q (VLDB '94),53.4760,13369,11631,210.9
+887,zipf_trace_0887.trace,512,shuffled_rank_zipf,1.0,13202,Static-Fuzzy (Bengar '20),30.1520,7538,17462,169.3
+887,zipf_trace_0887.trace,512,shuffled_rank_zipf,1.0,13202,Fast-LUT-ANFIS,54.1280,13532,11468,413.8
+981,zipf_trace_0981.trace,512,stationary_zipf,0.9,9080,LRU,44.0280,11007,13993,166.7
+981,zipf_trace_0981.trace,512,stationary_zipf,0.9,9080,FIFO,39.6040,9901,15099,99.1
+981,zipf_trace_0981.trace,512,stationary_zipf,0.9,9080,LFU,50.9560,12739,12261,187.2
+981,zipf_trace_0981.trace,512,stationary_zipf,0.9,9080,IBM-ARC,51.7200,12930,12070,224.2
+981,zipf_trace_0981.trace,512,stationary_zipf,0.9,9080,2Q (VLDB '94),49.8000,12450,12550,221.2
+981,zipf_trace_0981.trace,512,stationary_zipf,0.9,9080,Static-Fuzzy (Bengar '20),44.7720,11193,13807,146.2
+981,zipf_trace_0981.trace,512,stationary_zipf,0.9,9080,Fast-LUT-ANFIS,43.9000,10975,14025,477.1
+924,zipf_trace_0924.trace,512,bimodal_zipf,1.2,11441,LRU,82.0800,20520,4480,119.0
+924,zipf_trace_0924.trace,512,bimodal_zipf,1.2,11441,FIFO,79.0840,19771,5229,61.8
+924,zipf_trace_0924.trace,512,bimodal_zipf,1.2,11441,LFU,84.1240,21031,3969,166.5
+924,zipf_trace_0924.trace,512,bimodal_zipf,1.2,11441,IBM-ARC,84.6360,21159,3841,128.4
+924,zipf_trace_0924.trace,512,bimodal_zipf,1.2,11441,2Q (VLDB '94),83.3040,20826,4174,123.7
+924,zipf_trace_0924.trace,512,bimodal_zipf,1.2,11441,Static-Fuzzy (Bengar '20),81.4480,20362,4638,76.3
+924,zipf_trace_0924.trace,512,bimodal_zipf,1.2,11441,Fast-LUT-ANFIS,82.5920,20648,4352,187.8
+910,zipf_trace_0910.trace,512,varying_alpha_zipf,0.7,12140,LRU,55.2120,13803,11197,149.0
+910,zipf_trace_0910.trace,512,varying_alpha_zipf,0.7,12140,FIFO,51.9960,12999,12001,84.3
+910,zipf_trace_0910.trace,512,varying_alpha_zipf,0.7,12140,LFU,60.1280,15032,9968,177.6
+910,zipf_trace_0910.trace,512,varying_alpha_zipf,0.7,12140,IBM-ARC,60.5120,15128,9872,194.5
+910,zipf_trace_0910.trace,512,varying_alpha_zipf,0.7,12140,2Q (VLDB '94),58.8800,14720,10280,194.7
+910,zipf_trace_0910.trace,512,varying_alpha_zipf,0.7,12140,Static-Fuzzy (Bengar '20),54.5400,13635,11365,122.3
+910,zipf_trace_0910.trace,512,varying_alpha_zipf,0.7,12140,Fast-LUT-ANFIS,55.2120,13803,11197,377.7
+877,zipf_trace_0877.trace,512,shuffled_rank_zipf,1.0,14561,LRU,54.2200,13555,11445,163.1
+877,zipf_trace_0877.trace,512,shuffled_rank_zipf,1.0,14561,FIFO,50.3240,12581,12419,93.4
+877,zipf_trace_0877.trace,512,shuffled_rank_zipf,1.0,14561,LFU,41.7160,10429,14571,199.1
+877,zipf_trace_0877.trace,512,shuffled_rank_zipf,1.0,14561,IBM-ARC,55.3120,13828,11172,233.0
+877,zipf_trace_0877.trace,512,shuffled_rank_zipf,1.0,14561,2Q (VLDB '94),52.3120,13078,11922,218.9
+877,zipf_trace_0877.trace,512,shuffled_rank_zipf,1.0,14561,Static-Fuzzy (Bengar '20),28.9800,7245,17755,161.3
+877,zipf_trace_0877.trace,512,shuffled_rank_zipf,1.0,14561,Fast-LUT-ANFIS,52.8400,13210,11790,423.4
+933,zipf_trace_0933.trace,512,zipf_with_scans,0.9,10972,LRU,40.7880,10197,14803,189.6
+933,zipf_trace_0933.trace,512,zipf_with_scans,0.9,10972,FIFO,36.5520,9138,15862,128.5
+933,zipf_trace_0933.trace,512,zipf_with_scans,0.9,10972,LFU,47.8280,11957,13043,213.1
+933,zipf_trace_0933.trace,512,zipf_with_scans,0.9,10972,IBM-ARC,48.8200,12205,12795,254.6
+933,zipf_trace_0933.trace,512,zipf_with_scans,0.9,10972,2Q (VLDB '94),46.3160,11579,13421,262.9
+933,zipf_trace_0933.trace,512,zipf_with_scans,0.9,10972,Static-Fuzzy (Bengar '20),40.3680,10092,14908,166.2
+933,zipf_trace_0933.trace,512,zipf_with_scans,0.9,10972,Fast-LUT-ANFIS,40.6520,10163,14837,543.9
+891,zipf_trace_0891.trace,512,stationary_zipf,1.0,12447,LRU,51.5200,12880,12120,328.9
+891,zipf_trace_0891.trace,512,stationary_zipf,1.0,12447,FIFO,46.9920,11748,13252,158.8
+891,zipf_trace_0891.trace,512,stationary_zipf,1.0,12447,LFU,57.6120,14403,10597,554.1
+891,zipf_trace_0891.trace,512,stationary_zipf,1.0,12447,IBM-ARC,58.1880,14547,10453,412.0
+891,zipf_trace_0891.trace,512,stationary_zipf,1.0,12447,2Q (VLDB '94),56.3000,14075,10925,606.7
+891,zipf_trace_0891.trace,512,stationary_zipf,1.0,12447,Static-Fuzzy (Bengar '20),50.3760,12594,12406,297.5
+891,zipf_trace_0891.trace,512,stationary_zipf,1.0,12447,Fast-LUT-ANFIS,52.3840,13096,11904,904.9
+919,zipf_trace_0919.trace,512,bimodal_zipf,0.7,8735,LRU,38.7000,9675,15325,360.1
+919,zipf_trace_0919.trace,512,bimodal_zipf,0.7,8735,FIFO,34.6880,8672,16328,125.7
+919,zipf_trace_0919.trace,512,bimodal_zipf,0.7,8735,LFU,45.3760,11344,13656,235.5
+919,zipf_trace_0919.trace,512,bimodal_zipf,0.7,8735,IBM-ARC,46.2480,11562,13438,289.9
+919,zipf_trace_0919.trace,512,bimodal_zipf,0.7,8735,2Q (VLDB '94),44.5880,11147,13853,285.1
+919,zipf_trace_0919.trace,512,bimodal_zipf,0.7,8735,Static-Fuzzy (Bengar '20),37.0360,9259,15741,194.9
+919,zipf_trace_0919.trace,512,bimodal_zipf,0.7,8735,Fast-LUT-ANFIS,38.4680,9617,15383,621.0
+926,zipf_trace_0926.trace,512,stationary_zipf,0.9,9248,LRU,50.8240,12706,12294,197.3
+926,zipf_trace_0926.trace,512,stationary_zipf,0.9,9248,FIFO,46.2760,11569,13431,116.3
+926,zipf_trace_0926.trace,512,stationary_zipf,0.9,9248,LFU,57.1840,14296,10704,236.4
+926,zipf_trace_0926.trace,512,stationary_zipf,0.9,9248,IBM-ARC,58.0160,14504,10496,263.4
+926,zipf_trace_0926.trace,512,stationary_zipf,0.9,9248,2Q (VLDB '94),56.1640,14041,10959,259.9
+926,zipf_trace_0926.trace,512,stationary_zipf,0.9,9248,Static-Fuzzy (Bengar '20),50.5480,12637,12363,162.7
+926,zipf_trace_0926.trace,512,stationary_zipf,0.9,9248,Fast-LUT-ANFIS,51.2560,12814,12186,547.2
+921,zipf_trace_0921.trace,512,stationary_zipf,0.9,9999,LRU,40.8360,10209,14791,186.2
+921,zipf_trace_0921.trace,512,stationary_zipf,0.9,9999,FIFO,36.5720,9143,15857,110.0
+921,zipf_trace_0921.trace,512,stationary_zipf,0.9,9999,LFU,48.3160,12079,12921,208.8
+921,zipf_trace_0921.trace,512,stationary_zipf,0.9,9999,IBM-ARC,48.3280,12082,12918,253.3
+921,zipf_trace_0921.trace,512,stationary_zipf,0.9,9999,2Q (VLDB '94),46.6720,11668,13332,252.5
+921,zipf_trace_0921.trace,512,stationary_zipf,0.9,9999,Static-Fuzzy (Bengar '20),40.0440,10011,14989,166.2
+921,zipf_trace_0921.trace,512,stationary_zipf,0.9,9999,Fast-LUT-ANFIS,40.7280,10182,14818,538.0
+908,zipf_trace_0908.trace,512,zipf_with_scans,1.1,13005,LRU,57.0040,14251,10749,177.5
+908,zipf_trace_0908.trace,512,zipf_with_scans,1.1,13005,FIFO,53.0760,13269,11731,101.8
+908,zipf_trace_0908.trace,512,zipf_with_scans,1.1,13005,LFU,61.8280,15457,9543,229.7
+908,zipf_trace_0908.trace,512,zipf_with_scans,1.1,13005,IBM-ARC,62.8560,15714,9286,222.2
+908,zipf_trace_0908.trace,512,zipf_with_scans,1.1,13005,2Q (VLDB '94),60.7280,15182,9818,228.2
+908,zipf_trace_0908.trace,512,zipf_with_scans,1.1,13005,Static-Fuzzy (Bengar '20),54.3400,13585,11415,143.4
+908,zipf_trace_0908.trace,512,zipf_with_scans,1.1,13005,Fast-LUT-ANFIS,57.2920,14323,10677,444.2
+822,zipf_trace_0822.trace,512,shuffled_rank_zipf,0.9,15035,LRU,35.8840,8971,16029,203.6
+822,zipf_trace_0822.trace,512,shuffled_rank_zipf,0.9,15035,FIFO,32.3440,8086,16914,123.7
+822,zipf_trace_0822.trace,512,shuffled_rank_zipf,0.9,15035,LFU,25.9760,6494,18506,231.4
+822,zipf_trace_0822.trace,512,shuffled_rank_zipf,0.9,15035,IBM-ARC,37.7400,9435,15565,322.8
+822,zipf_trace_0822.trace,512,shuffled_rank_zipf,0.9,15035,2Q (VLDB '94),35.1480,8787,16213,304.5
+822,zipf_trace_0822.trace,512,shuffled_rank_zipf,0.9,15035,Static-Fuzzy (Bengar '20),15.8960,3974,21026,222.5
+822,zipf_trace_0822.trace,512,shuffled_rank_zipf,0.9,15035,Fast-LUT-ANFIS,34.5960,8649,16351,619.7
+939,zipf_trace_0939.trace,512,bimodal_zipf,1.0,9050,LRU,65.3400,16335,8665,173.4
+939,zipf_trace_0939.trace,512,bimodal_zipf,1.0,9050,FIFO,61.0520,15263,9737,92.9
+939,zipf_trace_0939.trace,512,bimodal_zipf,1.0,9050,LFU,69.5720,17393,7607,219.1
+939,zipf_trace_0939.trace,512,bimodal_zipf,1.0,9050,IBM-ARC,69.9320,17483,7517,207.5
+939,zipf_trace_0939.trace,512,bimodal_zipf,1.0,9050,2Q (VLDB '94),68.4480,17112,7888,204.0
+939,zipf_trace_0939.trace,512,bimodal_zipf,1.0,9050,Static-Fuzzy (Bengar '20),63.3440,15836,9164,133.1
+939,zipf_trace_0939.trace,512,bimodal_zipf,1.0,9050,Fast-LUT-ANFIS,65.6800,16420,8580,398.6
+946,zipf_trace_0946.trace,512,stationary_zipf,1.2,7985,LRU,84.0360,21009,3991,183.5
+946,zipf_trace_0946.trace,512,stationary_zipf,1.2,7985,FIFO,80.9200,20230,4770,91.4
+946,zipf_trace_0946.trace,512,stationary_zipf,1.2,7985,LFU,85.7360,21434,3566,238.6
+946,zipf_trace_0946.trace,512,stationary_zipf,1.2,7985,IBM-ARC,86.1920,21548,3452,175.0
+946,zipf_trace_0946.trace,512,stationary_zipf,1.2,7985,2Q (VLDB '94),84.9240,21231,3769,189.6
+946,zipf_trace_0946.trace,512,stationary_zipf,1.2,7985,Static-Fuzzy (Bengar '20),83.1480,20787,4213,104.6
+946,zipf_trace_0946.trace,512,stationary_zipf,1.2,7985,Fast-LUT-ANFIS,84.5600,21140,3860,285.3
+844,zipf_trace_0844.trace,512,bimodal_zipf,1.2,10258,LRU,82.6160,20654,4346,173.7
+844,zipf_trace_0844.trace,512,bimodal_zipf,1.2,10258,FIFO,79.3320,19833,5167,83.7
+844,zipf_trace_0844.trace,512,bimodal_zipf,1.2,10258,LFU,84.5160,21129,3871,248.0
+844,zipf_trace_0844.trace,512,bimodal_zipf,1.2,10258,IBM-ARC,84.7880,21197,3803,196.8
+844,zipf_trace_0844.trace,512,bimodal_zipf,1.2,10258,2Q (VLDB '94),83.5480,20887,4113,179.7
+844,zipf_trace_0844.trace,512,bimodal_zipf,1.2,10258,Static-Fuzzy (Bengar '20),82.3080,20577,4423,101.8
+844,zipf_trace_0844.trace,512,bimodal_zipf,1.2,10258,Fast-LUT-ANFIS,83.1040,20776,4224,275.7
+999,zipf_trace_0999.trace,512,bimodal_zipf,1.2,11746,LRU,75.1160,18779,6221,134.1
+999,zipf_trace_0999.trace,512,bimodal_zipf,1.2,11746,FIFO,71.5400,17885,7115,72.4
+999,zipf_trace_0999.trace,512,bimodal_zipf,1.2,11746,LFU,78.3040,19576,5424,180.8
+999,zipf_trace_0999.trace,512,bimodal_zipf,1.2,11746,IBM-ARC,78.6840,19671,5329,153.8
+999,zipf_trace_0999.trace,512,bimodal_zipf,1.2,11746,2Q (VLDB '94),77.2480,19312,5688,149.4
+999,zipf_trace_0999.trace,512,bimodal_zipf,1.2,11746,Static-Fuzzy (Bengar '20),75.1240,18781,6219,90.1
+999,zipf_trace_0999.trace,512,bimodal_zipf,1.2,11746,Fast-LUT-ANFIS,75.4000,18850,6150,251.7
+971,zipf_trace_0971.trace,512,stationary_zipf,0.8,9185,LRU,34.7440,8686,16314,182.9
+971,zipf_trace_0971.trace,512,stationary_zipf,0.8,9185,FIFO,30.8560,7714,17286,111.7
+971,zipf_trace_0971.trace,512,stationary_zipf,0.8,9185,LFU,42.1760,10544,14456,200.2
+971,zipf_trace_0971.trace,512,stationary_zipf,0.8,9185,IBM-ARC,42.7360,10684,14316,264.8
+971,zipf_trace_0971.trace,512,stationary_zipf,0.8,9185,2Q (VLDB '94),40.9680,10242,14758,258.1
+971,zipf_trace_0971.trace,512,stationary_zipf,0.8,9185,Static-Fuzzy (Bengar '20),31.9760,7994,17006,174.2
+971,zipf_trace_0971.trace,512,stationary_zipf,0.8,9185,Fast-LUT-ANFIS,34.2200,8555,16445,559.4
+803,zipf_trace_0803.trace,512,zipf_with_scans,1.2,10132,LRU,66.8520,16713,8287,145.1
+803,zipf_trace_0803.trace,512,zipf_with_scans,1.2,10132,FIFO,63.3880,15847,9153,78.7
+803,zipf_trace_0803.trace,512,zipf_with_scans,1.2,10132,LFU,70.4040,17601,7399,191.9
+803,zipf_trace_0803.trace,512,zipf_with_scans,1.2,10132,IBM-ARC,70.9640,17741,7259,168.8
+803,zipf_trace_0803.trace,512,zipf_with_scans,1.2,10132,2Q (VLDB '94),69.2440,17311,7689,171.4
+803,zipf_trace_0803.trace,512,zipf_with_scans,1.2,10132,Static-Fuzzy (Bengar '20),65.7480,16437,8563,106.4
+803,zipf_trace_0803.trace,512,zipf_with_scans,1.2,10132,Fast-LUT-ANFIS,67.0200,16755,8245,310.9
+972,zipf_trace_0972.trace,512,shuffled_rank_zipf,0.8,9749,LRU,38.1840,9546,15454,177.5
+972,zipf_trace_0972.trace,512,shuffled_rank_zipf,0.8,9749,FIFO,34.5760,8644,16356,104.3
+972,zipf_trace_0972.trace,512,shuffled_rank_zipf,0.8,9749,LFU,26.9840,6746,18254,208.9
+972,zipf_trace_0972.trace,512,shuffled_rank_zipf,0.8,9749,IBM-ARC,40.4440,10111,14889,271.8
+972,zipf_trace_0972.trace,512,shuffled_rank_zipf,0.8,9749,2Q (VLDB '94),37.5760,9394,15606,255.6
+972,zipf_trace_0972.trace,512,shuffled_rank_zipf,0.8,9749,Static-Fuzzy (Bengar '20),17.8680,4467,20533,189.8
+972,zipf_trace_0972.trace,512,shuffled_rank_zipf,0.8,9749,Fast-LUT-ANFIS,36.7120,9178,15822,531.8
+988,zipf_trace_0988.trace,512,zipf_with_scans,0.9,10174,LRU,37.6920,9423,15577,175.9
+988,zipf_trace_0988.trace,512,zipf_with_scans,0.9,10174,FIFO,33.8720,8468,16532,103.9
+988,zipf_trace_0988.trace,512,zipf_with_scans,0.9,10174,LFU,44.8400,11210,13790,195.4
+988,zipf_trace_0988.trace,512,zipf_with_scans,0.9,10174,IBM-ARC,46.2760,11569,13431,236.4
+988,zipf_trace_0988.trace,512,zipf_with_scans,0.9,10174,2Q (VLDB '94),43.7840,10946,14054,243.8
+988,zipf_trace_0988.trace,512,zipf_with_scans,0.9,10174,Static-Fuzzy (Bengar '20),38.1480,9537,15463,158.4
+988,zipf_trace_0988.trace,512,zipf_with_scans,0.9,10174,Fast-LUT-ANFIS,37.6000,9400,15600,521.0
