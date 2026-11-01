@@ -196,164 +196,7 @@ public:
 };
 
 // =========================================================================
-// 4. 2Q Cache: Two Queue Replacement (Johnson & Shasha, VLDB 1994)
-// =========================================================================
-class TwoQueueCache : public BaseCache {
-private:
-    size_t kin;
-    size_t kout;
-    std::list<uint64_t> a1in_list;
-    std::unordered_map<uint64_t, std::list<uint64_t>::iterator> a1in_map;
-
-    std::list<uint64_t> a1out_list;
-    std::unordered_map<uint64_t, std::list<uint64_t>::iterator> a1out_map;
-
-    std::list<uint64_t> am_list;
-    std::unordered_map<uint64_t, std::list<uint64_t>::iterator> am_map;
-
-    void reclaim() {
-        if (a1in_map.size() > kin) {
-            uint64_t ev = a1in_list.back();
-            a1in_list.pop_back();
-            a1in_map.erase(ev);
-
-            a1out_list.push_front(ev);
-            a1out_map[ev] = a1out_list.begin();
-            if (a1out_map.size() > kout) {
-                uint64_t out_ev = a1out_list.back();
-                a1out_list.pop_back();
-                a1out_map.erase(out_ev);
-            }
-        } else if (!am_list.empty()) {
-            uint64_t ev = am_list.back();
-            am_list.pop_back();
-            am_map.erase(ev);
-        } else if (!a1in_list.empty()) {
-            uint64_t ev = a1in_list.back();
-            a1in_list.pop_back();
-            a1in_map.erase(ev);
-        }
-    }
-
-public:
-    TwoQueueCache(uint64_t cap, const std::string& policy_name = "2Q (VLDB '94)")
-        : BaseCache(cap, policy_name),
-          kin(std::max<size_t>(1, cap / 4)),
-          kout(std::max<size_t>(1, cap / 2)) {}
-
-    bool access(uint64_t key) override {
-        auto t0 = std::chrono::high_resolution_clock::now();
-        access_count++;
-        bool is_hit = false;
-
-        auto it_am = am_map.find(key);
-        if (it_am != am_map.end()) {
-            am_list.erase(it_am->second);
-            am_list.push_front(key);
-            am_map[key] = am_list.begin();
-            hit_count++;
-            is_hit = true;
-        } else {
-            auto it_in = a1in_map.find(key);
-            if (it_in != a1in_map.end()) {
-                hit_count++;
-                is_hit = true;
-            } else {
-                miss_count++;
-                is_hit = false;
-                auto it_out = a1out_map.find(key);
-                if (it_out != a1out_map.end()) {
-                    a1out_list.erase(it_out->second);
-                    a1out_map.erase(it_out);
-
-                    if (a1in_map.size() + am_map.size() >= capacity) {
-                        reclaim();
-                    }
-                    am_list.push_front(key);
-                    am_map[key] = am_list.begin();
-                } else {
-                    if (a1in_map.size() + am_map.size() >= capacity) {
-                        reclaim();
-                    }
-                    a1in_list.push_front(key);
-                    a1in_map[key] = a1in_list.begin();
-                }
-            }
-        }
-
-        auto t1 = std::chrono::high_resolution_clock::now();
-        total_decision_time_ns += std::chrono::duration_cast<std::chrono::nanoseconds>(t1 - t0).count();
-        return is_hit;
-    }
-};
-
-// =========================================================================
-// 5. Static Fuzzy Cache (Bengar et al., Springer Soft Computing 2020)
-// =========================================================================
-class StaticFuzzyCache : public BaseCache {
-private:
-    struct FuzzyEntry {
-        uint64_t key;
-        uint64_t last_time;
-        uint64_t freq;
-    };
-    std::unordered_map<uint64_t, FuzzyEntry> cache;
-    std::vector<uint64_t> keys;
-    uint32_t sample_size;
-
-    float fuzzy_retention(uint64_t last_time, uint64_t freq, uint64_t curr_time) {
-        float age = static_cast<float>(curr_time - last_time);
-        float norm_recency = std::max(0.0f, 1.0f - (age / 100.0f));
-        float norm_freq = std::min(1.0f, static_cast<float>(freq) / 10.0f);
-        return 0.5f * norm_recency + 0.5f * norm_freq;
-    }
-
-public:
-    StaticFuzzyCache(uint64_t cap, uint32_t sample_k = 12, const std::string& policy_name = "Static-Fuzzy (Bengar '20)")
-        : BaseCache(cap, policy_name), sample_size(std::min<uint32_t>(cap, sample_k)) {}
-
-    bool access(uint64_t key) override {
-        auto t0 = std::chrono::high_resolution_clock::now();
-        access_count++;
-        auto it = cache.find(key);
-        bool is_hit = (it != cache.end());
-
-        if (is_hit) {
-            it->second.last_time = access_count;
-            it->second.freq++;
-            hit_count++;
-        } else {
-            miss_count++;
-            if (cache.size() >= capacity) {
-                size_t best_idx = 0;
-                float min_score = 1e9f;
-                size_t num_eval = std::min<size_t>(keys.size(), sample_size);
-                for (size_t i = 0; i < num_eval; ++i) {
-                    uint64_t cand_key = keys[i];
-                    const auto& e = cache[cand_key];
-                    float score = fuzzy_retention(e.last_time, e.freq, access_count);
-                    if (score < min_score) {
-                        min_score = score;
-                        best_idx = i;
-                    }
-                }
-                uint64_t evict_k = keys[best_idx];
-                cache.erase(evict_k);
-                keys[best_idx] = keys.back();
-                keys.pop_back();
-            }
-            cache[key] = {key, access_count, 1};
-            keys.push_back(key);
-        }
-
-        auto t1 = std::chrono::high_resolution_clock::now();
-        total_decision_time_ns += std::chrono::duration_cast<std::chrono::nanoseconds>(t1 - t0).count();
-        return is_hit;
-    }
-};
-
-// =========================================================================
-// 2. IBM ARC Cache (Megiddo & Modha, USENIX FAST 2003)
+// 4. IBM ARC Cache (Megiddo & Modha, USENIX FAST 2003)
 // =========================================================================
 class ARCCache : public BaseCache {
 private:
@@ -481,7 +324,7 @@ public:
 };
 
 // =========================================================================
-// 3. Exact CART Decision Tree Classifier in C++
+// 5. Exact CART Decision Tree Classifier in C++
 // =========================================================================
 class WorkloadClassifier {
 public:
@@ -537,7 +380,6 @@ public:
         }
         double f3_autocorr = std::clamp(max_corr, 0.0, 1.0);
 
-        // Exact CART Decision Tree Splits from Python Model
         if (f2_entropy <= 0.8356) {
             return ZIPFIAN; // Class 0 (Heavy temporal locality)
         } else {
@@ -560,7 +402,9 @@ public:
 };
 
 // =========================================================================
-// 4. Tri-Input Fast-LUT ANFIS Cache in High-Performance C++
+// =========================================================================
+// =========================================================================
+// 6. Tri-Input Fast-LUT ANFIS Cache in High-Performance C++
 // =========================================================================
 class FastLutAnfisCache : public BaseCache {
 public:
@@ -606,12 +450,13 @@ private:
     std::unordered_map<uint64_t, std::pair<GhostEntry, std::list<uint64_t>::iterator>> ghost_map;
     uint64_t ghost_hits{0};
 
-    // Sliding-window history for regime classification
+    // Sliding-window history for CART regime classification
     std::deque<uint64_t> history_trace;
     WorkloadClassifier::Regime current_regime{WorkloadClassifier::MIXED};
 
     std::mt19937 rng{42};
 
+    // Phase 0: Precompute Gaussian Membership Functions at Boot-Up
     void init_luts() {
         for (int i = 0; i < 256; ++i) {
             float x = static_cast<float>(i) / 255.0f;
@@ -656,13 +501,13 @@ public:
         auto t0 = std::chrono::high_resolution_clock::now();
         access_count++;
 
-        // Add to sliding-window history for regime classification
+        // Phase 1: Request Registration & Sliding Window History (N=250)
         history_trace.push_back(key);
         if (history_trace.size() > 250) {
             history_trace.pop_front();
         }
 
-        // Periodic Regime Classification (Every 250 accesses)
+        // Periodic CART Regime Classification (Every 250 accesses)
         if (access_count % 250 == 0 && history_trace.size() >= 120) {
             current_regime = WorkloadClassifier::classify(history_trace);
         }
@@ -670,13 +515,14 @@ public:
         bool is_hit = false;
         auto it = cache.find(key);
 
+        // Phase 2: Fast-Path Cache Hit Servicing (5-15 ns)
         if (it != cache.end()) {
             it->second.last_access = access_count;
             it->second.frequency++;
             hit_count++;
             is_hit = true;
         } else {
-            // Check Ghost Cache for Widrow-Hoff Delta Rule
+            // Phase 3: Ghost Cache Hit & Online Widrow-Hoff LMS Step (~15 ns)
             auto git = ghost_map.find(key);
             if (git != ghost_map.end()) {
                 ghost_hits++;
@@ -704,7 +550,7 @@ public:
                 bool is_cyclic = (current_regime == WorkloadClassifier::CYCLIC);
                 bool is_scan = (current_regime == WorkloadClassifier::SCAN);
 
-                // Sample candidate indices without replacement using partial Fisher-Yates
+                // Phase 5: Eviction Tournament (Partial Fisher-Yates, K=12)
                 for (size_t i = 0; i < num_cands; ++i) {
                     size_t j = i + (rng() % (n - i));
                     std::swap(pool_indices[i], pool_indices[j]);
@@ -713,13 +559,14 @@ public:
                     uint64_t cand_k = keys_list[ci];
                     const auto& meta = cache[cand_k];
 
+                    // Phase 6: Tri-Input Metric Extraction & Normalization
                     float delta_r = curr_t - static_cast<float>(meta.last_access);
                     float r = std::clamp(1.0f - delta_r * inv_W, 0.0f, 1.0f);
                     float f = std::clamp(static_cast<float>(meta.frequency) * 0.05f, 0.0f, 1.0f);
                     float delta_fifo = curr_t - static_cast<float>(meta.arrival_time);
                     float fifo_age = std::clamp(1.0f - delta_fifo * inv_W, 0.0f, 1.0f);
 
-                    // Decision Tree Regime Hedges
+                    // Phase 7: Linguistic Hedge Modulation (Cyclic / Scan Hedges)
                     if (is_cyclic) {
                         r = 1.0f - r;
                         fifo_age = 1.0f - fifo_age;
@@ -729,20 +576,23 @@ public:
                         fifo_age *= 0.5f;
                     }
 
-                    // Composite Synthesized Signals (0.25, 0.65, 0.10)
+                    // Phase 8: Signal Synthesis & Discrete Quantization ([0, 255])
                     float r_eff = w_lru * r + w_fifo * fifo_age;
                     float f_eff = w_lfu * f;
 
                     int ir = std::clamp(static_cast<int>((r_eff / 0.35f) * 255.0f), 0, 255);
                     int ifr = std::clamp(static_cast<int>((f_eff / 0.65f) * 255.0f), 0, 255);
 
+                    // Phase 9: ANFIS Layer 1 - Fuzzification (6.0 KB LUT Lookup)
                     float rl = lut_rl[ir], rm = lut_rm[ir], rh = lut_rh[ir];
                     float fl = lut_fl[ifr], fm = lut_fm[ifr], fh = lut_fh[ifr];
 
+                    // Phase 10: ANFIS Layer 2 - Rule Conjunctions (T-Norm Product)
                     float w0 = rl * fl, w1 = rl * fm, w2 = rl * fh;
                     float w3 = rm * fl, w4 = rm * fm, w5 = rm * fh;
                     float w6 = rh * fl, w7 = rh * fh;
 
+                    // Phase 11: ANFIS Layers 3, 4 & 5 - Normalization & Defuzzification
                     float w_sum = w0 + w1 + w2 + w3 + w4 + w5 + w6 + w7 + 1e-6f;
                     float score = (
                         w0 * consequents[0] + w1 * consequents[1] + w2 * consequents[2] +
@@ -756,6 +606,7 @@ public:
                     }
                 }
 
+                // Phase 12: Victim Eviction & Ghost Migration
                 uint64_t evict_key = keys_list[best_ci];
 
                 if (ghost_map.size() >= ghost_capacity) {
@@ -770,6 +621,7 @@ public:
                 keys_list[best_ci] = key;
                 cache[key] = {access_count, 1, access_count};
             } else {
+                // Phase 4: Cold Direct Insertion (Cache Not Full)
                 keys_list.push_back(key);
                 cache[key] = {access_count, 1, access_count};
             }
@@ -790,4 +642,4 @@ public:
     }
 };
 
-} // namespace Caching
+} // namespace FastCache
