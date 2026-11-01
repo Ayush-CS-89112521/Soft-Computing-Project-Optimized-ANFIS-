@@ -402,10 +402,9 @@ public:
 };
 
 // =========================================================================
-// =========================================================================
-// =========================================================================
 // 6. Tri-Input Fast-LUT ANFIS Cache in High-Performance C++
 // =========================================================================
+
 class FastLutAnfisCache : public BaseCache {
 public:
     struct Entry {
@@ -512,10 +511,10 @@ public:
             current_regime = WorkloadClassifier::classify(history_trace);
         }
 
+
+         // Phase 2: Fast-Path Cache Hit Servicing (5-15 ns)
         bool is_hit = false;
         auto it = cache.find(key);
-
-        // Phase 2: Fast-Path Cache Hit Servicing (5-15 ns)
         if (it != cache.end()) {
             it->second.last_access = access_count;
             it->second.frequency++;
@@ -642,4 +641,4 @@ public:
     }
 };
 
-} // namespace FastCache
+} 
